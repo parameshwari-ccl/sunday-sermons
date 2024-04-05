@@ -1,0 +1,224 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  width: 100%; }
+  body #myVideo {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  body #content {
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    display: table;
+    clear: both; }
+    body #content #left-logo {
+      clear: both;
+      content: '';
+      display: table;
+      width: 100%; }
+      body #content #left-logo #logo {
+        float: left;
+        margin: 30px 0px 0px 70px;
+        height: 70px; }
+      body #content #left-logo #header-menu {
+        float: right;
+        width: 48%;
+        list-style-type: none;
+        margin-top: 60px; }
+        body #content #left-logo #header-menu li {
+          display: inline;
+          padding: 0px 5px; }
+          body #content #left-logo #header-menu li a {
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 0px 5px;
+            color: white;
+            text-decoration: none; }
+          body #content #left-logo #header-menu li a:hover {
+            text-decoration: underline;
+            color: #210e6e; }
+  body #center-content {
+    top: 0%;
+    position: absolute;
+    margin: 300px 0px 0px 200px;
+    text-align: left; }
+    body #center-content h2 {
+      text-align: left;
+      font-family: inter, sans-serif;
+      font-size: 40px;
+      font-weight: 500;
+      color: white;
+      padding: 20px 0px; }
+    body #center-content p {
+      font-family: manrope, sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.612);
+      line-height: 1.5; }
+    body #center-content button {
+      margin: 15px 0px;
+      font-family: Montserrat, sans-serif;
+      font-size: 15px;
+      width: 235px;
+      padding: 15px 0px;
+      border-radius: 8px;
+      color: white;
+      background-color: #161718;
+      border: 0.2px solid white;
+      box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25); }
+    body #center-content button:hover {
+      background-image: url("https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096"); }
+  body footer {
+    background-image: url("https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096");
+    padding: 30px 0px; }
+    body footer .row {
+      width: 90%;
+      margin: auto; }
+      body footer .row #logo-info {
+        clear: both;
+        content: '';
+        width: 100%;
+        display: table; }
+        body footer .row #logo-info #foot-logo {
+          float: left;
+          width: 40px;
+          margin-top: 10px; }
+        body footer .row #logo-info #foot-org {
+          float: left;
+          width: 350px; }
+          body footer .row #logo-info #foot-org #org-name {
+            width: 200px; }
+      body footer .row ul {
+        list-style-type: none;
+        margin-left: 20px;
+        padding: 0%; }
+        body footer .row ul li {
+          margin: 10px 0px; }
+          body footer .row ul li #org-name {
+            width: 255px; }
+          body footer .row ul li h4 {
+            font-family: Montserrat, sans-serif;
+            line-height: 2;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0px; }
+      body footer .row #foot-menu {
+        list-style-type: none;
+        margin-top: 60px;
+        padding: 0%;
+        text-align: right; }
+        body footer .row #foot-menu li {
+          display: inline;
+          padding: 0px 5px; }
+          body footer .row #foot-menu li a {
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            padding: 0px 10px;
+            text-decoration: none;
+            color: white; }
+  body .copyright {
+    text-align: center;
+    color: #9ca6bead;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    font-size: 12px; }
+
+@media (max-width: 1024px) {
+  body #content #left-logo #logo {
+    margin: 30px 0px 0px 20px;
+    height: 60px; }
+  body #content #left-logo #header-menu {
+    width: 60%; }
+    body #content #left-logo #header-menu li a {
+      font-size: 14px; }
+  body #center-content {
+    margin: 225px 0px 0px 150px; }
+    body #center-content h2 {
+      font-size: 30px; }
+    body #center-content p {
+      font-size: 13px; }
+    body #center-content button {
+      width: 170px; }
+  body footer {
+    padding: 30px 0px; }
+    body footer .row #logo-info #foot-org {
+      width: 300px; }
+      body footer .row #logo-info #foot-org #org-name {
+        width: 200px; }
+    body footer .row ul {
+      margin-left: 15px; }
+      body footer .row ul li {
+        margin: 8px 0px; }
+        body footer .row ul li #org-name {
+          width: 255px; }
+        body footer .row ul li h4 {
+          line-height: 1.5;
+          font-size: 12px; }
+    body footer .row #foot-menu {
+      margin-top: 40px; }
+      body footer .row #foot-menu li {
+        display: inline;
+        padding: 0px; }
+        body footer .row #foot-menu li a {
+          font-family: Montserrat, sans-serif;
+          font-weight: 700;
+          font-size: 13px;
+          padding: 0px 5px;
+          text-decoration: none;
+          color: white; } }
+
+@media (max-width: 768px) {
+  body #content {
+    height: 100%; }
+    body #content #left-logo #logo {
+      margin: 30px 0px 0px 20px;
+      height: 50px; }
+    body #content #left-logo #header-menu {
+      width: 72%;
+      margin-top: 50px; }
+      body #content #left-logo #header-menu li a {
+        font-size: 13px; }
+  body #center-content {
+    margin: 160px 0px 0px 130px; }
+    body #center-content h2 {
+      font-size: 25px;
+      padding: 5px 0px; }
+    body #center-content p {
+      font-size: 13px; }
+    body #center-content button {
+      width: 170px;
+      font-size: 12px;
+      padding: 10px 0px;
+      margin: 10px 0px; }
+  body footer {
+    padding: 30px 0px; }
+    body footer .col-5 {
+      width: 50%; }
+    body footer .col-7 {
+      width: 50%; }
+    body footer .row {
+      width: 70%; }
+      body footer .row #logo-info #foot-logo {
+        margin-left: 15px; }
+      body footer .row #logo-info #foot-org {
+        width: 300px; }
+        body footer .row #logo-info #foot-org #org-name {
+          width: 200px; }
+      body footer .row ul {
+        margin-left: 15px; }
+        body footer .row ul li {
+          margin: 8px 0px; }
+          body footer .row ul li #org-name {
+            width: 255px; }
+          body footer .row ul li h4 {
+            line-height: 1.5;
+            font-size: 12px; }
+      body footer .row #foot-menu {
+        margin-top: 40px; }
+        body footer .row #foot-menu li {
+          display: block;
+          text-align: left; } }

@@ -1,0 +1,350 @@
+$fontMonstserrat : Montserrat, sans-serif;
+$fontInter : inter, sans-serif;
+$fontManrope : manrope, sans-serif;
+$fontOpenSans : open-sans, sans-serif;
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+
+    #myVideo{
+        position: relative;
+        width: 100%; 
+        height: 100%;
+    }
+    #content{
+        top: 0%;
+        position: absolute;
+        width: 100%;
+        display: table;
+        clear: both;
+
+        #left-logo{
+            clear: both;
+            content: '';
+            display: table;
+            width: 100%;
+
+            #logo{
+                float: left;
+                margin: 30px 0px 0px 70px ;
+                height: 70px;
+            }
+
+            #header-menu{
+                float: right;
+                width: 48%;
+                list-style-type: none;
+                margin-top: 60px;
+
+                li{
+                    display: inline;
+                    padding: 0px 5px;
+
+                    a{
+                        font-family: $fontMonstserrat;
+                        font-weight: 700;
+                        font-size: 15px;
+                        padding: 0px 5px;
+                        color: white;
+                        text-decoration: none;
+                    }
+    
+                    a:hover{
+                        text-decoration: underline;
+                        color: rgb(33, 14, 110);
+
+                    }
+
+                }
+                
+            }
+        }
+    }
+    #center-content{
+        top: 0%;
+        position: absolute;
+        margin: 300px 0px 0px 200px;
+        text-align: left;
+        h2{
+            text-align: left;
+            font-family: $fontInter;
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+            padding: 20px 0px;
+        }
+        p{
+            font-family: $fontManrope;
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.612);
+            line-height: 1.5;
+        }
+        button{
+            margin: 15px 0px;
+            font-family: $fontMonstserrat;
+            font-size: 15px;
+            width: 235px;
+            padding: 15px 0px;
+            border-radius: 8px;
+            color: white;
+            background-color: #161718;
+            border: 0.2px solid white;
+            box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25);
+        }
+        button:hover{
+            background-image: url('https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096');
+        }
+    }
+
+    footer{
+        background-image: url('https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096');
+        padding: 30px 0px;
+
+        .row{
+            width: 90%;
+            margin: auto;
+
+            #logo-info{
+                clear: both;
+                content: '';
+                width: 100%;
+                display: table;
+    
+                #foot-logo{
+                    float: left;
+                    width: 40px;
+                    margin-top: 10px;
+                }
+                
+                #foot-org{
+                    float: left;
+                    width: 350px;
+
+                    #org-name{
+                        width: 200px;
+                    }
+                }
+               
+            }
+            ul{
+                list-style-type: none;
+                margin-left: 20px;
+                padding: 0%;
+                li{
+                    margin: 10px 0px;
+    
+                    #org-name{
+                        width: 255px;
+                    }
+    
+                    h4{
+                        font-family: $fontMonstserrat;
+                        line-height: 2;
+                        color: white;
+                        font-size: 12px;
+                        font-weight: 500;
+                        margin: 0px;
+    
+                    }
+                }
+            }
+            #foot-menu{
+                list-style-type: none;
+                margin-top: 60px;
+                padding: 0%;
+                text-align: right;
+                li{
+                    display: inline;
+                    padding: 0px 5px;
+    
+                    a{
+                        font-family: $fontMonstserrat;
+                        font-weight: 700;
+                        font-size: 12px;
+                        padding: 0px 10px;
+                        text-decoration: none;
+                        color: white;
+    
+                    }
+                    
+                }
+            }
+        }
+
+       
+    }
+    .copyright{
+        text-align: center;
+        color: #9ca6bead;
+        font-family: $fontOpenSans;
+        font-weight: 300;
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width:1024px){
+    body{
+        #content{
+            #left-logo{
+                #logo{
+                    margin: 30px 0px 0px 20px ;
+                    height: 60px;
+                }
+    
+                #header-menu{
+                    width: 60%;
+                    li{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        #center-content{
+            margin: 225px 0px 0px 150px;
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 13px;
+            }
+            button{
+                width: 170px;
+            }
+        }   
+        footer{
+            padding: 30px 0px;
+            .row{
+                #logo-info{
+                    #foot-org{
+                        width: 300px;
+                        #org-name{
+                            width: 200px;
+                        }
+                    }
+                }
+                ul{
+                    margin-left: 15px;
+                    li{
+                        margin: 8px 0px;
+                        #org-name{
+                            width: 255px;
+                        }
+                        h4{
+                            line-height: 1.5;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                #foot-menu{
+                    margin-top: 40px;
+                    li{
+                        display: inline;
+                        padding: 0px ;
+        
+                        a{
+                            font-family: $fontMonstserrat;
+                            font-weight: 700;
+                            font-size: 13px;
+                            padding: 0px 5px;
+                            text-decoration: none;
+                            color: white;
+        
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+}
+
+@media (max-width:768px){
+    body{
+        #content{
+            height: 100%;
+            #left-logo{
+                #logo{
+                    margin: 30px 0px 0px 20px ;
+                    height: 50px;
+                }
+                #header-menu{
+                    width: 72%;
+                    margin-top: 50px;
+                    li{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        #center-content{
+            margin: 160px 0px 0px 130px;
+            h2{
+                font-size: 25px;
+                padding: 5px 0px;
+            }
+            p{
+                font-size: 13px;
+            }
+            button{
+                width: 170px;
+                font-size: 12px;
+                padding: 10px 0px;
+                margin: 10px 0px;
+            }
+        }   
+        footer{
+            padding: 30px 0px;
+            .col-5{
+                width: 50%;
+            }
+            .col-7{
+                width: 50%;
+            }
+            .row{
+                width: 70%;
+                #logo-info{
+                    #foot-logo{
+                        margin-left: 15px;
+                    }
+                    #foot-org{
+                        width: 300px;
+                        #org-name{
+                            width: 200px;
+                        }
+                    }
+                }
+                ul{
+                    margin-left: 15px;
+                    li{
+                        margin: 8px 0px;
+                        #org-name{
+                            width: 255px;
+                        }
+                        h4{
+                            line-height: 1.5;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                #foot-menu{
+                    margin-top: 40px;
+                    li{
+                        display: block;
+                        text-align: left;
+                       
+                    }
+                }
+            }
+    
+        }
+    }
+}
