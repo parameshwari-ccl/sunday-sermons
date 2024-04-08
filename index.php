@@ -11,7 +11,6 @@
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 
-
     <!-- css vender file -->
     <link href="vendor/aos/aos.css" rel="stylesheet">
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,17 +25,20 @@
     <!-- css files -->
     <link rel='stylesheet' href='styles/index.css'>
 
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <!-- ======= header ======== -->
+    <?php include('header.php'); ?>
+
     <!-- background vedio -->
     <div id='vedio-div'>
         <video autoplay muted loop id="myVideo">
             <source src="vedio/background.mp4" type="video/mp4">
         </video>
     </div>
-
-    <!-- ======= header ======== -->
-    <?php include('header.php'); ?>
 
     <!-- main -->
     <div id='center-content'>
@@ -46,11 +48,12 @@
             Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris nisi 
             ut aliquip ex ea <br> commodo consequat.
         </p>
-        <button id='search-btn'>Search For Sermons</button>
+        <a href='search.php' id='search-btn'>Search For Sermons</a>
     </div>
-
 
     <!-- footer -->
     <?php include('footer.php'); ?>
+
+    <script src="js/index.js"></script>
 </body>
 </html>

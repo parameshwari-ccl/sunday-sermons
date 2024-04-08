@@ -3,16 +3,26 @@ $fontInter : inter, sans-serif;
 $fontManrope : manrope, sans-serif;
 $fontOpenSans : open-sans, sans-serif;
 
+@import './search.scss';
+
 body{
+   
     margin: 0%;
     padding: 0%;
     width: 100%;
-
-    #myVideo{
-        position: relative;
-        width: 100%; 
+    #vedio-div{
         height: 100%;
+
+        #myVideo{
+            width: 100%; 
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
+    
     #content{
         top: 0%;
         position: absolute;
@@ -32,11 +42,24 @@ body{
                 height: 70px;
             }
 
-            #header-menu{
+            .hamburger{
                 float: right;
                 width: 48%;
-                list-style-type: none;
-                margin-top: 60px;
+                margin: 50px 70px 0px 0px ;
+
+                #header-menu{
+                    display: none;
+                }
+                
+                #menu{
+                    float: right;
+                    width: 50px;
+
+                    i{
+                        font-size: 25px;
+                        color: white;
+                    }
+                }
 
                 li{
                     display: inline;
@@ -49,6 +72,7 @@ body{
                         padding: 0px 5px;
                         color: white;
                         text-decoration: none;
+                        cursor: pointer;
                     }
     
                     a:hover{
@@ -81,20 +105,22 @@ body{
             font-size: 16px;
             color: rgba(255, 255, 255, 0.612);
             line-height: 1.5;
+            height: 115px;
         }
-        button{
+        a{
             margin: 15px 0px;
             font-family: $fontMonstserrat;
             font-size: 15px;
-            width: 235px;
-            padding: 15px 0px;
+            padding: 15px;
+            text-decoration: none;
             border-radius: 8px;
             color: white;
             background-color: #161718;
             border: 0.2px solid white;
-            box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25);
+            box-shadow: 0px 1px 10px white;
+            cursor: pointer;
         }
-        button:hover{
+        a:hover{
             background-image: url('https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096');
         }
     }
@@ -164,7 +190,6 @@ body{
                         font-family: $fontMonstserrat;
                         font-weight: 700;
                         font-size: 12px;
-                        padding: 0px 10px;
                         text-decoration: none;
                         color: white;
     
@@ -214,8 +239,9 @@ body{
             p{
                 font-size: 13px;
             }
-            button{
+            a{
                 width: 170px;
+                font-size: 13px;
             }
         }   
         footer{
@@ -244,6 +270,7 @@ body{
                 }
                 #foot-menu{
                     margin-top: 40px;
+                    margin-left: 0px;
                     li{
                         display: inline;
                         padding: 0px ;
@@ -252,7 +279,7 @@ body{
                             font-family: $fontMonstserrat;
                             font-weight: 700;
                             font-size: 13px;
-                            padding: 0px 5px;
+                            padding: 0px 10px;
                             text-decoration: none;
                             color: white;
         
@@ -294,10 +321,10 @@ body{
             p{
                 font-size: 13px;
             }
-            button{
+            a{
                 width: 170px;
                 font-size: 12px;
-                padding: 10px 0px;
+                padding: 10px;
                 margin: 10px 0px;
             }
         }   
@@ -345,6 +372,186 @@ body{
                 }
             }
     
+        }
+    }
+}
+
+@media (max-width:736px){
+    body{
+        #content{
+            #left-logo{
+                #header-menu{
+                    width: 75%;
+                    li{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        footer{
+            padding: 10px 0px;
+            .row{
+               
+                #foot-menu{
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:667px){
+    body{
+        #content{
+            #left-logo{
+                #header-menu{
+                    width: 83%;
+                    padding-left: 0px;
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        #center-content{
+            a{
+                margin: 0px 0px;
+            }
+        }   
+        footer{
+            padding: 20px 0px;
+            .row{
+               
+                #foot-menu{
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:684px){
+    body{
+        #content{
+            #left-logo{
+                #header-menu{
+                    margin-top: 45px;
+                    width: 80%;
+                    li{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        #center-content{
+            h2{
+                font-size: 20px;
+                padding: 5px 0px;
+            }
+            p{
+                font-size: 12px;
+            }
+            a{
+                margin: 0px 0px;
+            }
+        } 
+        footer{
+            padding: 10px 0px;
+            .row{
+               
+                #foot-menu{
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:425px){
+    body{
+        #content{
+            #left-logo{
+                #logo{
+                    position: relative;
+                }
+                .hamburger{
+                    position: absolute;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #header-menu{
+                    display: none;
+                    margin-top: 45px;
+                    width: 250px;
+                    li{
+                        display: block;
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        #center-content{
+            display: none;
+        }
+        footer{
+            padding: 10px 0px;
+            height: 500px;
+            .row{
+               width: 80%;
+               ul{
+                margin-left: 60px;
+               }
+               .col-5 {
+                width: 100%;
+                height: 180px;
+
+                #logo-info{
+                    a{
+                        #foot-logo{
+                            margin-left: 60px;
+                        }
+                    }
+                }
+               }
+               .col-7{
+                width: 100%;
+                text-align: center;
+               }
+                #foot-menu{
+                    margin-left: 0px;
+                    li{
+                        text-align: center;
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
