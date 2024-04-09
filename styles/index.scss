@@ -44,12 +44,13 @@ body{
 
             .hamburger{
                 float: right;
-                width: 48%;
+                width: 45%;
                 margin: 50px 70px 0px 0px ;
 
-                #header-menu{
-                    display: none;
-                }
+                // #header-menu{
+                //     display: none;
+                // }
+
                 
                 #menu{
                     float: right;
@@ -67,7 +68,7 @@ body{
 
                     a{
                         font-family: $fontMonstserrat;
-                        font-weight: 700;
+                        font-weight: 900;
                         font-size: 15px;
                         padding: 0px 5px;
                         color: white;
@@ -128,6 +129,8 @@ body{
     footer{
         background-image: url('https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096');
         padding: 30px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
 
         .row{
             width: 90%;
@@ -194,7 +197,6 @@ body{
                         color: white;
     
                     }
-                    
                 }
             }
         }
@@ -219,16 +221,19 @@ body{
                     margin: 30px 0px 0px 20px ;
                     height: 60px;
                 }
-    
-                #header-menu{
-                    width: 60%;
-                    li{
-                        a{
-                            font-size: 14px;
-                        }
-                    }
-                    
+                .hamburger{
+                    width: 58%;
                 }
+    
+                // #header-menu{
+                //     li{
+                //         display: inline;
+                //         a{
+                //             font-size: 14px;
+                //         }
+                //     }
+                    
+                // }
             }
         }
         #center-content{
@@ -301,9 +306,11 @@ body{
                     margin: 30px 0px 0px 20px ;
                     height: 50px;
                 }
+
+                .hamburger{
+                    width: 70%;
+                }
                 #header-menu{
-                    width: 72%;
-                    margin-top: 50px;
                     li{
                         a{
                             font-size: 13px;
@@ -380,8 +387,11 @@ body{
     body{
         #content{
             #left-logo{
+                .hamburger{
+                    width: 72%;
+                    margin-right: 40px;
+                }
                 #header-menu{
-                    width: 75%;
                     li{
                         a{
                             font-size: 13px;
@@ -407,55 +417,19 @@ body{
     }
 }
 
-@media (max-width:667px){
-    body{
-        #content{
-            #left-logo{
-                #header-menu{
-                    width: 83%;
-                    padding-left: 0px;
-                    li{
-                        a{
-                            font-size: 12px;
-                        }
-                    }
-                    
-                }
-            }
-        }
-        #center-content{
-            a{
-                margin: 0px 0px;
-            }
-        }   
-        footer{
-            padding: 20px 0px;
-            .row{
-               
-                #foot-menu{
-                    li{
-                        a{
-                            font-size: 12px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
 @media (max-width:684px){
     body{
         #content{
             #left-logo{
+                .hamburger{
+                    width: 77%;
+                    margin-right: 30px;
+                }
+
                 #header-menu{
-                    margin-top: 45px;
-                    width: 80%;
                     li{
                         a{
-                            font-size: 13px;
+                            font-size: 12px;
                         }
                     }
                     
@@ -490,6 +464,46 @@ body{
     }
 }
 
+@media (max-width:667px){
+    body{
+        #content{
+            #left-logo{
+                .hamburger{
+                    width: 77%;
+                    margin-right: 30px;
+                    margin-top: 40px;
+                }
+                #header-menu{
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        #center-content{
+            a{
+                margin: 0px 0px;
+            }
+        }   
+        footer{
+            padding: 20px 0px;
+            .row{
+               
+                #foot-menu{
+                    li{
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:425px){
     body{
         #content{
@@ -500,10 +514,10 @@ body{
                 .hamburger{
                     position: absolute;
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;
+
                 }
                 #header-menu{
-                    display: none;
                     margin-top: 45px;
                     width: 250px;
                     li{
@@ -516,7 +530,7 @@ body{
             }
         }
         #center-content{
-            display: none;
+            display: block;
         }
         footer{
             padding: 10px 0px;

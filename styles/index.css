@@ -8,7 +8,8 @@ body #search-page {
   border-radius: 5px;
   width: 900px;
   height: 60px;
-  display: inline; }
+  display: inline;
+  text-decoration: none; }
   body #search-page input[type=text] {
     width: 600px;
     padding: 18px 10px;
@@ -158,10 +159,8 @@ body {
         height: 70px; }
       body #content #left-logo .hamburger {
         float: right;
-        width: 48%;
+        width: 45%;
         margin: 50px 70px 0px 0px; }
-        body #content #left-logo .hamburger #header-menu {
-          display: none; }
         body #content #left-logo .hamburger #menu {
           float: right;
           width: 50px; }
@@ -173,7 +172,7 @@ body {
           padding: 0px 5px; }
           body #content #left-logo .hamburger li a {
             font-family: Montserrat, sans-serif;
-            font-weight: 700;
+            font-weight: 900;
             font-size: 15px;
             padding: 0px 5px;
             color: white;
@@ -217,7 +216,9 @@ body {
       background-image: url("https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096"); }
   body footer {
     background-image: url("https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096");
-    padding: 30px 0px; }
+    padding: 30px 0px;
+    background-repeat: no-repeat;
+    background-size: cover; }
     body footer .row {
       width: 90%;
       margin: auto; }
@@ -275,10 +276,8 @@ body {
   body #content #left-logo #logo {
     margin: 30px 0px 0px 20px;
     height: 60px; }
-  body #content #left-logo #header-menu {
-    width: 60%; }
-    body #content #left-logo #header-menu li a {
-      font-size: 14px; }
+  body #content #left-logo .hamburger {
+    width: 58%; }
   body #center-content {
     margin: 225px 0px 0px 150px; }
     body #center-content h2 {
@@ -323,11 +322,10 @@ body {
     body #content #left-logo #logo {
       margin: 30px 0px 0px 20px;
       height: 50px; }
-    body #content #left-logo #header-menu {
-      width: 72%;
-      margin-top: 50px; }
-      body #content #left-logo #header-menu li a {
-        font-size: 13px; }
+    body #content #left-logo .hamburger {
+      width: 70%; }
+    body #content #left-logo #header-menu li a {
+      font-size: 13px; }
   body #center-content {
     margin: 160px 0px 0px 130px; }
     body #center-content h2 {
@@ -370,34 +368,22 @@ body {
           text-align: left; } }
 
 @media (max-width: 736px) {
-  body #content #left-logo #header-menu {
-    width: 75%; }
-    body #content #left-logo #header-menu li a {
-      font-size: 13px; }
+  body #content #left-logo .hamburger {
+    width: 72%;
+    margin-right: 40px; }
+  body #content #left-logo #header-menu li a {
+    font-size: 13px; }
   body footer {
     padding: 10px 0px; }
     body footer .row #foot-menu li a {
       font-size: 12px; } }
 
-@media (max-width: 667px) {
-  body #content #left-logo #header-menu {
-    width: 83%;
-    padding-left: 0px; }
-    body #content #left-logo #header-menu li a {
-      font-size: 12px; }
-  body #center-content a {
-    margin: 0px 0px; }
-  body footer {
-    padding: 20px 0px; }
-    body footer .row #foot-menu li a {
-      font-size: 12px; } }
-
 @media (max-width: 684px) {
-  body #content #left-logo #header-menu {
-    margin-top: 45px;
-    width: 80%; }
-    body #content #left-logo #header-menu li a {
-      font-size: 13px; }
+  body #content #left-logo .hamburger {
+    width: 77%;
+    margin-right: 30px; }
+  body #content #left-logo #header-menu li a {
+    font-size: 12px; }
   body #center-content h2 {
     font-size: 20px;
     padding: 5px 0px; }
@@ -410,15 +396,28 @@ body {
     body footer .row #foot-menu li a {
       font-size: 12px; } }
 
+@media (max-width: 667px) {
+  body #content #left-logo .hamburger {
+    width: 77%;
+    margin-right: 30px;
+    margin-top: 40px; }
+  body #content #left-logo #header-menu li a {
+    font-size: 12px; }
+  body #center-content a {
+    margin: 0px 0px; }
+  body footer {
+    padding: 20px 0px; }
+    body footer .row #foot-menu li a {
+      font-size: 12px; } }
+
 @media (max-width: 425px) {
   body #content #left-logo #logo {
     position: relative; }
   body #content #left-logo .hamburger {
     position: absolute;
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
   body #content #left-logo #header-menu {
-    display: none;
     margin-top: 45px;
     width: 250px; }
     body #content #left-logo #header-menu li {
@@ -426,7 +425,7 @@ body {
       body #content #left-logo #header-menu li a {
         font-size: 13px; }
   body #center-content {
-    display: none; }
+    display: block; }
   body footer {
     padding: 10px 0px;
     height: 500px; }

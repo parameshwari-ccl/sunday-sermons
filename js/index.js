@@ -1,5 +1,6 @@
 // menu
 function myFunction(){
+    console.log('myFunction')
     const menu = document.getElementById('header-menu');
 
     if(menu.style.display === 'none'){

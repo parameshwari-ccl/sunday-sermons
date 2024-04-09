@@ -24,6 +24,7 @@
 
     <!-- css files -->
     <link rel='stylesheet' href='styles/index.css'>
+    <link rel='stylesheet' href='styles/search.css'>
 
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -54,6 +55,6 @@
     <!-- footer -->
     <?php include('footer.php'); ?>
 
-    <script src="js/index.js"></script>
+    <!-- <script src='js/index.js'></script> -->
 </body>
 </html>
