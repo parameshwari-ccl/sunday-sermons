@@ -1,12 +1,21 @@
-// menu
-function myFunction(){
-    console.log('myFunction')
-    const menu = document.getElementById('header-menu');
+//menu
+alert(5555);
 
-    if(menu.style.display === 'none'){
-        menu.style.display = 'block';
-    }
-    else{
-        menu.style.display = 'none';
+console.log("ccl");
+
+function myFunction(){
+
+console.log("ccl11");
+
+    const getIcon = document.getElementById('icon');
+    const navMenu = document.getElementById("myTopnav");
+
+    if (navMenu.className === "right") {
+        navMenu.className += " responsive";
+        getIcon.innerHTML = ' <i class="fa fa-close"></i>';
+    } 
+    else {
+        navMenu.className = "right";
+        getIcon.innerHTML = ' <i class="fa fa-bars"></i>';
     }
 }

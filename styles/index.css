@@ -1,186 +1,41 @@
-body #search-page {
-  top: 0%;
-  position: absolute;
-  text-align: left;
-  margin: 350px 0px 0px 245px;
-  background-color: rgba(0, 0, 0, 0.535);
-  box-shadow: 0px 1px 10px white;
-  border-radius: 5px;
-  width: 900px;
-  height: 60px;
-  display: inline;
-  text-decoration: none; }
-  body #search-page input[type=text] {
-    width: 600px;
-    padding: 18px 10px;
-    border: none;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.535);
-    font-family: Montserrat, sans-serif; }
-  body #search-page input[type=text]:focus {
-    outline: none; }
-  body #search-page i {
-    color: white;
-    font-size: 30px;
-    margin: 0px 20px; }
-
-@media (max-width: 1024px) {
-  body #book-image {
-    height: 100%; }
-  body #search-page {
-    margin: 250px 0px 0px 195px;
-    width: 600px; }
-    body #search-page input[type=text] {
-      width: 450px; } }
-
-@media (max-width: 768px) {
-  body #book-image {
-    height: 650px; }
-  body #search-page {
-    margin: 180px 0px 0px 140px;
-    width: 500px;
-    height: 45px; }
-    body #search-page input[type=text] {
-      width: 350px;
-      padding: 10px; }
-    body #search-page i {
-      color: white;
-      font-size: 25px;
-      margin: 0px 20px; } }
-
-@media (max-width: 736px) {
-  body #book-image {
-    height: 500px; }
-  body #search-page {
-    margin: 170px 0px 0px 120px;
-    width: 500px;
-    height: 45px; }
-    body #search-page input[type=text] {
-      width: 350px;
-      padding: 10px; }
-    body #search-page i {
-      color: white;
-      font-size: 25px;
-      margin: 0px 20px; } }
-
-@media (max-width: 684px) {
-  body #book-image {
-    height: 480px; }
-  body #search-page {
-    margin: 150px 0px 0px 130px;
-    width: 400px;
-    height: 40px; }
-    body #search-page input[type=text] {
-      width: 320px;
-      padding: 8px; }
-    body #search-page i {
-      font-size: 23px; } }
-
-@media (max-width: 667px) {
-  body #search-page {
-    margin: 150px 0px 0px 120px;
-    width: 400px;
-    height: 40px; }
-    body #search-page input[type=text] {
-      width: 320px;
-      padding: 8px; }
-    body #search-page i {
-      font-size: 23px; } }
-
-@media (max-width: 425px) {
-  body #book-image {
-    height: 460px; }
-  body #search-page {
-    margin: 180px 0px 0px 55px;
-    width: 290px;
-    height: 40px; }
-    body #search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body #search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
-
-@media (max-width: 415px) {
-  body #book-image {
-    height: 460px; }
-  body #search-page {
-    margin: 180px 0px 0px 55px;
-    width: 290px;
-    height: 40px; }
-    body #search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body #search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
-
-@media (max-width: 375px) {
-  body #book-image {
-    height: 450px; }
-  body #search-page {
-    margin: 180px 0px 0px 33px;
-    width: 290px;
-    height: 40px; }
-    body #search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body #search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
-
 body {
   margin: 0%;
   padding: 0%;
   width: 100%; }
-  body #vedio-div {
-    height: 100%; }
-    body #vedio-div #myVideo {
-      width: 100%;
-      height: 100%;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; }
+  body #myVideo {
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   body #content {
     top: 0%;
     position: absolute;
     width: 100%;
     display: table;
     clear: both; }
-    body #content #left-logo {
-      clear: both;
+    body #content .top-nav {
+      overflow: hidden;
       content: '';
+      clear: both;
       display: table;
       width: 100%; }
-      body #content #left-logo #logo {
-        float: left;
-        margin: 30px 0px 0px 70px;
-        height: 70px; }
-      body #content #left-logo .hamburger {
+      body #content .top-nav .left {
+        width: 20%;
+        float: left; }
+      body #content .top-nav .right {
         float: right;
-        width: 45%;
-        margin: 50px 70px 0px 0px; }
-        body #content #left-logo .hamburger #menu {
-          float: right;
-          width: 50px; }
-          body #content #left-logo .hamburger #menu i {
-            font-size: 25px;
-            color: white; }
-        body #content #left-logo .hamburger li {
-          display: inline;
-          padding: 0px 5px; }
-          body #content #left-logo .hamburger li a {
-            font-family: Montserrat, sans-serif;
-            font-weight: 900;
-            font-size: 15px;
-            padding: 0px 5px;
-            color: white;
-            text-decoration: none;
-            cursor: pointer; }
-          body #content #left-logo .hamburger li a:hover {
-            text-decoration: underline;
-            color: #210e6e; }
+        width: 60%; }
+        body #content .top-nav .right a {
+          float: left;
+          color: #ffffff;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px; }
+        body #content .top-nav .right #icon {
+          display: none; }
   body #center-content {
     top: 0%;
     position: absolute;
@@ -379,11 +234,35 @@ body {
       font-size: 12px; } }
 
 @media (max-width: 684px) {
-  body #content #left-logo .hamburger {
-    width: 77%;
-    margin-right: 30px; }
-  body #content #left-logo #header-menu li a {
-    font-size: 12px; }
+  body #content .top-nav .left {
+    width: 22%; }
+  body #content .top-nav .right {
+    width: 62%; }
+    body #content .top-nav .right a {
+      display: none; }
+    body #content .top-nav .right #icon {
+      display: block;
+      float: right; }
+  body #content .top-nav .right.responsive {
+    margin-top: 30px;
+    background-color: rgba(68, 65, 65, 0.343);
+    position: relative;
+    width: 200px;
+    z-index: 1; }
+    body #content .top-nav .right.responsive a {
+      display: block;
+      text-align: left; }
+    body #content .top-nav .right.responsive #icon {
+      position: absolute;
+      right: 0;
+      top: 0; }
+  body #content .top-nav.responsive .right .icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  body #content .top-nav.responsive .right a {
+    display: block;
+    text-align: left; }
   body #center-content h2 {
     font-size: 20px;
     padding: 5px 0px; }
@@ -397,12 +276,6 @@ body {
       font-size: 12px; } }
 
 @media (max-width: 667px) {
-  body #content #left-logo .hamburger {
-    width: 77%;
-    margin-right: 30px;
-    margin-top: 40px; }
-  body #content #left-logo #header-menu li a {
-    font-size: 12px; }
   body #center-content a {
     margin: 0px 0px; }
   body footer {
@@ -410,7 +283,7 @@ body {
     body footer .row #foot-menu li a {
       font-size: 12px; } }
 
-@media (max-width: 425px) {
+@media (max-width: 667px) and (max-width: 425px) {
   body #content #left-logo #logo {
     position: relative; }
   body #content #left-logo .hamburger {

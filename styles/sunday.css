@@ -2,6 +2,9 @@ body #content #left-logo .hamburger #header-menu li a {
   color: black;
   font-weight: 900; }
 
+body #search-screen-img {
+  height: 100%; }
+
 body #sunday-page {
   position: absolute;
   top: 165px;
@@ -108,6 +111,8 @@ body #sunday-page {
                 width: 30px; }
 
 @media (max-width: 1024px) {
+  body #search-screen-img {
+    height: 2000px; }
   body #sunday-page .demo {
     font-size: 45px; }
   body #sunday-page .clearfix .left {

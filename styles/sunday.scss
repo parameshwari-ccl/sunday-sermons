@@ -17,6 +17,9 @@ body{
         }
     }
 
+    #search-screen-img{
+        height: 100%;
+    }
     #sunday-page{
         position: absolute;
         top: 165px;
@@ -168,6 +171,11 @@ body{
 
 @media (max-width:1024px){
    body{
+
+    #search-screen-img{
+        height: 2000px;
+    }
+
     #sunday-page{
         .demo{
             font-size: 45px;
