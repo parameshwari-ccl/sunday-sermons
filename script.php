@@ -4,7 +4,7 @@
 
     console.log(getIcon);
 
-    getIcon.addEventListener('click', () => {
+    navMenu.addEventListener('click', () => {
         console.log('pavithra gangatharan');
 
         if (navMenu.className === 'right') {

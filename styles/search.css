@@ -1,3 +1,6 @@
+body #img-div {
+  height: 100%; }
+
 body #search-page {
   top: 0%;
   position: absolute;
@@ -8,13 +11,15 @@ body #search-page {
   border-radius: 5px;
   width: 900px;
   height: 60px;
-  display: inline; }
+  display: inline;
+  text-decoration: none; }
   body #search-page input[type=text] {
     width: 600px;
     padding: 18px 10px;
     border: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.535); }
+    background-color: rgba(0, 0, 0, 0.535);
+    font-family: Montserrat, sans-serif; }
   body #search-page input[type=text]:focus {
     outline: none; }
   body #search-page i {
@@ -33,7 +38,7 @@ body #search-page {
 
 @media (max-width: 768px) {
   body #book-image {
-    height: 640px; }
+    height: 650px; }
   body #search-page {
     margin: 180px 0px 0px 140px;
     width: 500px;
@@ -84,6 +89,20 @@ body #search-page {
       padding: 8px; }
     body #search-page i {
       font-size: 23px; } }
+
+@media (max-width: 425px) {
+  body #book-image {
+    height: 460px; }
+  body #search-page {
+    margin: 180px 0px 0px 55px;
+    width: 290px;
+    height: 40px; }
+    body #search-page input[type=text] {
+      width: 240px;
+      padding: 8px; }
+    body #search-page i {
+      font-size: 20px;
+      margin: 0px 10px; } }
 
 @media (max-width: 415px) {
   body #book-image {
