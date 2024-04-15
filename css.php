@@ -20,7 +20,6 @@
 <!-- css files -->
 <link rel='stylesheet' href='styles/index.css'>
 <link rel='stylesheet' href='styles/search.css'>
-<link rel='stylesheet' href='styles/sunday.css'>
 
 <!-- icons -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>

@@ -59,6 +59,41 @@ body{
                     display: none;
                 }
             }
+            .right.responsive{
+                width: 150px;
+                background-color: rgba(68, 65, 65, 0.343);
+                position: relative;
+                border-radius: 5px;
+                z-index: 1;
+
+                a {
+                    display: block;
+                    width: 200px;
+                    padding: 15px 5px 15px 10px;
+                    text-align: left;
+                }
+                #icon {
+                    width: 35px;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+            .top-nav.responsive{
+                .right{
+                    .icon {
+                    display: block;
+                    position: absolute;
+                        right: 0;
+                        top: 0;
+                    } 
+                    a{
+                        display: block;
+                        text-align: left;
+                    }
+                }
+            }
         }
     }
     .center-content{
@@ -298,7 +333,6 @@ body{
                 margin-bottom: 30px;
             }
             a{
-                width: 170px;
                 font-size: 14px;
             }
         }   
@@ -387,7 +421,6 @@ body{
                 margin-bottom: 15px;
             }
             a{
-                width: 170px;
                 font-size: 13px;
             }
         } 
@@ -457,6 +490,7 @@ body{
         } 
         footer{
             .row{
+                width: 95%;
                 #foot-menu{
                     margin-left: 20px;
                     li{
@@ -482,7 +516,7 @@ body{
         .content{
             .top-nav {
                 .right{
-                    width: 69%;
+                    width: 73%;
 
                     a{
                         font-size: 13px;
@@ -546,16 +580,16 @@ body{
 @media (max-width:415px){
     body{
         .wrapper{
-            height: 500px;
+            height: 700px;
     
             .myVideo{
-                height: 500px;
+                height: 700px;
             }
         }
         .content{
             .top-nav {
                 .left{
-                    width: 15%;
+                    width: 27%;
                     float: left;
                     padding: 20px;
 
@@ -566,8 +600,8 @@ body{
     
                 .right{
                     float: right;
-                    width: 75%;
-                    margin-top: 40px;
+                    width: 70%;
+                    margin-top: 30px;
 
                     a{
                         display: none;
@@ -576,7 +610,7 @@ body{
                     #icon {
                         display: block;
                         float: right;
-                        margin:0px 20px;
+                        margin:0px 10px;
 
 
                         i{
@@ -588,21 +622,26 @@ body{
         }
 
         .center-content{
+            margin-top: 180px;
             margin-left: 0px;
             padding: 20px;
             h2{
                 font-size: 20px;
                 width: 80%;
                 margin: auto;
+                margin-bottom: 20px;
             }
             p{
                 font-size: 12px;
-                margin-bottom: 60px;
-                width: 65%;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 50px;
+
             }
             a{
                 font-size: 12px;
-                margin: 0px 0px;
+                padding: 10px 12px;
+                margin-left: 35px;
             }
 
         }

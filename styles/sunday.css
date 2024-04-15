@@ -1,51 +1,54 @@
-body #content #left-logo .hamburger #header-menu li a {
-  color: black;
+body .content .top-nav .right a {
+  color: #000000;
   font-weight: 900; }
 
-body #search-screen-img {
+body .search-screen-img {
   height: 100%; }
 
-body #sunday-page {
+body .sunday-page {
   position: absolute;
   top: 165px;
   width: 100%; }
-  body #sunday-page .demo {
+  body .sunday-page h1 {
     text-align: center;
     width: 100%;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 50px;
-    color: #231F20; }
-  body #sunday-page .clearfix {
+    color: #000000;
+    margin-bottom: 40px; }
+  body .sunday-page .clearfix {
     content: '';
     clear: both;
     display: table;
-    width: 100%; }
-    body #sunday-page .clearfix .left {
+    width: 90%;
+    margin: auto; }
+    body .sunday-page .clearfix .left {
       float: left;
-      width: 28%;
-      margin-left: 40px; }
-      body #sunday-page .clearfix .left h4 {
+      width: 28%; }
+      body .sunday-page .clearfix .left h4 {
         font-family: Montserrat, sans-serif;
         font-size: 15px;
         font-weight: 900;
-        margin-top: 20px; }
-      body #sunday-page .clearfix .left #search-title {
+        margin-top: 20px;
+        color: #000000; }
+      body .sunday-page .clearfix .left #search-title {
         background-color: white;
         border: 1px solid #999AA3;
+        font-family: Montserrat, sans-serif;
         box-shadow: 0px 1px 15px #516AA4;
         width: 300px;
-        padding: 6px 0px;
+        padding: 4px 0px;
         border-radius: 5px;
         height: 44px; }
-        body #sunday-page .clearfix .left #search-title i {
+        body .sunday-page .clearfix .left #search-title i {
           margin: 0px 15px; }
-        body #sunday-page .clearfix .left #search-title input {
+        body .sunday-page .clearfix .left #search-title input {
           border: none;
           outline: none;
           height: 33px;
           width: 240px; }
-      body #sunday-page .clearfix .left .search-speaker select {
+      body .sunday-page .clearfix .left .search-speaker select {
         width: 300px;
         background-color: white;
         border: 1px solid #999AA3;
@@ -53,7 +56,7 @@ body #sunday-page {
         padding: 6px 0px;
         border-radius: 5px;
         height: 44px; }
-      body #sunday-page .clearfix .left .search-date select {
+      body .sunday-page .clearfix .left .search-date select {
         width: 300px;
         background-color: white;
         border: 1px solid #999AA3;
@@ -62,97 +65,195 @@ body #sunday-page {
         border-radius: 5px;
         height: 44px;
         margin-bottom: 20px; }
-    body #sunday-page .clearfix .right {
+    body .sunday-page .clearfix .right {
       float: right;
       width: 68%; }
-      body #sunday-page .clearfix .right .right-clearfix {
+      body .sunday-page .clearfix .right .right-clearfix {
         content: '';
         clear: both;
         display: table;
         width: 100%;
-        margin-top: 30px; }
-        body #sunday-page .clearfix .right .right-clearfix .right-left {
+        margin-top: 15px; }
+        body .sunday-page .clearfix .right .right-clearfix .right-left {
+          margin-top: 12px;
           float: left;
-          width: 300px; }
-        body #sunday-page .clearfix .right .right-clearfix .right-right {
+          width: 300px;
+          font-family: Montserrat, sans-serif; }
+        body .sunday-page .clearfix .right .right-clearfix .right-right {
           float: right;
-          width: 150px; }
-      body #sunday-page .clearfix .right .search-titles {
+          width: 170px;
+          font-family: Montserrat, sans-serif;
+          display: inline; }
+          body .sunday-page .clearfix .right .right-clearfix .right-right ul {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%; }
+            body .sunday-page .clearfix .right .right-clearfix .right-right ul li {
+              display: inline;
+              margin: 0px 5px;
+              text-align: center; }
+              body .sunday-page .clearfix .right .right-clearfix .right-right ul li img {
+                width: 22px;
+                height: 22px; }
+              body .sunday-page .clearfix .right .right-clearfix .right-right ul li a {
+                font-size: 20px;
+                text-decoration: none;
+                color: #000000; }
+              body .sunday-page .clearfix .right .right-clearfix .right-right ul li .num-high-light {
+                font-size: 29px;
+                font-weight: bold;
+                color: #00000069; }
+              body .sunday-page .clearfix .right .right-clearfix .right-right ul li .rotate-img {
+                transform: rotateZ(180deg); }
+      body .sunday-page .clearfix .right .search-titles {
         height: 100px; }
-        body #sunday-page .clearfix .right .search-titles .sep {
-          padding: 15px;
+        body .sunday-page .clearfix .right .search-titles .sep {
+          padding: 15px 15px 15px 25px;
           background-color: white;
-          width: 94%;
           height: 85px;
           display: flex;
           flex-direction: row;
-          border-radius: 10px; }
-          body #sunday-page .clearfix .right .search-titles .sep .sep-one {
+          border-radius: 10px;
+          font-family: Montserrat, sans-serif; }
+          body .sunday-page .clearfix .right .search-titles .sep .sep-one {
             float: left;
-            width: 200px; }
-            body #sunday-page .clearfix .right .search-titles .sep .sep-one h2 {
+            width: 210px; }
+            body .sunday-page .clearfix .right .search-titles .sep .sep-one h2 {
               font-size: 20px;
-              font-weight: bolder;
-              margin: 0%;
+              font-weight: 600;
               text-align: left;
-              color: #231F20; }
-          body #sunday-page .clearfix .right .search-titles .sep .sep-two {
-            width: 500px; }
-          body #sunday-page .clearfix .right .search-titles .sep .sep-three {
-            width: 180px;
+              color: #000000; }
+          body .sunday-page .clearfix .right .search-titles .sep .sep-two {
+            width: 365px; }
+          body .sunday-page .clearfix .right .search-titles .sep .sep-three {
+            width: 175px;
             display: flex;
             flex-direction: row; }
-            body #sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div {
+            body .sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div {
               padding: 7px;
               margin: 7px;
               box-shadow: 0px 1px 10px #7D419C;
-              border-radius: 5px; }
-              body #sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div img {
+              border-radius: 5px;
+              cursor: pointer; }
+              body .sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div img {
                 width: 30px; }
 
+body .pagination {
+  width: 150px;
+  margin: auto; }
+  body .pagination ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%; }
+    body .pagination ul li {
+      display: inline;
+      margin: 0px 5px;
+      text-align: center; }
+      body .pagination ul li img {
+        width: 22px;
+        height: 22px; }
+      body .pagination ul li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #000000; }
+      body .pagination ul li .num-high-light {
+        font-family: Montserrat, sans-serif;
+        font-size: 29px;
+        font-weight: bold;
+        color: #00000069; }
+      body .pagination ul li .rotate-img {
+        transform: rotateZ(180deg); }
+
 @media (max-width: 1024px) {
-  body #search-screen-img {
-    height: 2000px; }
-  body #sunday-page .demo {
-    font-size: 45px; }
-  body #sunday-page .clearfix .left {
-    margin-left: 30px; }
-    body #sunday-page .clearfix .left h4 {
-      font-size: 15px; }
-    body #sunday-page .clearfix .left #search-title {
-      width: 270px; }
-      body #sunday-page .clearfix .left #search-title i {
-        margin: 0px 8px; }
-      body #sunday-page .clearfix .left #search-title input {
-        height: 30px;
+  body .search-screen-img {
+    height: 1880px; }
+  body .sunday-page h1 {
+    margin-bottom: 30px; }
+  body .sunday-page .clearfix .left h4 {
+    font-size: 14px;
+    margin-top: 10px; }
+  body .sunday-page .clearfix .left #search-title {
+    width: 250px;
+    height: 40px; }
+    body .sunday-page .clearfix .left #search-title i {
+      margin: 0px 10px; }
+    body .sunday-page .clearfix .left #search-title input {
+      border: none;
+      outline: none;
+      height: 33px;
+      width: 200px; }
+  body .sunday-page .clearfix .left .search-speaker select {
+    width: 250px;
+    height: 40px; }
+  body .sunday-page .clearfix .left .search-date select {
+    width: 250px;
+    height: 40px; }
+  body .sunday-page .clearfix .right .right-clearfix {
+    margin-top: 0px; }
+  body .sunday-page .clearfix .right .search-titles {
+    height: 100px; }
+    body .sunday-page .clearfix .right .search-titles .sep {
+      height: 80px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-one {
+        width: 250px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-one h2 {
+          font-size: 17px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-one p {
+          font-size: 14px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-two {
+        width: 333px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-two p {
+          font-size: 14px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-three {
+        width: 175px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div img {
+          width: 25px; } }
+
+@media (max-width: 768px) {
+  body .search-screen-img {
+    height: 1880px; }
+  body .sunday-page h1 {
+    margin-bottom: 30px; }
+  body .sunday-page .clearfix .left {
+    display: none; }
+    body .sunday-page .clearfix .left h4 {
+      font-size: 14px;
+      margin-top: 10px; }
+    body .sunday-page .clearfix .left #search-title {
+      width: 250px;
+      height: 40px; }
+      body .sunday-page .clearfix .left #search-title i {
+        margin: 0px 10px; }
+      body .sunday-page .clearfix .left #search-title input {
+        border: none;
+        outline: none;
+        height: 33px;
         width: 200px; }
-    body #sunday-page .clearfix .left .search-speaker select {
-      width: 270px; }
-    body #sunday-page .clearfix .left .search-date select {
-      width: 270px; }
-  body #sunday-page .clearfix .right {
-    float: right;
-    width: 60%; }
-    body #sunday-page .clearfix .right .right-clearfix {
-      margin-top: 15px; }
-      body #sunday-page .clearfix .right .right-clearfix .right-left {
-        float: left;
-        width: 300px; }
-      body #sunday-page .clearfix .right .right-clearfix .right-right {
-        float: right;
-        width: 150px; }
-    body #sunday-page .clearfix .right .search-titles {
-      height: 100px; }
-      body #sunday-page .clearfix .right .search-titles .sep .sep-one {
-        width: 180px; }
-        body #sunday-page .clearfix .right .search-titles .sep .sep-one h2 {
-          font-size: 16px; }
-      body #sunday-page .clearfix .right .search-titles .sep .sep-two {
-        width: 200px; }
-      body #sunday-page .clearfix .right .search-titles .sep .sep-three {
-        width: 180px; }
-        body #sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div {
-          height: 35px;
-          padding: 3px 7px; }
-          body #sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div img {
-            width: 20px; } }
+    body .sunday-page .clearfix .left .search-speaker select {
+      width: 250px;
+      height: 40px; }
+    body .sunday-page .clearfix .left .search-date select {
+      width: 250px;
+      height: 40px; }
+    body .sunday-page .clearfix .left .search-icon {
+      display: none; }
+  body .sunday-page .clearfix .right .right-clearfix {
+    margin-top: 0px; }
+  body .sunday-page .clearfix .right .search-titles {
+    height: 100px; }
+    body .sunday-page .clearfix .right .search-titles .sep {
+      height: 80px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-one {
+        width: 250px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-one h2 {
+          font-size: 17px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-one p {
+          font-size: 14px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-two {
+        width: 333px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-two p {
+          font-size: 14px; }
+      body .sunday-page .clearfix .right .search-titles .sep .sep-three {
+        width: 175px; }
+        body .sunday-page .clearfix .right .search-titles .sep .sep-three .media-icon-div img {
+          width: 25px; } }

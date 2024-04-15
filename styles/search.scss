@@ -7,12 +7,13 @@ $fontOpenSans : open-sans, sans-serif;
 body{
     #img-div{
         height: 100%;
+        width: 100%;
     }
     #search-page{
         top: 0%;
         position: absolute;
         text-align: left;
-        margin: 350px 0px 0px 245px;
+        margin: 350px 0px 0px 190px;
         background-color: rgba(0, 0, 0, 0.535);
         box-shadow: 0px 1px 10px white;
         border-radius: 5px;
@@ -66,7 +67,7 @@ body{
             height: 650px;
         }
         #search-page{
-            margin: 180px 0px 0px 140px;
+            margin: 250px 0px 0px 140px;
             width: 500px;
             height: 45px;
 
@@ -89,7 +90,7 @@ body{
             height: 500px;
         }
         #search-page{
-            margin: 170px 0px 0px 120px;
+            margin: 190px 0px 0px 120px;
             width: 500px;
             height: 45px;
 
@@ -169,10 +170,10 @@ body{
 @media (max-width:415px){
     body{
         #book-image{
-            height: 460px;
+            height: 700px;
         }
         #search-page{
-            margin: 180px 0px 0px 55px;
+            margin: 250px 0px 0px 65px;
             width: 290px;
             height: 40px;
 
@@ -191,10 +192,10 @@ body{
 @media (max-width:375px){
     body{
         #book-image{
-            height: 450px;
+            height: 600px;
         }
         #search-page{
-            margin: 180px 0px 0px 33px;
+            margin: 250px 0px 0px 40px;
             width: 290px;
             height: 40px;
 
