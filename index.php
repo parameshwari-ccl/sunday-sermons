@@ -8,15 +8,15 @@
 </head>
 <body>
 
-    <!-- header -->
-    <?php require_once('header.php'); ?>
-
-    <!-- background vedio -->
-   <div class="wrapper">
-        <video autoplay muted loop class="myVideo">
-            <source src="vedio/background.mp4" type="video/mp4">
+  <!-- background vedio -->
+  <div class="wrapper">
+        <video autoplay muted loop class="my-video">
+            <source src="video/background.mp4" type="video/mp4">
         </video>
    </div>
+
+    <!-- header -->
+    <?php require_once('header.php'); ?>
 
     <!-- main -->
     <div class='center-content'>

@@ -5,51 +5,56 @@ $fontOpenSans : open-sans, sans-serif;
 
 
 body{
-    #img-div{
+    .img-div{
         height: 100%;
         width: 100%;
     }
-    #search-page{
-        top: 0%;
+
+    .search-btn{
+        width: 100%;
         position: absolute;
-        text-align: left;
-        margin: 350px 0px 0px 190px;
-        background-color: rgba(0, 0, 0, 0.535);
-        box-shadow: 0px 1px 10px white;
-        border-radius: 5px;
-        width: 900px;
-        height: 60px;
-        display: inline;
+        top: 350px;
         text-decoration: none;
 
-        input[type=text]{
-            width: 600px;
-            padding: 18px 10px;
-            border: none;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.535);
-            font-family: $fontMonstserrat;
-        }
+        .btn-div{
+            width: 725px;
+            margin: auto;
+            box-shadow: 0px 1px 10px white;
+            border-radius: 5px;
+            padding: 10px;
+    
+            i{
+                color: white;
+                font-size: 30px;
+                padding: 0px 10px;
+            }
+    
+            input[type=text]{
+                border: none;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.535);
+                font-family: $fontMonstserrat;
+                margin-left: 10px;
+                font-size: 20px;
+                width: 500px;
 
-        input[type=text]:focus {
-            outline: none;
-        }
-
-        i{
-            color: white;
-            font-size: 30px;
-            margin: 0px 20px;
+            }
+    
+            input:focus{
+                outline: none;
+            }
         }
     }
+    
 }
 
 @media (max-width:1024px){
     body{
 
-        #book-image{
+        .book-image{
             height: 100%;
         }
-        #search-page{
+        .search-page{
             margin: 250px 0px 0px 195px;
             width: 600px;
 
@@ -63,10 +68,10 @@ body{
 @media (max-width:768px){
     body{
 
-        #book-image{
+        .book-image{
             height: 650px;
         }
-        #search-page{
+        .search-page{
             margin: 250px 0px 0px 140px;
             width: 500px;
             height: 45px;
@@ -86,10 +91,10 @@ body{
 
 @media (max-width:736px){
     body{
-        #book-image{
+        .book-image{
             height: 500px;
         }
-        #search-page{
+        .search-page{
             margin: 190px 0px 0px 120px;
             width: 500px;
             height: 45px;
@@ -108,10 +113,10 @@ body{
 }
 @media (max-width:684px){
     body{
-        #book-image{
+        .book-image{
             height: 480px;
         }
-        #search-page{
+        .search-page{
             margin: 150px 0px 0px 130px;
             width: 400px;
             height: 40px;
@@ -129,7 +134,7 @@ body{
 
 @media (max-width:667px){
     body{
-        #search-page{
+        .search-page{
             margin: 150px 0px 0px 120px;
             width: 400px;
             height: 40px;
@@ -147,10 +152,10 @@ body{
 
 @media (max-width:425px){
     body{
-        #book-image{
+        .book-image{
             height: 460px;
         }
-        #search-page{
+        .search-page{
             margin: 180px 0px 0px 55px;
             width: 290px;
             height: 40px;
@@ -169,10 +174,10 @@ body{
 
 @media (max-width:415px){
     body{
-        #book-image{
+        .book-image{
             height: 700px;
         }
-        #search-page{
+        .search-page{
             margin: 250px 0px 0px 65px;
             width: 290px;
             height: 40px;
@@ -191,10 +196,10 @@ body{
 
 @media (max-width:375px){
     body{
-        #book-image{
+        .book-image{
             height: 600px;
         }
-        #search-page{
+        .search-page{
             margin: 250px 0px 0px 40px;
             width: 290px;
             height: 40px;

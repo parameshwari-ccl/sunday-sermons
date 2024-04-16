@@ -11,11 +11,12 @@ body{
 
     .wrapper{
         width: 100%;
-        height: 900px;
+        height: 700px;
 
-        .myVideo{
-            height: 900px;
+        .my-video{
+            width: 1265px;
             background-size: cover;
+            position: relative;
         }
     }
     
@@ -55,43 +56,12 @@ body{
                     font-weight: 600;
                 }
 
-                #icon {
-                    display: none;
+                a:hover{
+                    color: #6300cc;
                 }
-            }
-            .right.responsive{
-                width: 150px;
-                background-color: rgba(68, 65, 65, 0.343);
-                position: relative;
-                border-radius: 5px;
-                z-index: 1;
 
-                a {
-                    display: block;
-                    width: 200px;
-                    padding: 15px 5px 15px 10px;
-                    text-align: left;
-                }
-                #icon {
-                    width: 35px;
-                    display: block;
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                }
-            }
-            .top-nav.responsive{
-                .right{
-                    .icon {
-                    display: block;
-                    position: absolute;
-                        right: 0;
-                        top: 0;
-                    } 
-                    a{
-                        display: block;
-                        text-align: left;
-                    }
+                .hamburger-icon {
+                    display: none;
                 }
             }
         }
@@ -99,7 +69,7 @@ body{
     .center-content{
         top: 0%;
         position: absolute;
-        margin: 300px 0px 0px 200px;
+        margin: 270px 0px 0px 200px;
         text-align: left;
         h2{
             width: 84%;
@@ -122,8 +92,8 @@ body{
         }
         a{
             font-family: $fontMonstserrat;
-            font-size: 16px;
-            padding: 15px 40px;
+            font-size: 20px;
+            padding: 15px 35px;
             text-decoration: none;
             border-radius: 8px;
             color: white;
@@ -149,8 +119,8 @@ body{
 
             .col-5{
                 padding: 0%;
-                #logo-info{
-                    #foot-logo{
+                .logo-info{
+                    .foot-logo{
                         width: 60px;
                         margin-left: 20px;
                     }
@@ -161,7 +131,7 @@ body{
                         li{
                             margin: 10px 0px;
             
-                            #org-name{
+                            .org-name{
                                 width: 255px;
                             }
             
@@ -170,7 +140,7 @@ body{
                                 line-height: 2;
                                 color: white;
                                 font-size: 14px;
-                                font-weight: 500;
+                                font-weight: 600;
                                 margin: 0px;
             
                             }
@@ -182,7 +152,7 @@ body{
 
             .col-7{
                 padding: 0%;
-                #foot-menu{
+                .foot-menu{
                     list-style-type: none;
                     margin-top: 140px;
                     padding: 0%;
@@ -193,7 +163,7 @@ body{
         
                         a{
                             font-family: $fontMonstserrat;
-                            font-weight: 700;
+                            font-weight: 600;
                             font-size: 14px;
                             text-decoration: none;
                             color: white;
@@ -208,7 +178,7 @@ body{
     }
     .copyright{
         text-align: center;
-        color: #9ca6bead;
+        color: #9CA6BE;
         font-family: $fontOpenSans;
         font-weight: 300;
         font-size: 12px;
@@ -220,8 +190,7 @@ body{
     body{
         .wrapper{
             height: 700px;
-    
-            .myVideo{
+            .my-video{
                 height: 700px;
             }
         }
@@ -259,14 +228,14 @@ body{
             padding: 30px 0px;
             .row{
                 .col-5{
-                    #logo-info{
+                    .logo-info{
                         ul{
                             margin-left: 20px;
                             padding: 0%;
                             li{
                                 margin: 10px 0px;
                 
-                                #org-name{
+                                .org-name{
                                     width: 255px;
                                 }
                             }
@@ -274,7 +243,7 @@ body{
                     }
                 }
                 .col-7{
-                    #foot-menu{
+                    .foot-menu{
                         margin-top: 140px;
                         li{
                             a{
@@ -293,7 +262,7 @@ body{
         .wrapper{
             height: 600px;
     
-            .myVideo{
+            .my-video{
                 height: 600px;
             }
         }
@@ -341,7 +310,7 @@ body{
             .row{
                 .col-5{
                     width: 60%;
-                    #logo-info{
+                    .logo-info{
                         margin-left: 80px;
                         ul{
                             margin-left: 20px;
@@ -349,7 +318,7 @@ body{
                             li{
                                 margin: 10px 0px;
                 
-                                #org-name{
+                                .org-name{
                                     width: 255px;
                                 }
                             }
@@ -358,7 +327,7 @@ body{
                 }
                 .col-7{
                     width: 30%;
-                    #foot-menu{
+                    .foot-menu{
                         margin: 0px;
                         padding: 0%;
                         li{
@@ -381,7 +350,7 @@ body{
         .wrapper{
             height: 500px;
     
-            .myVideo{
+            .my-video{
                 height: 500px;
             }
         }
@@ -429,7 +398,7 @@ body{
             padding: 30px 0px;
             .row{
                
-                #foot-menu{
+                .foot-menu{
                     li{
                         a{
                             font-size: 12px;
@@ -446,7 +415,7 @@ body{
         .wrapper{
             height: 450px;
     
-            .myVideo{
+            .my-video{
                 height: 450px;
             }
         }
@@ -491,7 +460,7 @@ body{
         footer{
             .row{
                 width: 95%;
-                #foot-menu{
+                .foot-menu{
                     margin-left: 20px;
                     li{
                         a{
@@ -509,7 +478,7 @@ body{
         .wrapper{
             height: 500px;
     
-            .myVideo{
+            .my-video{
                 height: 500px;
             }
         }
@@ -543,7 +512,7 @@ body{
             .row{
                 .col-5{
                     width: 60%;
-                    #logo-info{
+                    .logo-info{
                         margin-left: 40px;
                         ul{
                             margin-left: 20px;
@@ -551,7 +520,7 @@ body{
                             li{
                                 margin: 10px 0px;
                 
-                                #org-name{
+                                .org-name{
                                     width: 255px;
                                 }
                             }
@@ -560,7 +529,7 @@ body{
                 }
                 .col-7{
                     width: 30%;
-                    #foot-menu{
+                    .foot-menu{
                         margin-top: 20px;
                         li{
                             text-align: left;
@@ -582,7 +551,7 @@ body{
         .wrapper{
             height: 700px;
     
-            .myVideo{
+            .my-video{
                 height: 700px;
             }
         }
@@ -607,7 +576,7 @@ body{
                         display: none;
                     }
 
-                    #icon {
+                    .hamburger-icon {
                         display: block;
                         float: right;
                         margin:0px 10px;
@@ -615,6 +584,41 @@ body{
 
                         i{
                             font-size: 20px;
+                        }
+                    }
+                }
+                .right.responsive{
+                    width: 150px;
+                    background-color: rgba(68, 65, 65, 0.343);
+                    position: relative;
+                    border-radius: 5px;
+                    z-index: 1;
+    
+                    a {
+                        display: block;
+                        width: 200px;
+                        padding: 15px 5px 15px 10px;
+                        text-align: left;
+                    }
+                    .hamburger-icon {
+                        width: 35px;
+                        display: block;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                }
+                .top-nav.responsive{
+                    .right{
+                        .hamburger-icon {
+                        display: block;
+                        position: absolute;
+                            right: 0;
+                            top: 0;
+                        } 
+                        a{
+                            display: block;
+                            text-align: left;
                         }
                     }
                 }
@@ -651,7 +655,7 @@ body{
             .row{
                 .col-5{
                     width: 100%;
-                    #logo-info{
+                    .logo-info{
                         margin-left: 55px;
                         ul{
                             margin-left: 20px;
@@ -659,7 +663,7 @@ body{
                             li{
                                 margin: 10px 0px;
                 
-                                #org-name{
+                                .org-name{
                                     width: 255px;
                                 }
                             }
@@ -668,7 +672,7 @@ body{
                 }
                 .col-7{
                     width: 100%;
-                    #foot-menu{
+                    .foot-menu{
                         margin-top: 0px;
                         li{
                             text-align: center;
@@ -707,7 +711,7 @@ body{
                         display: none;
                     }
 
-                    #icon {
+                    .hamburger-icon {
                         display: block;
                         float: right;
                     }
@@ -717,7 +721,7 @@ body{
         footer{
             .row{
                 .col-5{
-                    #logo-info{
+                    .logo-info{
                         margin-left: 20px;
                         ul{
                             margin-left: 20px;
@@ -725,7 +729,7 @@ body{
                             li{
                                 margin: 10px 0px;
                 
-                                #org-name{
+                                .org-name{
                                     width: 255px;
                                 }
                             }
@@ -734,7 +738,7 @@ body{
                 }
                 .col-7{
                     width: 100%;
-                    #foot-menu{
+                    .foot-menu{
                         margin-top: 0px;
                         li{
                             text-align: center;
