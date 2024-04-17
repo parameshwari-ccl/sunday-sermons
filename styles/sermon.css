@@ -14,9 +14,41 @@ body .sermon-div {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 60px; }
+  body .sermon-div h2 {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px; }
   body .sermon-div .left-div {
     width: 95%;
     margin: auto; }
+    body .sermon-div .left-div .search-center-bar {
+      margin-bottom: 30px; }
+      body .sermon-div .left-div .search-center-bar .search-bar {
+        width: 650px;
+        background-color: #ffffff;
+        box-shadow: 0px 1px 10px #516AA4;
+        margin: auto;
+        padding: 8px 10px;
+        border-radius: 5px; }
+      body .sermon-div .left-div .search-center-bar i {
+        font-size: 25px;
+        margin: 0px 10px; }
+      body .sermon-div .left-div .search-center-bar input {
+        border: none;
+        margin-left: 8px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+        font-size: 24px; }
+      body .sermon-div .left-div .search-center-bar input:focus {
+        outline: none; }
+      body .sermon-div .left-div .search-center-bar p {
+        text-align: center;
+        margin: 20px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 300;
+        font-size: 24px; }
   body .sermon-div .align-col {
     padding: 10px;
     width: 300px; }
@@ -28,10 +60,11 @@ body .sermon-div {
     body .sermon-div .align-col .search-title {
       width: 100%;
       background-color: #ffffff;
-      box-shadow: 0px 1px 10px #7D419C;
+      box-shadow: 0px 1px 10px #516AA4;
       margin-bottom: 20px;
       padding: 8px 10px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      height: 44px; }
       body .sermon-div .align-col .search-title input {
         border: none;
         margin-left: 8px;
@@ -42,12 +75,38 @@ body .sermon-div {
     body .sermon-div .align-col .search-speaker {
       width: 100%;
       background-color: #ffffff;
-      box-shadow: 0px 1px 10px #7D419C;
+      box-shadow: 0px 1px 10px #516AA4;
       padding: 10px;
       border-radius: 5px;
       margin-bottom: 20px;
       font-family: Montserrat, sans-serif;
       font-weight: 300; }
+    body .sermon-div .align-col .search-sermon-pages {
+      list-style-type: none;
+      margin: 0%;
+      padding: 0%; }
+      body .sermon-div .align-col .search-sermon-pages li {
+        margin: 10px 0px; }
+        body .sermon-div .align-col .search-sermon-pages li input[type="checkbox"] {
+          background-color: #fff;
+          appearance: none;
+          margin: 0;
+          width: 20px;
+          height: 20px;
+          border: 2px solid black; }
+        body .sermon-div .align-col .search-sermon-pages li input[type="checkbox"]::before {
+          width: 20px;
+          height: 20px;
+          transform: scale(0);
+          transition: 120ms transform ease-in-out;
+          box-shadow: inset 1em 1em var(--form-control-color);
+          transform-origin: bottom left;
+          clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%); }
+        body .sermon-div .align-col .search-sermon-pages li label {
+          font-family: Montserrat, sans-serif;
+          font-size: 14px;
+          font-weight: 300;
+          margin: 0px 10px; }
   body .sermon-div .align-right-col {
     width: 850px;
     padding: 0px;
@@ -57,31 +116,6 @@ body .sermon-div {
       font-family: Montserrat, sans-serif;
       font-size: 20px;
       font-weight: 300; }
-    body .sermon-div .align-right-col .pagination {
-      list-style-type: none;
-      margin: 0%;
-      padding: 0%;
-      height: 50px;
-      justify-content: right; }
-      body .sermon-div .align-right-col .pagination li {
-        display: inline;
-        margin: 0px 5px;
-        text-align: center; }
-        body .sermon-div .align-right-col .pagination li img {
-          width: 25px;
-          height: 25px; }
-        body .sermon-div .align-right-col .pagination li .num-high-light {
-          font-family: Montserrat, sans-serif;
-          font-size: 29px;
-          font-weight: bold;
-          text-decoration: none;
-          color: #00000083; }
-        body .sermon-div .align-right-col .pagination li a {
-          font-size: 22px;
-          height: 20px;
-          text-align: top; }
-        body .sermon-div .align-right-col .pagination li .rotate-img {
-          transform: rotateZ(180deg); }
     body .sermon-div .align-right-col .list-pagination {
       margin-left: 15px; }
       body .sermon-div .align-right-col .list-pagination .pagin-display {
@@ -90,7 +124,8 @@ body .sermon-div {
       background-color: #ffffff;
       border-radius: 5px;
       margin: 15px;
-      padding: 10px; }
+      padding: 20px;
+      height: 101px; }
       body .sermon-div .align-right-col .task-list .task-title {
         display: flex;
         align-items: center; }
@@ -125,7 +160,6 @@ body .sermon-div {
     width: 200px;
     margin: auto; }
     body .sermon-div .bottom-pagination .pagination {
-      list-style-type: none;
       margin: 0%;
       padding: 0%;
       justify-content: center; }
@@ -148,3 +182,7 @@ body .sermon-div {
           text-align: top; }
         body .sermon-div .bottom-pagination .pagination li .rotate-img {
           transform: rotateZ(180deg); }
+
+body .page-nav {
+  background-color: none;
+  color: red; }

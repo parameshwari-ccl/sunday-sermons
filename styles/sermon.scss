@@ -33,10 +33,58 @@ body{
             font-weight: bold;
             margin-bottom: 60px;
         }
+        h2{
+            font-family: $fontMonstserrat;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
 
         .left-div{
             width: 95%;
             margin: auto;
+
+
+            .search-center-bar{
+                margin-bottom: 30px;
+
+
+                .search-bar{
+                    width: 650px;
+                    background-color: #ffffff;
+                    box-shadow: 0px 1px 10px #516AA4;
+                    margin: auto;
+                    padding:8px 10px;
+                    border-radius: 5px;
+                }
+            
+                i{
+                    font-size: 25px;
+                    margin: 0px 10px;
+                }
+
+                input{
+                    border: none;
+                    margin-left: 8px;
+                    font-family: $fontMonstserrat;
+                    font-weight: 300;
+                    font-size: 24px;
+                }
+    
+                input:focus{
+                    outline: none;
+                }
+
+
+                p{
+                    text-align: center;
+                    margin: 20px;
+                    font-family: $fontMonstserrat;
+                    font-weight: 300;
+                    font-size: 24px;
+                }
+            }
         }
         .align-col{
             padding: 10px;
@@ -53,10 +101,11 @@ body{
             .search-title{
                 width: 100%;
                 background-color: #ffffff;
-                box-shadow: 0px 1px 10px #7D419C;
+                box-shadow: 0px 1px 10px #516AA4;
                 margin-bottom: 20px;
                 padding:8px 10px;
                 border-radius: 5px;
+                height: 44px;
 
                 input{
                     border: none;
@@ -72,13 +121,51 @@ body{
             .search-speaker{
                 width: 100%;
                 background-color: #ffffff;
-                box-shadow: 0px 1px 10px #7D419C;
+                box-shadow: 0px 1px 10px #516AA4;
                 padding:10px;
                 border-radius: 5px;
                 margin-bottom: 20px;
                 font-family: $fontMonstserrat;
                 font-weight: 300;
             }
+            
+            .search-sermon-pages{
+                list-style-type: none;
+                margin: 0%;
+                padding: 0%;
+
+                li{
+                    margin: 10px 0px;
+
+                    input[type="checkbox"] {
+                        background-color: #fff;
+                        appearance: none;
+                        margin: 0;
+                        width: 20px;
+                        height: 20px;
+                        border: 2px solid black;
+                    }
+                    input[type="checkbox"]::before {
+                        width: 20px;
+                        height: 20px;
+                        transform: scale(0);
+                        transition: 120ms transform ease-in-out;
+                        box-shadow: inset 1em 1em var(--form-control-color);
+                        transform-origin: bottom left;
+                        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+                    }
+                    label{
+    
+                        font-family: $fontMonstserrat;
+                        font-size: 14px;
+                        font-weight: 300;
+                        margin:0px 10px;
+                    }
+                }
+
+                
+            }
+            
 
         }
         .align-right-col{
@@ -93,43 +180,6 @@ body{
                 font-weight: 300;
             }
 
-            .pagination{
-                list-style-type: none;
-                margin: 0%;
-                padding: 0%;
-                height: 50px;
-                justify-content: right;
-                
-                li{
-                    display: inline;
-                    margin:0px 5px;
-                    text-align: center;
-                   
-
-                    img{
-                        width: 25px;
-                        height: 25px;
-                    }
-
-                    .num-high-light{
-                        font-family: $fontMonstserrat;
-                        font-size: 29px;
-                        font-weight: bold;
-                        text-decoration: none;
-                        color: #00000083;
-                    }
-
-                    a{
-                        font-size: 22px;
-                        height: 20px;
-                        text-align: top;
-                    }
-
-                    .rotate-img{
-                        transform: rotateZ(180deg);
-                    }
-                }
-            }
 
             .list-pagination{
                 margin-left: 15px;
@@ -143,7 +193,8 @@ body{
                 background-color: #ffffff;
                 border-radius: 5px;
                 margin: 15px;
-                padding: 10px;
+                padding: 20px;
+                height: 101px;
 
 
                 .task-title{
@@ -195,7 +246,6 @@ body{
             margin: auto;
 
             .pagination{
-                list-style-type: none;
                 margin: 0%;
                 padding: 0%;
                 justify-content: center;
@@ -204,7 +254,6 @@ body{
                     display: inline;
                     margin:0px 5px;
                     text-align: center;
-                
 
                     img{
                         width: 25px;
@@ -232,5 +281,10 @@ body{
             }
         }
 
+    }
+
+    .page-nav{
+        background-color: none;
+        color: red;
     }
 }

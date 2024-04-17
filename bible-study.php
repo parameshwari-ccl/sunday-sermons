@@ -90,11 +90,11 @@
                     </div>
                     <div class="col-sm">
                         <ul class="pagination">
-                            <li><img src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                            <li>&lsaquo;</li>
                             <li><a class="num-high-light"> 1 </a></li>
                             <li><a> 2 </a></li>
                             <li><a> 3 </a></li>
-                            <li><img class="rotate-img" src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                            <li>&rsaquo;</li>
                         </ul>
                     </div>
                 </div>
@@ -109,9 +109,9 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="icon-media">
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></div>
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></div>
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></div>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -123,11 +123,11 @@
         </div>
         <div class="bottom-pagination">
             <ul class="pagination">
-                <li><img src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                <li>&lsaquo;</li>
                 <li><a class="num-high-light"> 1 </a></li>
                 <li><a> 2 </a></li>
                 <li><a> 3 </a></li>
-                <li><img class="rotate-img" src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                <li>&rsaquo;</li>
             </ul>
         </div>
     </div>

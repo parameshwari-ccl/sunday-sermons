@@ -52,9 +52,37 @@
     <!-- main -->
     <div class="sermon-div">
         <div class="row left-div" >
-            <h1>Bible Study</h1>
+            <h2>Search</h2>
+            <div class="search-center-bar">
+                <div class="search-bar">
+                    <i class="fa fa-search" ></i>
+                    <input type="text" placeholder="Search" value="Faith">
+                </div>
+                <p>Showing Results for 'Faith'</p>
+            </div>
             <div class="col-sm-4 align-col">
                 <div class="row">
+                <div class="col">
+                        <h4>FILTER BY CONTENT TYPE </h4>
+                        <ul class='search-sermon-pages'>
+                            <li>
+                                <input type="checkbox">
+                                <label for="">Sunday Sermon</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="">Bible Study</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="">Prayer and Fasting</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label for="">Others</label>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="col">
                         <h4>SEARCH BY TITLE OR WORD</h4>
                         <div class='search-title'>
@@ -98,11 +126,11 @@
                     </div>
                     <div class="col-sm">
                         <ul class="pagination">
-                            <li><img src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                            <li>&lsaquo;</li>
                             <li><a class="num-high-light"> 1 </a></li>
                             <li><a> 2 </a></li>
                             <li><a> 3 </a></li>
-                            <li><img class="rotate-img" src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                            <li>&rsaquo;</li>
                         </ul>
                     </div>
                 </div>
@@ -117,9 +145,9 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="icon-media">
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></div>
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></div>
-                                <div class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></div>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
+                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -130,11 +158,11 @@
         </div>
         <div class="bottom-pagination">
             <ul class="pagination">
-                <li><img src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                <li>&lsaquo;</li>
                 <li><a class="num-high-light"> 1 </a></li>
                 <li><a> 2 </a></li>
                 <li><a> 3 </a></li>
-                <li><img class="rotate-img" src="https://framerusercontent.com/images/bH6M26DipZzvwrdMtXVlZEiglM.svg?scale-down-to=512" alt=""></li>
+                <li>&rsaquo;</li>
             </ul>
         </div>
     </div>

@@ -17,7 +17,7 @@
 
   <!-- main -->
 
-  <a href="/filter-res" class="search-btn">
+  <a href="/filter-results.php" class="search-btn">
     <div class="btn-div">
       <i class="fa fa-search" ></i>
       <input type="text" placeholder="Find a Sermon">

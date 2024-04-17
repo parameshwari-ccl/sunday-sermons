@@ -1,0 +1,54 @@
+body .content .top-nav .right a {
+  color: #000000; }
+
+body .detail-page-container {
+  position: absolute;
+  margin: auto;
+  top: 200px;
+  width: 100%; }
+  body .detail-page-container .detail-vedio-div {
+    width: 651px;
+    margin: auto;
+    position: relative; }
+    body .detail-page-container .detail-vedio-div .back-vedio-image img {
+      width: 651px;
+      box-shadow: 0px 1px 10px #516AA4; }
+    body .detail-page-container .detail-vedio-div .vedio-icon {
+      position: absolute;
+      top: 240px;
+      left: 300px;
+      box-shadow: none; }
+    body .detail-page-container .detail-vedio-div .content-detail {
+      margin-top: 10px; }
+      body .detail-page-container .detail-vedio-div .content-detail h4 {
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center; }
+      body .detail-page-container .detail-vedio-div .content-detail .paster-date {
+        width: 651px;
+        display: inline-flex;
+        justify-content: center; }
+        body .detail-page-container .detail-vedio-div .content-detail .paster-date p {
+          padding: 0px 5px;
+          font-size: 16px;
+          font-family: Montserrat, sans-serif; }
+      body .detail-page-container .detail-vedio-div .content-detail .download-opt {
+        margin: 20px 0px;
+        text-align: center; }
+        body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border {
+          border: 1px solid black;
+          padding: 15px 0px; }
+          body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
+            margin-bottom: 5px; }
+          body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border h6 {
+            font-family: Montserrat, sans-serif;
+            font-size: 12px;
+            font-weight: 500; }
+  body .detail-page-container .detail-notes {
+    margin: 60px 40px 0px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px; }

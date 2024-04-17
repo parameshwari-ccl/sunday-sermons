@@ -7,7 +7,8 @@
     "watch:scss": "node-sass -w styles/index.scss styles/index.css",
     "watch:sass": "node-sass -w styles/search.scss styles/search.css",
     "watch:sasssun": "node-sass -w styles/sunday.scss styles/sunday.css",
-    "watch:sasssermon": "node-sass -w styles/sermon.scss styles/sermon.css"
+    "watch:sasssermon": "node-sass -w styles/sermon.scss styles/sermon.css",
+    "watch:sassdetail": "node-sass -w styles/detail.scss styles/detail.css"
   },
   "author": "",
   "license": "ISC"

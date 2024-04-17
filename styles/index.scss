@@ -3,7 +3,6 @@ $fontInter : inter, sans-serif;
 $fontManrope : manrope, sans-serif;
 $fontOpenSans : open-sans, sans-serif;
 
-
 body{
     margin: 0%;
     padding: 0%;
@@ -38,18 +37,31 @@ body{
                 width: 15%;
                 float: left;
                 padding: 30px;
+
+                img{
+                    width: 78px;
+                }
             }
 
             .right{
                 float: right;
                 width: 55%;
                 margin-top: 60px;
-                
+                list-style-type: none;
+                margin-left: 0%;
+                padding: 0%;
+
+
+                li{
+                    display: inline;
+                    margin: 0%;
+                    padding: 0%;
+                }
+
                 a {
-                    float: left;
                     color: #ffffff;
                     text-align: center;
-                    padding: 14px 16px;
+                    padding: 0px 15px;
                     text-decoration: none;
                     font-size: 17px;
                     font-family: $fontMonstserrat;
@@ -58,11 +70,14 @@ body{
 
                 a:hover{
                     color: #6300cc;
+                    text-decoration: none;
                 }
-
                 .hamburger-icon {
                     display: none;
                 }
+            }
+            .right .active{
+                text-decoration: underline;
             }
         }
     }
@@ -183,6 +198,27 @@ body{
         font-weight: 300;
         font-size: 12px;
 
+    }
+
+    .active > .page-link, .page-link.active{
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(255, 255, 255, 0.642);
+        border: none;
+        font-size: 29px;
+        font-family: $fontMonstserrat;
+        font-weight: 600;
+        height: 50px;
+        text-align: center;
+    }
+    .disabled>.page-link, .page-link.disabled{
+        background-color: rgba(255, 255, 255, 0);
+
+    }
+    .page-link{
+        border: none;
+        background-color: rgba(255, 255, 255, 0);
+        color: black;
+        
     }
 }
 
