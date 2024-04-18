@@ -50,16 +50,14 @@ body{
 
 @media (max-width:1024px){
     body{
-
-        .book-image{
-            height: 100%;
-        }
-        .search-page{
-            margin: 250px 0px 0px 195px;
-            width: 600px;
-
-            input[type=text]{
-                width: 450px;
+        .search-btn{
+            top: 300px;
+            .btn-div{
+                width: 600px;
+                margin: auto;
+                input[type=text]{
+                    font-size: 18px;
+                }
             }
         }
     }
@@ -67,23 +65,23 @@ body{
 
 @media (max-width:768px){
     body{
-
-        .book-image{
-            height: 650px;
+        .img-div{
+            .book-image{
+                height: 650px;
+            }  
         }
-        .search-page{
-            margin: 250px 0px 0px 140px;
-            width: 500px;
-            height: 45px;
-
-            input[type=text]{
-                width: 350px;
-                padding: 10px;
-            }
-            i{
-                color: white;
-                font-size: 25px;
-                margin: 0px 20px;
+        .search-btn{
+            top: 280px;
+            .btn-div{
+                width: 500px;
+                input[type=text]{
+                    width: 280px;
+                    padding: 0px;
+                }
+                i{
+                    font-size: 22px;
+                    margin: 0px;
+                }
             }
         }
     }
@@ -91,60 +89,21 @@ body{
 
 @media (max-width:736px){
     body{
-        .book-image{
-            height: 500px;
+        .img-div{
+            .book-image{
+                height: 550px;
+            }  
         }
-        .search-page{
-            margin: 190px 0px 0px 120px;
-            width: 500px;
-            height: 45px;
-
-            input[type=text]{
-                width: 350px;
-                padding: 10px;
-            }
-            i{
-                color: white;
-                font-size: 25px;
-                margin: 0px 20px;
-            }
-        }
-    }
-}
-@media (max-width:684px){
-    body{
-        .book-image{
-            height: 480px;
-        }
-        .search-page{
-            margin: 150px 0px 0px 130px;
-            width: 400px;
-            height: 40px;
-
-            input[type=text]{
-                width: 320px;
-                padding: 8px;
-            }
-            i{
-                font-size: 23px;
-            }
-        }
-    }
-}
-
-@media (max-width:667px){
-    body{
-        .search-page{
-            margin: 150px 0px 0px 120px;
-            width: 400px;
-            height: 40px;
-
-            input[type=text]{
-                width: 320px;
-                padding: 8px;
-            }
-            i{
-                font-size: 23px;
+        .search-btn{
+            top: 220px;
+            .btn-div{
+                width: 450px;
+                input[type=text]{
+                    width: 240px;
+                }
+                i{
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -152,21 +111,18 @@ body{
 
 @media (max-width:425px){
     body{
-        .book-image{
-            height: 460px;
+        .img-div{
+            .book-image{
+                height: 600px;
+            }  
         }
-        .search-page{
-            margin: 180px 0px 0px 55px;
-            width: 290px;
-            height: 40px;
-
-            input[type=text]{
-                width: 240px;
-                padding: 8px;
-            }
-            i{
-                font-size: 20px;
-                margin: 0px 10px;
+        .search-btn{
+            top: 250px;
+            .btn-div{
+                width: 320px;
+                input[type=text]{
+                    width: 240px;
+                }
             }
         }
     }
@@ -174,43 +130,18 @@ body{
 
 @media (max-width:415px){
     body{
-        .book-image{
-            height: 700px;
+        .img-div{
+            .book-image{
+                height: 600px;
+            }  
         }
-        .search-page{
-            margin: 250px 0px 0px 65px;
-            width: 290px;
-            height: 40px;
-
-            input[type=text]{
-                width: 240px;
-                padding: 8px;
-            }
-            i{
-                font-size: 20px;
-                margin: 0px 10px;
-            }
-        }
-    }
-}
-
-@media (max-width:375px){
-    body{
-        .book-image{
-            height: 600px;
-        }
-        .search-page{
-            margin: 250px 0px 0px 40px;
-            width: 290px;
-            height: 40px;
-
-            input[type=text]{
-                width: 240px;
-                padding: 8px;
-            }
-            i{
-                font-size: 20px;
-                margin: 0px 10px;
+        .search-btn{
+            top: 250px;
+            .btn-div{
+                width: 320px;
+                input[type=text]{
+                    width: 240px;
+                }
             }
         }
     }

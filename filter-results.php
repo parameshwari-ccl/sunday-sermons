@@ -121,18 +121,58 @@
             </div>
             <div class="col-sm-8 align-right-col">
                 <div class="row list-pagination">
-                    <div class="col-sm pagin-display">
-                        <p>Displaying 1 to 20 of 150 results</p>
-                    </div>
-                    <div class="col-sm">
-                        <ul class="pagination">
-                            <li>&lsaquo;</li>
-                            <li><a class="num-high-light"> 1 </a></li>
-                            <li><a> 2 </a></li>
-                            <li><a> 3 </a></li>
-                            <li>&rsaquo;</li>
-                        </ul>
-                    </div>
+                    <nav class="d-flex justify-items-center justify-content-between">
+                        <div class="d-flex justify-content-between flex-fill d-sm-none">
+                            <ul class="pagination">
+
+                                <li class="page-item disabled" aria-disabled="true">
+                                    <span class="page-link">&laquo; Previous</span>
+                                </li>
+
+                                <li class="page-item">
+                                    <a class="page-link" href="http://localhost:8000/test?page=2" rel="next">Next &raquo;</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="d-none flex-sm-fill d-sm-flex align-items-sm-center justify-content-sm-between">
+                            <div>
+                                <p class="small text-muted">
+                                    Showing
+                                    <span class="fw-semibold">1</span>
+                                    to
+                                    <span class="fw-semibold">1</span>
+                                    of
+                                    <span class="fw-semibold">17</span>
+                                    results
+                                </p>
+                            </div>
+
+                            <div>
+                                <ul class="pagination">
+
+                                    <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                                        <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                                    </li>
+
+                                    <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
+
+                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+
+                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
+                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
+                                            aria-label="Next &raquo;">&rsaquo;</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
                 <?php foreach ($items as $index =>  $item){ ?>
                     <div class="row task-list">
@@ -157,13 +197,30 @@
 
         </div>
         <div class="bottom-pagination">
-            <ul class="pagination">
-                <li>&lsaquo;</li>
-                <li><a class="num-high-light"> 1 </a></li>
-                <li><a> 2 </a></li>
-                <li><a> 3 </a></li>
-                <li>&rsaquo;</li>
-            </ul>
+            <nav class="d-flex justify-items-center justify-content-between">
+                <div>
+                    <ul class="pagination">
+                        <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                            <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                        </li>
+
+                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
+
+                        <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
+                                aria-label="Next &raquo;">&rsaquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
 

@@ -29,106 +29,56 @@ body .search-btn {
       outline: none; }
 
 @media (max-width: 1024px) {
-  body .book-image {
-    height: 100%; }
-  body .search-page {
-    margin: 250px 0px 0px 195px;
-    width: 600px; }
-    body .search-page input[type=text] {
-      width: 450px; } }
+  body .search-btn {
+    top: 300px; }
+    body .search-btn .btn-div {
+      width: 600px;
+      margin: auto; }
+      body .search-btn .btn-div input[type=text] {
+        font-size: 18px; } }
 
 @media (max-width: 768px) {
-  body .book-image {
+  body .img-div .book-image {
     height: 650px; }
-  body .search-page {
-    margin: 250px 0px 0px 140px;
-    width: 500px;
-    height: 45px; }
-    body .search-page input[type=text] {
-      width: 350px;
-      padding: 10px; }
-    body .search-page i {
-      color: white;
-      font-size: 25px;
-      margin: 0px 20px; } }
+  body .search-btn {
+    top: 280px; }
+    body .search-btn .btn-div {
+      width: 500px; }
+      body .search-btn .btn-div input[type=text] {
+        width: 280px;
+        padding: 0px; }
+      body .search-btn .btn-div i {
+        font-size: 22px;
+        margin: 0px; } }
 
 @media (max-width: 736px) {
-  body .book-image {
-    height: 500px; }
-  body .search-page {
-    margin: 190px 0px 0px 120px;
-    width: 500px;
-    height: 45px; }
-    body .search-page input[type=text] {
-      width: 350px;
-      padding: 10px; }
-    body .search-page i {
-      color: white;
-      font-size: 25px;
-      margin: 0px 20px; } }
-
-@media (max-width: 684px) {
-  body .book-image {
-    height: 480px; }
-  body .search-page {
-    margin: 150px 0px 0px 130px;
-    width: 400px;
-    height: 40px; }
-    body .search-page input[type=text] {
-      width: 320px;
-      padding: 8px; }
-    body .search-page i {
-      font-size: 23px; } }
-
-@media (max-width: 667px) {
-  body .search-page {
-    margin: 150px 0px 0px 120px;
-    width: 400px;
-    height: 40px; }
-    body .search-page input[type=text] {
-      width: 320px;
-      padding: 8px; }
-    body .search-page i {
-      font-size: 23px; } }
+  body .img-div .book-image {
+    height: 550px; }
+  body .search-btn {
+    top: 220px; }
+    body .search-btn .btn-div {
+      width: 450px; }
+      body .search-btn .btn-div input[type=text] {
+        width: 240px; }
+      body .search-btn .btn-div i {
+        font-size: 20px; } }
 
 @media (max-width: 425px) {
-  body .book-image {
-    height: 460px; }
-  body .search-page {
-    margin: 180px 0px 0px 55px;
-    width: 290px;
-    height: 40px; }
-    body .search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body .search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
+  body .img-div .book-image {
+    height: 600px; }
+  body .search-btn {
+    top: 250px; }
+    body .search-btn .btn-div {
+      width: 320px; }
+      body .search-btn .btn-div input[type=text] {
+        width: 240px; } }
 
 @media (max-width: 415px) {
-  body .book-image {
-    height: 700px; }
-  body .search-page {
-    margin: 250px 0px 0px 65px;
-    width: 290px;
-    height: 40px; }
-    body .search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body .search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
-
-@media (max-width: 375px) {
-  body .book-image {
+  body .img-div .book-image {
     height: 600px; }
-  body .search-page {
-    margin: 250px 0px 0px 40px;
-    width: 290px;
-    height: 40px; }
-    body .search-page input[type=text] {
-      width: 240px;
-      padding: 8px; }
-    body .search-page i {
-      font-size: 20px;
-      margin: 0px 10px; } }
+  body .search-btn {
+    top: 250px; }
+    body .search-btn .btn-div {
+      width: 320px; }
+      body .search-btn .btn-div input[type=text] {
+        width: 240px; } }

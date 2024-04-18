@@ -52,6 +52,8 @@ body .sermon-div {
   body .sermon-div .align-col {
     padding: 10px;
     width: 300px; }
+    body .sermon-div .align-col .filter-item {
+      width: 100%; }
     body .sermon-div .align-col h4 {
       font-family: Montserrat, sans-serif;
       font-size: 16px;
@@ -108,7 +110,7 @@ body .sermon-div {
           font-weight: 300;
           margin: 0px 10px; }
   body .sermon-div .align-right-col {
-    width: 850px;
+    width: 860px;
     padding: 0px;
     margin-left: 30px; }
     body .sermon-div .align-right-col p {
@@ -157,7 +159,7 @@ body .sermon-div {
           body .sermon-div .align-right-col .task-list .icon-media .media-icon-div img {
             width: 25px; }
   body .sermon-div .bottom-pagination {
-    width: 200px;
+    width: 420px;
     margin: auto; }
     body .sermon-div .bottom-pagination .pagination {
       margin: 0%;
@@ -183,6 +185,73 @@ body .sermon-div {
         body .sermon-div .bottom-pagination .pagination li .rotate-img {
           transform: rotateZ(180deg); }
 
-body .page-nav {
-  background-color: none;
-  color: red; }
+@media (max-width: 1025px) {
+  body .sermon-div {
+    top: 150px; }
+    body .sermon-div .align-col {
+      width: 250px; }
+      body .sermon-div .align-col h4 {
+        font-size: 14px; }
+      body .sermon-div .align-col .search-speaker {
+        font-size: 14px; }
+      body .sermon-div .align-col .sep-col-div {
+        width: 500px; }
+    body .sermon-div .align-right-col {
+      width: 690px; }
+      body .sermon-div .align-right-col .task-list {
+        height: 85px;
+        padding: 17px; }
+        body .sermon-div .align-right-col .task-list .task-title h5 {
+          font-size: 17px; }
+        body .sermon-div .align-right-col .task-list .task-title p {
+          font-size: 14px; }
+        body .sermon-div .align-right-col .task-list .sermon-date {
+          font-size: 14px; }
+        body .sermon-div .align-right-col .task-list .icon-media .media-icon-div {
+          padding: 6px; }
+          body .sermon-div .align-right-col .task-list .icon-media .media-icon-div img {
+            width: 22px; } }
+
+@media (max-width: 768px) {
+  body .sermon-div {
+    top: 150px; }
+    body .sermon-div .align-col {
+      width: 100%; }
+      body .sermon-div .align-col .filter-item {
+        width: 50%; }
+      body .sermon-div .align-col h4 {
+        font-size: 14px; }
+      body .sermon-div .align-col .search-speaker {
+        font-size: 14px; }
+    body .sermon-div .align-right-col {
+      width: 100%;
+      margin-left: 0%; }
+      body .sermon-div .align-right-col .task-list {
+        height: 85px;
+        padding: 17px; }
+        body .sermon-div .align-right-col .task-list .task-title h5 {
+          font-size: 17px; }
+        body .sermon-div .align-right-col .task-list .task-title p {
+          font-size: 14px; }
+        body .sermon-div .align-right-col .task-list .sermon-date {
+          font-size: 14px; }
+        body .sermon-div .align-right-col .task-list .icon-media .media-icon-div {
+          padding: 6px; }
+          body .sermon-div .align-right-col .task-list .icon-media .media-icon-div img {
+            width: 22px; } }
+
+@media (max-width: 736px) {
+  body .book-image {
+    height: 1200px; } }
+
+@media (max-width: 415px) {
+  body .book-image {
+    height: 1800px; }
+  body .sermon-div .align-col .filter-item {
+    width: 100%; }
+  body .sermon-div .align-right-col .task-list {
+    height: 160px; }
+    body .sermon-div .align-right-col .task-list .task-title {
+      display: block; }
+      body .sermon-div .align-right-col .task-list .task-title p {
+        padding: 5px 0px; } }

@@ -20,13 +20,15 @@
 
     <!-- main -->
     <div class='center-content'>
-        <h2>Heaven and earth will pass away, but my words will never pass away</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-            ut aliquip ex ea commodo consequat.
-        </p>
-        <a href='search.php' id='search-btn'>Search For Sermons</a>
+        <div class="center-detail">
+            <h2>Heaven and earth will pass away, but my words will never pass away</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat.
+            </p>
+            <a href='search.php' id='search-btn'>Search For Sermons</a>
+        </div>
     </div>
 
     <!-- footer -->
