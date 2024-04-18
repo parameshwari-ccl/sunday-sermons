@@ -1,6 +1,11 @@
 body .content .top-nav .right a {
   color: #000000; }
 
+body .search-screen-img {
+  height: 2000px; }
+  body .search-screen-img .book-image {
+    height: 100%; }
+
 body .detail-page-container {
   position: absolute;
   margin: auto;
@@ -17,7 +22,8 @@ body .detail-page-container {
       position: absolute;
       top: 240px;
       left: 300px;
-      box-shadow: none; }
+      box-shadow: none;
+      cursor: pointer; }
     body .detail-page-container .detail-vedio-div .content-detail {
       margin-top: 10px; }
       body .detail-page-container .detail-vedio-div .content-detail h4 {
@@ -52,3 +58,60 @@ body .detail-page-container {
     font-size: 16px;
     font-weight: 500;
     line-height: 30px; }
+
+@media (max-width: 1024px) {
+  body .detail-page-container .detail-vedio-div {
+    width: 500px; }
+    body .detail-page-container .detail-vedio-div .back-vedio-image img {
+      width: 500px; }
+    body .detail-page-container .detail-vedio-div .vedio-icon {
+      top: 130px;
+      left: 200px; }
+    body .detail-page-container .detail-vedio-div .content-detail h4 {
+      font-size: 35px;
+      text-align: center; }
+    body .detail-page-container .detail-vedio-div .content-detail .paster-date {
+      width: 400px; }
+      body .detail-page-container .detail-vedio-div .content-detail .paster-date p {
+        font-size: 15px; }
+    body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
+      margin-bottom: 8px; }
+  body .detail-page-container .detail-notes {
+    font-size: 15px; } }
+
+@media (max-width: 768px) {
+  body .search-screen-img {
+    height: 2500px; }
+    body .search-screen-img .book-image {
+      height: 100%; } }
+
+@media (max-width: 415px) {
+  body .search-screen-img {
+    height: 3000px; }
+    body .search-screen-img .book-image {
+      height: 100%; }
+  body .detail-page-container .detail-vedio-div {
+    width: 300px; }
+    body .detail-page-container .detail-vedio-div .back-vedio-image img {
+      width: 300px; }
+    body .detail-page-container .detail-vedio-div .vedio-icon {
+      width: 50px;
+      top: 90px;
+      left: 130px; }
+    body .detail-page-container .detail-vedio-div .content-detail h4 {
+      font-size: 25px; }
+    body .detail-page-container .detail-vedio-div .content-detail .paster-date {
+      width: 300px; }
+      body .detail-page-container .detail-vedio-div .content-detail .paster-date p {
+        font-size: 12px; }
+    body .detail-page-container .detail-vedio-div .content-detail .download-opt {
+      margin: 20px 0px;
+      text-align: center; }
+      body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
+        margin-bottom: 8px; }
+      body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border h6 {
+        margin-top: 5px;
+        font-size: 12px;
+        padding: 0px 20px; }
+  body .detail-page-container .detail-notes {
+    font-size: 12px; } }

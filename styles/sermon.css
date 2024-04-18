@@ -1,5 +1,6 @@
-body .search-screen-img .book-image {
-  position: relative; }
+body .search-screen-img #book-image {
+  position: relative;
+  height: 100%; }
 
 body .content .top-nav .right a {
   color: #000000; }
@@ -159,35 +160,14 @@ body .sermon-div {
           body .sermon-div .align-right-col .task-list .icon-media .media-icon-div img {
             width: 25px; }
   body .sermon-div .bottom-pagination {
-    width: 420px;
-    margin: auto; }
-    body .sermon-div .bottom-pagination .pagination {
-      margin: 0%;
-      padding: 0%;
-      justify-content: center; }
-      body .sermon-div .bottom-pagination .pagination li {
-        display: inline;
-        margin: 0px 5px;
-        text-align: center; }
-        body .sermon-div .bottom-pagination .pagination li img {
-          width: 25px;
-          height: 25px; }
-        body .sermon-div .bottom-pagination .pagination li .num-high-light {
-          font-family: Montserrat, sans-serif;
-          font-size: 29px;
-          font-weight: bold;
-          text-decoration: none;
-          color: #00000083; }
-        body .sermon-div .bottom-pagination .pagination li a {
-          font-size: 22px;
-          height: 20px;
-          text-align: top; }
-        body .sermon-div .bottom-pagination .pagination li .rotate-img {
-          transform: rotateZ(180deg); }
+    display: flex;
+    justify-content: center; }
 
 @media (max-width: 1025px) {
   body .sermon-div {
     top: 150px; }
+    body .sermon-div h1 {
+      font-size: 45px; }
     body .sermon-div .align-col {
       width: 250px; }
       body .sermon-div .align-col h4 {
@@ -215,6 +195,8 @@ body .sermon-div {
 @media (max-width: 768px) {
   body .sermon-div {
     top: 150px; }
+    body .sermon-div h1 {
+      font-size: 40px; }
     body .sermon-div .align-col {
       width: 100%; }
       body .sermon-div .align-col .filter-item {
@@ -242,11 +224,15 @@ body .sermon-div {
 
 @media (max-width: 736px) {
   body .book-image {
-    height: 1200px; } }
+    height: 1200px; }
+  body .sermon-div h1 {
+    font-size: 40px; } }
 
 @media (max-width: 415px) {
   body .book-image {
     height: 1800px; }
+  body .sermon-div h1 {
+    font-size: 30px; }
   body .sermon-div .align-col .filter-item {
     width: 100%; }
   body .sermon-div .align-right-col .task-list {

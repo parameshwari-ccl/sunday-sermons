@@ -45,73 +45,38 @@
 
     <!-- background image  -->
     <div class='search-screen-img'>
-        <img id='book-image' width='100%' src='img/sunday-background.png'>
+        <img class='book-image' width='100%' src='img/sunday-background.png'>
     </div>
 
 
     <!-- main -->
     <div class="sermon-div">
         <div class="row left-div" >
-            <h2>Search</h2>
-            <div class="search-center-bar">
-                <div class="search-bar">
-                    <i class="fa fa-search" ></i>
-                    <input type="text" placeholder="Search" value="Faith">
-                </div>
-                <p>Showing Results for 'Faith'</p>
-            </div>
+            <h1>Sunday Sermons</h1>
             <div class="col-sm-4 align-col">
                 <div class="row">
-                <div class="col">
-                        <h4>FILTER BY CONTENT TYPE </h4>
-                        <ul class='search-sermon-pages'>
-                            <li>
-                                <input type="checkbox">
-                                <label for="">Sunday Sermon</label>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label for="">Bible Study</label>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label for="">Prayer and Fasting</label>
-                            </li>
-                            <li>
-                                <input type="checkbox">
-                                <label for="">Others</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
+                    <div class="filter-item">
                         <h4>SEARCH BY TITLE OR WORD</h4>
                         <div class='search-title'>
                             <i class="fa fa-search" ></i>
                             <input type="text" placeholder="Search">
                         </div>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="col">
-                        <h4>FILTER BY SERIES</h4>
+                    <div class="filter-item">
+                        <h4>FILTER BY SPEAKER</h4>
                         <select class='search-speaker'>
-                            <option value="" disabled selected hidden>Select Series</option>
-                            <option value="">Keywords from the scripture</option>
-                            <option value="">The Bridge</option>
-                            <option value="">Realm of the Holy spirit</option>
-                            <option value="">Books of Acts</option>
-                            <option value="">Jerusalem</option>
+                            <option value="" disabled selected hidden>Select Speaker</option>
+                            <option value="">Paster Anison Samual</option>
                         </select>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="col">
+                    <div class="filter-item">
                         <h4>FILTER BY DATE</h4>
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Year</option>
                             <option value=""></option>
                         </select>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="col">
+                    <div class="filter-item align-items-end d-flex">
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Month</option>
                             <option value=""></option>
@@ -185,7 +150,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="icon-media">
-                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
+                            <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
                                 <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
                                 <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                             </div>
@@ -197,28 +162,28 @@
 
         </div>
         <div class="bottom-pagination">
-            <nav class="d-flex justify-items-center justify-content-between">
-                <div>
-                    <ul class="pagination">
-                        <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
-                            <span class="page-link" aria-hidden="true">&lsaquo;</span>
-                        </li>
+        <nav class="d-flex justify-items-center justify-content-between">
+                    <div>
+                        <ul class="pagination">
 
-                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
-                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
-                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
+                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                                <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                            </li>
 
-                        <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+                            <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
+                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
 
-                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
-                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+                            <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
 
-                        <li class="page-item">
-                            <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
-                                aria-label="Next &raquo;">&rsaquo;</a>
-                        </li>
-                    </ul>
+                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+
+                            <li class="page-item">
+                                <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
+                                    aria-label="Next &raquo;">&rsaquo;</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>

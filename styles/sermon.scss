@@ -6,8 +6,9 @@ $fontOpenSans : open-sans, sans-serif;
 body{
 
     .search-screen-img{
-        .book-image{
+        #book-image{
             position: relative;
+            height: 100%;
         }
     }
 
@@ -240,43 +241,8 @@ body{
             }
         }
         .bottom-pagination{
-            width: 420px;
-            margin: auto;
-
-            .pagination{
-                margin: 0%;
-                padding: 0%;
-                justify-content: center;
-            
-                li{
-                    display: inline;
-                    margin:0px 5px;
-                    text-align: center;
-
-                    img{
-                        width: 25px;
-                        height: 25px;
-                    }
-
-                    .num-high-light{
-                        font-family: $fontMonstserrat;
-                        font-size: 29px;
-                        font-weight: bold;
-                        text-decoration: none;
-                        color: #00000083;
-                    }
-
-                    a{
-                        font-size: 22px;
-                        height: 20px;
-                        text-align: top;
-                    }
-
-                    .rotate-img{
-                        transform: rotateZ(180deg);
-                    }
-                }
-            }
+            display: flex;
+            justify-content: center;
         }
 
     }
@@ -286,6 +252,10 @@ body{
     body{
         .sermon-div{
             top: 150px;
+
+            h1{
+                font-size: 45px;
+            }
             .align-col{
                 width: 250px;
 
@@ -337,6 +307,10 @@ body{
     body{
         .sermon-div{
             top: 150px;
+
+            h1{
+                font-size: 40px;
+            }
             .align-col{
                 width: 100%;
 
@@ -391,6 +365,11 @@ body{
         .book-image{
             height: 1200px;
         }
+        .sermon-div{
+            h1{
+                font-size: 40px;
+            }
+        }
     }
 }
 
@@ -401,6 +380,9 @@ body{
         }
 
         .sermon-div{
+            h1{
+                font-size: 30px;
+            }
             .align-col{
                 .filter-item{
                     width: 100%;

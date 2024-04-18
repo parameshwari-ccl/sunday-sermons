@@ -40,7 +40,7 @@
 
     <!-- background image  -->
     <div class='search-screen-img'>
-        <img class='book-image' width='100%' src='img/sunday-background.png'>
+        <img id='book-image' width='100%' src='img/sunday-background.png'>
     </div>
 
     <!-- header -->
@@ -159,7 +159,7 @@
 
         </div>
         <div class="bottom-pagination">
-             <nav class="d-flex justify-items-center justify-content-between">
+            <nav class="d-flex justify-items-center justify-content-between">
                     <div>
                         <ul class="pagination">
 
@@ -170,11 +170,9 @@
                             <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
                             <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
                             <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
-                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
 
                             <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
 
-                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
                             <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
 
                             <li class="page-item">
