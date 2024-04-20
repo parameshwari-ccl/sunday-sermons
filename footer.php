@@ -15,11 +15,11 @@
       </div>
       <div class="col-7 footer-links foot-two">
          <ul class='foot-menu'>
-            <li>  <a href="#">Home</a></li>
-            <li>  <a href="#">Bible Study</a></li>
-            <li>  <a href="#">Sunday Sermons</a></li>
-            <li>  <a href="#">Prayer & Fasting</a></li>
-            <li>  <a href="#">Others</a></li>
+            <li>  <a href="index.php">Home</a></li>
+            <li>  <a href="sunday-sermons.php">Sunday Sermons</a></li>
+            <li>  <a href="bible-study.php">Bible Study</a></li>
+            <li>  <a href="prayer-&-fasting.php">Prayer & Fasting</a></li>
+            <li>  <a href="others.php">Others</a></li>
          </ul>
       </div>
    </div>

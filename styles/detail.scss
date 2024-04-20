@@ -75,7 +75,6 @@ body{
                     margin: 20px 0px;
                     text-align: center;
 
-
                     .put-border{
                         border: 1px solid black;
                         padding: 15px 0px;
@@ -128,7 +127,7 @@ body{
                     }
     
                     .paster-date{
-                        width: 400px;
+                        width: 500px;
                         p{
                             font-size: 15px;
                         }
@@ -136,6 +135,7 @@ body{
     
                     .download-opt{
                         .put-border{
+                            width: 50%;
                             .down-icon-sec{
                                 margin-bottom: 8px;
                             }
@@ -159,6 +159,27 @@ body{
     
             .book-image{
                 height: 100%;
+            }
+        }
+    }
+}
+@media (max-width:684px){
+    body{
+        .detail-page-container{
+            .detail-vedio-div{
+                .content-detail{
+                    .download-opt{
+                        .put-border{
+                            width: 100%;
+                            .down-icon-sec{
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+            .detail-notes{
+                font-size: 15px;
             }
         }
     }

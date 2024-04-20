@@ -46,7 +46,8 @@ body .search-btn {
       width: 500px; }
       body .search-btn .btn-div input[type=text] {
         width: 280px;
-        padding: 0px; }
+        padding: 0px;
+        font-size: 16px; }
       body .search-btn .btn-div i {
         font-size: 22px;
         margin: 0px; } }
@@ -71,7 +72,10 @@ body .search-btn {
     body .search-btn .btn-div {
       width: 320px; }
       body .search-btn .btn-div input[type=text] {
-        width: 240px; } }
+        width: 240px;
+        font-size: 14px; }
+      body .search-btn .btn-div i {
+        font-size: 18px; } }
 
 @media (max-width: 415px) {
   body .img-div .book-image {
@@ -81,4 +85,6 @@ body .search-btn {
     body .search-btn .btn-div {
       width: 320px; }
       body .search-btn .btn-div input[type=text] {
-        width: 240px; } }
+        width: 240px; }
+      body .search-btn .btn-div i {
+        font-size: 15px; } }

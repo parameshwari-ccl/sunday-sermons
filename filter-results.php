@@ -39,28 +39,48 @@
         ],
     ];
     ?>
-    
-    <!-- header -->
-    <?php require_once('header.php'); ?>
 
     <!-- background image  -->
     <div class='search-screen-img'>
         <img class='book-image' width='100%' src='img/sunday-background.png'>
     </div>
 
+    <!-- header -->
+    <?php require_once('header.php'); ?>
+
 
     <!-- main -->
     <div class="sermon-div">
         <div class="row left-div" >
-            <h1>Sunday Sermons</h1>
+            <h2>Search</h2>
+            <div class="search-center-bar">
+                <div class="search-bar">
+                    <i class="fa fa-search" ></i>
+                    <input type="text" placeholder="Search" value="Faith">
+                </div>
+                <p>Showing Results for 'Faith'</p>
+            </div>
             <div class="col-sm-4 align-col">
                 <div class="row">
                     <div class="filter-item">
-                        <h4>SEARCH BY TITLE OR WORD</h4>
-                        <div class='search-title'>
-                            <i class="fa fa-search" ></i>
-                            <input type="text" placeholder="Search">
-                        </div>
+                        <h4>FILTER BY CONTENT TYPE</h4>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="" >
+                                <label for="">Sunday Sermon</label>
+                            </li>
+                            <li> 
+                                <input type="checkbox" name="" >
+                                <label for="">Bible Study</label></li>
+                            <li>
+                                <input type="checkbox" name="" >
+                                <label for="">Prayer and Fasting</label>
+                             </li>
+                             <li> 
+                                <input type="checkbox" name="" >
+                                <label for="">Others</label>
+                            </li>
+                        </ul>
                     </div>
                     <div class="filter-item">
                         <h4>FILTER BY SPEAKER</h4>
@@ -73,72 +93,86 @@
                         <h4>FILTER BY DATE</h4>
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Year</option>
-                            <option value=""></option>
+                            <option value="">2024</option>
+                            <option value="">2023</option>
+                            <option value="">2022</option>
+                            <option value="">2021</option>
+                            <option value="">2020</option>
+                            <option value="">2019</option>
                         </select>
                     </div>
                     <div class="filter-item align-items-end d-flex">
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Month</option>
-                            <option value=""></option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">Octomber</option>
+                            <option value="">Nevember</option>
+                            <option value="">December</option>
                         </select>
                     </div>
                 </div>
             </div>
             <div class="col-sm-8 align-right-col">
-                <div class="row list-pagination">
-                    <nav class="d-flex justify-items-center justify-content-between">
-                        <div class="d-flex justify-content-between flex-fill d-sm-none">
+                <nav class="d-flex justify-items-center justify-content-between">
+                    <div class="d-flex justify-content-between flex-fill d-sm-none">
+                        <ul class="pagination">
+
+                            <li class="page-item disabled" aria-disabled="true">
+                                <span class="page-link">&laquo; Previous</span>
+                            </li>
+
+                            <li class="page-item">
+                                <a class="page-link" href="http://localhost:8000/test?page=2" rel="next">Next &raquo;</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="d-none flex-sm-fill d-sm-flex align-items-sm-center justify-content-sm-between">
+                        <div>
+                            <p class="small text-muted">
+                                Showing
+                                <span class="fw-semibold">1</span>
+                                to
+                                <span class="fw-semibold">1</span>
+                                of
+                                <span class="fw-semibold">17</span>
+                                results
+                            </p>
+                        </div>
+
+                        <div>
                             <ul class="pagination">
 
-                                <li class="page-item disabled" aria-disabled="true">
-                                    <span class="page-link">&laquo; Previous</span>
+                                <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                                    <span class="page-link" aria-hidden="true">&lsaquo;</span>
                                 </li>
 
+                                <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
+                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
+                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
+
+                                <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+
+                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
+                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+
                                 <li class="page-item">
-                                    <a class="page-link" href="http://localhost:8000/test?page=2" rel="next">Next &raquo;</a>
+                                    <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
+                                        aria-label="Next &raquo;">&rsaquo;</a>
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="d-none flex-sm-fill d-sm-flex align-items-sm-center justify-content-sm-between">
-                            <div>
-                                <p class="small text-muted">
-                                    Showing
-                                    <span class="fw-semibold">1</span>
-                                    to
-                                    <span class="fw-semibold">1</span>
-                                    of
-                                    <span class="fw-semibold">17</span>
-                                    results
-                                </p>
-                            </div>
-
-                            <div>
-                                <ul class="pagination">
-
-                                    <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
-                                        <span class="page-link" aria-hidden="true">&lsaquo;</span>
-                                    </li>
-
-                                    <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
-
-                                    <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
-
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
-
-                                    <li class="page-item">
-                                        <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
-                                            aria-label="Next &raquo;">&rsaquo;</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
                 <?php foreach ($items as $index =>  $item){ ?>
                     <div class="row task-list">
                         <div class="col-sm-8">
@@ -163,29 +197,29 @@
         </div>
         <div class="bottom-pagination">
         <nav class="d-flex justify-items-center justify-content-between">
-                    <div>
-                        <ul class="pagination">
+                <div>
+                    <ul class="pagination">
 
-                            <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
-                                <span class="page-link" aria-hidden="true">&lsaquo;</span>
-                            </li>
+                        <li class="page-item disabled" aria-disabled="true" aria-label="&laquo; Previous">
+                            <span class="page-link" aria-hidden="true">&lsaquo;</span>
+                        </li>
 
-                            <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
-                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
+                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
 
-                            <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+                        <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
 
-                            <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
+                        <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
 
-                            <li class="page-item">
-                                <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
-                                    aria-label="Next &raquo;">&rsaquo;</a>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="page-item">
+                            <a class="page-link" href="http://localhost:8000/test?page=2" rel="next"
+                                aria-label="Next &raquo;">&rsaquo;</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
         </div>
     </div>
 

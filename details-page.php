@@ -16,14 +16,14 @@
 
     <!-- background image  -->
     <div class='search-screen-img'>
-        <img id='book-image' width='100%' src='img/sunday-background.png'>
+        <img class='book-image' width='100%' src='img/sunday-background.png'>
     </div>
 
     <!-- main -->
     <div class="detail-page-container">
         <div class="detail-vedio-div">
             <div class="back-vedio-image">
-                <img src="img/vedio-play-image.webp" alt="">
+                <a href="#"><img src="img/vedio-play-image.webp" alt=""></a>
             </div>
             <img class="vedio-icon" width="80px" src="https://framerusercontent.com/images/xSE3oCE8GBEaBRIKJd1qHulDbg.svg" alt="">
             <div class="content-detail">
@@ -34,11 +34,11 @@
             </div>
             <div class="container download-opt">
                 <div class="row">
-                    <div class="col put-border">
+                    <div class="col-sm-100 col-lg-50 put-border">
                         <a class="down-icon-sec" href="#"><img width="40px"  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
                         <h6>PLAY AUDIO</h6>
                     </div>
-                    <div class="col put-border">
+                    <div class="col-sm-100 col-lg-50 put-border">
                         <a class="down-icon-sec" href="#"><img width="40px" src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                         <h6>DOWNLOAD SERMON NOTES</h6>
                     </div>

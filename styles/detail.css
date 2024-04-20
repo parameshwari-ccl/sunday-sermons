@@ -71,11 +71,13 @@ body .detail-page-container {
       font-size: 35px;
       text-align: center; }
     body .detail-page-container .detail-vedio-div .content-detail .paster-date {
-      width: 400px; }
+      width: 500px; }
       body .detail-page-container .detail-vedio-div .content-detail .paster-date p {
         font-size: 15px; }
-    body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
-      margin-bottom: 8px; }
+    body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border {
+      width: 50%; }
+      body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
+        margin-bottom: 8px; }
   body .detail-page-container .detail-notes {
     font-size: 15px; } }
 
@@ -84,6 +86,14 @@ body .detail-page-container {
     height: 2500px; }
     body .search-screen-img .book-image {
       height: 100%; } }
+
+@media (max-width: 684px) {
+  body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border {
+    width: 100%; }
+    body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
+      margin-bottom: 8px; }
+  body .detail-page-container .detail-notes {
+    font-size: 15px; } }
 
 @media (max-width: 415px) {
   body .search-screen-img {
