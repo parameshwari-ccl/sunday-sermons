@@ -15,11 +15,11 @@
         </video>
    </div>
 
-    <!-- header -->
-    <?php require_once('header.php'); ?>
-
     <!-- main -->
     <div class='center-content'>
+        <!-- header -->
+        <?php require_once('header.php'); ?>
+
         <div class="center-detail">
             <h2>Heaven and earth will pass away, but my words will never pass away</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

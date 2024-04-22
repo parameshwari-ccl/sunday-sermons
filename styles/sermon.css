@@ -12,17 +12,16 @@ body .sermon-div {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 60px; }
+    margin: 50px 0px; }
   body .sermon-div h2 {
     font-family: Montserrat, sans-serif;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 20px; }
+    margin: 50px 0px; }
   body .sermon-div .left-div {
     width: 95%;
-    margin: auto;
-    padding-top: 150px; }
+    margin: auto; }
     body .sermon-div .left-div .search-center-bar {
       margin-bottom: 30px; }
       body .sermon-div .left-div .search-center-bar .search-bar {
@@ -52,7 +51,7 @@ body .sermon-div {
   body .sermon-div .align-col {
     padding: 10px; }
     body .sermon-div .align-col .filter-item {
-      width: 100%; }
+      width: 70%; }
       body .sermon-div .align-col .filter-item ul {
         list-style-type: none;
         margin: 0%;
@@ -83,8 +82,10 @@ body .sermon-div {
       box-shadow: 0px 1px 10px #516AA4;
       margin-bottom: 20px;
       padding: 8px 10px;
-      border-radius: 5px;
+      border-radius: 12px;
       height: 44px; }
+      body .sermon-div .align-col .search-title i {
+        margin-left: 10px; }
       body .sermon-div .align-col .search-title input {
         border: none;
         margin-left: 8px;
@@ -97,7 +98,7 @@ body .sermon-div {
       background-color: #ffffff;
       box-shadow: 0px 1px 10px #516AA4;
       padding: 10px;
-      border-radius: 5px;
+      border-radius: 12px;
       margin-bottom: 20px;
       font-family: Montserrat, sans-serif;
       font-weight: 300; }
@@ -125,12 +126,14 @@ body .sermon-div {
           font-family: Montserrat, sans-serif;
           font-weight: 600;
           font-size: 20px;
-          width: 220px; }
+          width: 215px;
+          border-right: 2px solid black; }
         body .sermon-div .align-right-col .task-list .task-title p {
           font-family: Montserrat, sans-serif;
           font-weight: 500;
           font-size: 16px;
-          padding: 0px 5px; }
+          width: 200px;
+          padding: 0px 10px; }
       body .sermon-div .align-right-col .task-list .sermon-date {
         font-family: Montserrat, sans-serif;
         font-weight: 500;

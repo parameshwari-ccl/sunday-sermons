@@ -11,29 +11,19 @@ body {
       position: relative; }
   body .content {
     top: 0%;
-    position: absolute;
-    width: 100%;
-    display: table;
-    clear: both; }
+    width: 100%; }
     body .content .top-nav {
-      overflow: hidden;
-      content: '';
-      clear: both;
-      display: table;
-      width: 100%; }
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
       body .content .top-nav .left {
-        width: 20%;
-        float: left;
         padding: 30px; }
         body .content .top-nav .left img {
           width: 78px; }
       body .content .top-nav .right {
-        float: right;
-        width: 55%;
-        margin-top: 60px;
         list-style-type: none;
-        margin-left: 0%;
-        padding: 0%; }
+        margin: 0%;
+        padding-right: 10px; }
         body .content .top-nav .right li {
           display: inline;
           margin: 0%;
@@ -54,12 +44,12 @@ body {
       body .content .top-nav .right .active {
         text-decoration: underline; }
   body .center-content {
-    top: 200px;
+    top: 0px;
     width: 100%;
     position: absolute; }
     body .center-content .center-detail {
       width: 84%;
-      margin: auto; }
+      margin: 100px auto 20px; }
       body .center-content .center-detail h2 {
         width: 84%;
         text-align: left;
@@ -159,10 +149,8 @@ body {
     background-color: none !important; }
 
 @media (max-width: 1025px) {
-  body .content .top-nav .right {
-    width: 70%; }
-  body .center-content {
-    top: 200px; }
+  body .center-content .center-detail {
+    margin: 80px auto 20px; }
     body .center-content .center-detail h2 {
       font-size: 40px;
       font-weight: 500;
@@ -189,21 +177,21 @@ body {
         font-size: 14px; } }
 
 @media (max-width: 768px) {
-  body .content .top-nav .right {
-    width: 70%; }
-    body .content .top-nav .right a {
-      padding: 0px 10px;
-      font-size: 13px; }
-  body .center-content .center-detail h2 {
-    font-size: 36px;
-    padding: 13px 0px; }
-  body .center-content .center-detail p {
-    font-size: 14px;
-    margin-bottom: 0px;
-    height: 130px; }
-  body .center-content .center-detail a {
-    font-size: 15px;
-    padding: 10px 25px; }
+  body .content .top-nav .right a {
+    padding: 0px 10px;
+    font-size: 13px; }
+  body .center-content .center-detail {
+    margin: 60px auto 20px; }
+    body .center-content .center-detail h2 {
+      font-size: 36px;
+      padding: 13px 0px; }
+    body .center-content .center-detail p {
+      font-size: 14px;
+      margin-bottom: 0px;
+      height: 130px; }
+    body .center-content .center-detail a {
+      font-size: 15px;
+      padding: 10px 25px; }
   body footer .foot .foot-one {
     width: 60%; }
     body footer .foot .foot-one .logo-info {
@@ -226,33 +214,27 @@ body {
           font-size: 14px; } }
 
 @media (max-width: 736px) {
-  body .center-content {
-    top: 200px; }
-    body .center-content .center-detail h2 {
-      font-size: 35px;
-      padding: 13px 0px; }
-    body .center-content .center-detail p {
-      font-size: 14px;
-      margin-bottom: 20px; }
-    body .center-content .center-detail a {
-      font-size: 14px;
-      padding: 10px 25px; } }
+  body .center-content .center-detail h2 {
+    font-size: 35px;
+    padding: 13px 0px; }
+  body .center-content .center-detail p {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  body .center-content .center-detail a {
+    font-size: 14px;
+    padding: 10px 25px; } }
 
 @media (max-width: 685px) {
-  body .content .top-nav .right {
-    width: 250px; }
-    body .content .top-nav .right a {
-      display: none; }
-    body .content .top-nav .right .hamburger-icon {
-      display: block;
-      float: right;
-      margin: 0px 10px; }
-      body .content .top-nav .right .hamburger-icon i {
-        font-size: 20px; }
+  body .content .top-nav .right a {
+    display: none; }
+  body .content .top-nav .right .hamburger-icon {
+    display: block;
+    float: right;
+    margin: 0px 10px; }
+    body .content .top-nav .right .hamburger-icon i {
+      font-size: 20px; }
   body .content .top-nav .right.responsive {
-    width: 150px;
     background-color: white;
-    position: relative;
     border-radius: 5px;
     z-index: 1; }
     body .content .top-nav .right.responsive a {
@@ -279,17 +261,15 @@ body {
   body .content .top-nav .top-nav.responsive .right a {
     display: block;
     text-align: left; }
-  body .center-content {
-    top: 180px; }
-    body .center-content .center-detail h2 {
-      font-size: 30px;
-      padding: 13px 0px; }
-    body .center-content .center-detail p {
-      font-size: 14px;
-      margin-bottom: 20px; }
-    body .center-content .center-detail a {
-      font-size: 14px;
-      padding: 10px 25px; } }
+  body .center-content .center-detail h2 {
+    font-size: 30px;
+    padding: 13px 0px; }
+  body .center-content .center-detail p {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  body .center-content .center-detail a {
+    font-size: 14px;
+    padding: 10px 25px; } }
 
 @media (max-width: 425px) {
   body .content .top-nav .left {
@@ -299,8 +279,6 @@ body {
     body .content .top-nav .left img {
       width: 70px; }
   body .content .top-nav .right {
-    float: right;
-    width: 70%;
     margin-top: 30px; }
     body .content .top-nav .right a {
       display: none; }
@@ -310,8 +288,8 @@ body {
       margin: 0px 10px; }
       body .content .top-nav .right .hamburger-icon i {
         font-size: 20px; }
-  body .center-content {
-    top: 230px; }
+  body .center-content .center-detail {
+    margin: 50px auto 20px; }
     body .center-content .center-detail h2 {
       margin-left: 20px;
       font-size: 20px;
@@ -353,13 +331,10 @@ body {
     padding: 20px; }
     body .content .top-nav .left img {
       width: 70px; }
-  body .content .top-nav .right {
-    width: 70%;
-    margin-top: 30px; }
-    body .content .top-nav .right a {
-      display: none; }
-  body .center-content {
-    top: 230px; }
+  body .content .top-nav .right a {
+    display: none; }
+  body .center-content .center-detail {
+    margin: 100px auto 20px; }
     body .center-content .center-detail h2 {
       margin-left: 20px;
       font-size: 20px;
@@ -398,8 +373,8 @@ body {
             font-size: 14px; } }
 
 @media (max-width: 375px) {
-  body .center-content {
-    top: 200px; }
+  body .center-content .center-detail {
+    margin: 45px auto 20px; }
     body .center-content .center-detail p {
       height: 130px;
       margin-bottom: 10px; }

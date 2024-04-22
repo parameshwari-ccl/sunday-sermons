@@ -21,21 +21,14 @@ body{
     
     .content{
         top: 0%;
-        position: absolute;
         width: 100%;
-        display: table;
-        clear: both;
 
         .top-nav {
-            overflow: hidden;
-            content: '';
-            clear: both;
-            display: table;
-            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
             .left{
-                width: 20%;
-                float: left;
                 padding: 30px;
 
                 img{
@@ -44,13 +37,9 @@ body{
             }
 
             .right{
-                float: right;
-                width: 55%;
-                margin-top: 60px;
                 list-style-type: none;
-                margin-left: 0%;
-                padding: 0%;
-
+                margin: 0%;
+                padding-right: 10px;
 
                 li{
                     display: inline;
@@ -82,13 +71,13 @@ body{
         }
     }
     .center-content{
-        top: 200px;
+        top: 0px;
         width: 100%;
         position: absolute;
 
         .center-detail{
             width: 84%;
-            margin: auto;
+            margin:100px auto 20px;
 
             h2{
                 width: 84%;
@@ -232,17 +221,9 @@ body{
 
 @media (max-width:1025px){
     body{
-        .content{
-            .top-nav {
-                .right{
-                    width: 70%;
-                }
-            }
-        }
-
         .center-content{
-            top: 200px;
             .center-detail{
+                margin:80px auto 20px;
                 h2{
                     font-size: 40px;
                     font-weight: 500;
@@ -297,7 +278,6 @@ body{
         .content{
             .top-nav {
                 .right{
-                    width: 70%;
                     a {
                         padding: 0px 10px;
                         font-size: 13px;
@@ -308,6 +288,7 @@ body{
 
         .center-content{
             .center-detail{
+                margin:60px auto 20px;
                 h2{
                     font-size: 36px;
                     padding: 13px 0px;
@@ -363,8 +344,8 @@ body{
 @media (max-width:736px){
     body{ 
         .center-content{
-            top: 200px;
             .center-detail{
+                
                 h2{
                     font-size: 35px;
                     padding: 13px 0px;
@@ -387,8 +368,6 @@ body{
         .content{
             .top-nav {
                 .right{
-                    width: 250px;
-
                     a{
                         display: none;
                     }
@@ -404,9 +383,7 @@ body{
                     }
                 }
                 .right.responsive{
-                    width: 150px;
                     background-color: rgb(255, 255, 255);
-                    position: relative;
                     border-radius: 5px;
                     z-index: 1;
     
@@ -448,7 +425,6 @@ body{
             }    
         } 
         .center-content{
-            top: 180px;
             .center-detail{
                 h2{
                     font-size: 30px;
@@ -482,8 +458,6 @@ body{
                 }
     
                 .right{
-                    float: right;
-                    width: 70%;
                     margin-top: 30px;
 
                     a{
@@ -504,8 +478,8 @@ body{
         }
 
         .center-content{
-            top: 230px;
             .center-detail{
+                margin:50px auto 20px;
                 h2{
                     margin-left: 20px;
                     font-size: 20px;
@@ -576,9 +550,6 @@ body{
                 }
     
                 .right{
-                    width: 70%;
-                    margin-top: 30px;
-
                     a{
                         display: none;
                     }
@@ -587,8 +558,8 @@ body{
         }
 
         .center-content{
-            top: 230px;
             .center-detail{
+                margin:100px auto 20px;
                 h2{
                     margin-left: 20px;
                     font-size: 20px;
@@ -650,8 +621,8 @@ body{
 @media (max-width:375px){
     body{
         .center-content{
-            top: 200px;
             .center-detail{
+                margin:45px auto 20px;
                 p{
                     height: 130px;
                     margin-bottom: 10px;
