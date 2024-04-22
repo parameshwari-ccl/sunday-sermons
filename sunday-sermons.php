@@ -11,7 +11,7 @@
     <?php
     $items = [
         (object)[
-            'name' => 'Judah shall go up Judah shall go up Judah shall go up',
+            'name' => 'Judah shall go up Judah  shall go up Judah shall go up shall go up Judah shall go up',
             'date' => 'February 11,2024',
             'value' => 'Pastor Anison Samual'
         ],
@@ -161,7 +161,7 @@
                     <div class="row task-list">
                         <div class="col-sm-8">
                             <div class="task-title">
-                                <h5><?php echo $item->name . ' ' . $index; ?> |</h5>
+                                <h5><?php echo $item->name . ' ' . $index; ?> <span class="divider">|</span></h5>
                                 <p>Pastor Anison Samual</p>
                             </div>
                             <p class="sermon-date">February 11,2024</p>

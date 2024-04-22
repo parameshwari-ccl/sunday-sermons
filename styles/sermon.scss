@@ -16,7 +16,6 @@ body{
     }
 
     .sermon-div{
-
         background-image: url('../img/sunday-background.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -296,14 +295,6 @@ body{
 
 @media (max-width:768px){
     body{
-        .search-screen-img{
-            height: 1400px;
-
-            .book-image{
-                height: 1400px;
-            }
-        }
-
         .sermon-div{
             top: 150px;
 
@@ -374,13 +365,6 @@ body{
 
 @media (max-width:736px){
     body{
-        .search-screen-img{
-            height: 1600px;
-            .book-image{
-                height: 1600px;
-            }
-        }
-
         .sermon-div{
             h1{
                 font-size: 40px;
@@ -414,14 +398,6 @@ body{
 
 @media (max-width:415px){
     body{
-
-        .search-screen-img{
-            height: 1900px;
-
-            .book-image{
-                height: 1900px;
-            }
-        }
 
         .content{
             .top-nav{
@@ -485,14 +461,6 @@ body{
 
 @media (max-width:376px){
     body{
-        .search-screen-img{
-            height: 2000px;
-
-            .book-image{
-                height: 2000px;
-            }
-        }
-
         .sermon-div{
             .left-div{
                 .search-center-bar{

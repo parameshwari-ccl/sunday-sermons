@@ -155,7 +155,7 @@
                     <div class="row task-list">
                         <div class="col-sm-8">
                             <div class="task-title">
-                                <h5><?php echo $item->name . ' ' . $index; ?> |</h5>
+                                <h5><?php echo $item->name . ' ' . $index; ?>  <span class="divider">|</span></h5>
                                 <p>Pastor Anison Samual</p>
                             </div>
                             <p class="sermon-date">February 11,2024</p>

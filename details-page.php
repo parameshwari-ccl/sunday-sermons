@@ -30,11 +30,11 @@
             </div>
             <div class="container download-opt">
                 <div class="row">
-                    <div class="col-sm-100 col-lg-50 put-border">
+                    <div class="col-sm-100 col-50 put-border">
                         <a class="down-icon-sec" href="#"><img width="40px"  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
                         <h6>PLAY AUDIO</h6>
                     </div>
-                    <div class="col-sm-100 col-lg-50 put-border">
+                    <div class="col-sm-100 col-50 put-border">
                         <a class="down-icon-sec" href="#"><img width="40px" src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                         <h6>DOWNLOAD SERMON NOTES</h6>
                     </div>

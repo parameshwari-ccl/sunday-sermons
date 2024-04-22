@@ -1,17 +1,13 @@
 body .content .top-nav .right a {
   color: #000000; }
 
-body .search-screen-img {
-  height: 2000px; }
-  body .search-screen-img .book-image {
-    height: 100%; }
-
 body .detail-page-container {
-  position: absolute;
-  margin: auto;
-  top: 200px;
-  width: 100%; }
+  background-image: url("../img/sunday-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
   body .detail-page-container .detail-vedio-div {
+    padding-top: 150px;
     width: 651px;
     margin: auto;
     position: relative; }
@@ -20,7 +16,7 @@ body .detail-page-container {
       box-shadow: 0px 1px 10px #516AA4; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
       position: absolute;
-      top: 240px;
+      top: 375px;
       left: 300px;
       box-shadow: none;
       cursor: pointer; }
@@ -44,7 +40,8 @@ body .detail-page-container {
         text-align: center; }
         body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border {
           border: 1px solid black;
-          padding: 15px 0px; }
+          padding: 15px 0px;
+          width: 50%; }
           body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border .down-icon-sec {
             margin-bottom: 5px; }
           body .detail-page-container .detail-vedio-div .content-detail .download-opt .put-border h6 {
@@ -65,8 +62,9 @@ body .detail-page-container {
     body .detail-page-container .detail-vedio-div .back-vedio-image img {
       width: 500px; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
-      top: 130px;
-      left: 200px; }
+      top: 316px;
+      left: 220px;
+      width: 70px; }
     body .detail-page-container .detail-vedio-div .content-detail h4 {
       font-size: 35px;
       text-align: center; }
@@ -106,7 +104,7 @@ body .detail-page-container {
       width: 300px; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
       width: 50px;
-      top: 90px;
+      top: 250px;
       left: 130px; }
     body .detail-page-container .detail-vedio-div .content-detail h4 {
       font-size: 25px; }

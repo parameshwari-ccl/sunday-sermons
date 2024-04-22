@@ -15,21 +15,15 @@ body{
         }
     }
 
-    .search-screen-img{
-        height: 2000px;
-
-        .book-image{
-            height: 100%;
-        }
-    }
 
     .detail-page-container{
-        position: absolute;
-        margin: auto;
-        top: 200px;
-        width: 100%;
+        background-image: url('../img/sunday-background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
 
         .detail-vedio-div{
+            padding-top: 150px;
             width: 651px;
             margin: auto;
             position: relative;
@@ -41,11 +35,10 @@ body{
                 }
                
             }
-            
 
             .vedio-icon{
                 position: absolute;
-                top: 240px;
+                top: 375px;
                 left: 300px;
                 box-shadow: none;
                 cursor: pointer;
@@ -78,6 +71,7 @@ body{
                     .put-border{
                         border: 1px solid black;
                         padding: 15px 0px;
+                        width: 50%;
 
                         .down-icon-sec{
                             margin-bottom: 5px;
@@ -116,8 +110,9 @@ body{
                     }
                 }
                 .vedio-icon{
-                    top: 130px;
-                    left: 200px;
+                    top: 316px;
+                    left: 220px;
+                    width: 70px;
                 }
     
                 .content-detail{
@@ -206,7 +201,7 @@ body{
                 }
                 .vedio-icon{
                     width: 50px;
-                    top: 90px;
+                    top: 250px;
                     left: 130px;
                 }
     

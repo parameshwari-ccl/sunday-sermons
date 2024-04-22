@@ -185,10 +185,6 @@ body .sermon-div {
             width: 22px; } }
 
 @media (max-width: 768px) {
-  body .search-screen-img {
-    height: 1400px; }
-    body .search-screen-img .book-image {
-      height: 1400px; }
   body .sermon-div {
     top: 150px; }
     body .sermon-div h1 {
@@ -222,10 +218,6 @@ body .sermon-div {
             width: 22px; } }
 
 @media (max-width: 736px) {
-  body .search-screen-img {
-    height: 1600px; }
-    body .search-screen-img .book-image {
-      height: 1600px; }
   body .sermon-div h1 {
     font-size: 40px; }
   body .sermon-div .left-div .search-center-bar i {
@@ -238,10 +230,6 @@ body .sermon-div {
     font-size: 35px; } }
 
 @media (max-width: 415px) {
-  body .search-screen-img {
-    height: 1900px; }
-    body .search-screen-img .book-image {
-      height: 1900px; }
   body .content .top-nav .right.responsive {
     background-color: #000000; }
     body .content .top-nav .right.responsive a {
@@ -266,10 +254,6 @@ body .sermon-div {
     display: none; } }
 
 @media (max-width: 376px) {
-  body .search-screen-img {
-    height: 2000px; }
-    body .search-screen-img .book-image {
-      height: 2000px; }
   body .sermon-div .left-div .search-center-bar .search-bar {
     width: 100%; }
     body .sermon-div .left-div .search-center-bar .search-bar i {
