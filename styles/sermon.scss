@@ -241,6 +241,7 @@ body{
 
 @media (max-width:1025px){
     body{
+
         .sermon-div{
             top: 150px;
 
@@ -265,6 +266,17 @@ body{
 
                 .filter-item{
                     width: 50%;
+
+                   ul{
+
+                    li{
+                        padding: 10px 0px;
+
+                        label{
+                            font-size: 20px;
+                        }
+                    }
+                   }
                 }
             }
 
@@ -432,6 +444,14 @@ body{
             .align-col{
                 .filter-item{
                     width: 100%;
+
+                   ul{
+                        li{
+                            label{
+                                font-size: 14px;
+                            }
+                        }
+                    }
                 }
             }
             .align-right-col{
@@ -450,9 +470,6 @@ body{
                     }
                 }
             }
-        }
-        .divider{
-            display: none;
         }
     }
 }
