@@ -20,6 +20,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
+        padding-bottom: 50px;
 
         .detail-vedio-div{
             padding-top: 150px;
@@ -145,22 +146,11 @@ body{
     }
 }
 
-@media (max-width:768px){
-    body{
-
-        .search-screen-img{
-            height: 2500px;
-    
-            .book-image{
-                height: 100%;
-            }
-        }
-    }
-}
 @media (max-width:684px){
     body{
         .detail-page-container{
             .detail-vedio-div{
+                padding-top: 100px;
                 .content-detail{
                     .download-opt{
                         .put-border{
@@ -192,6 +182,8 @@ body{
 
         .detail-page-container{
             .detail-vedio-div{
+                padding-top: 80px;
+
                 width: 300px;
                 .back-vedio-image{
                     img{
@@ -200,7 +192,7 @@ body{
                 }
                 .vedio-icon{
                     width: 50px;
-                    top: 250px;
+                    top: 170px;
                     left: 130px;
                 }
     

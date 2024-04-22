@@ -10,7 +10,6 @@ body {
       background-size: cover;
       position: relative; }
   body .content {
-    top: 0%;
     width: 100%; }
     body .content .top-nav {
       display: flex;
@@ -21,6 +20,7 @@ body {
         body .content .top-nav .left img {
           width: 78px; }
       body .content .top-nav .right {
+        font-size: 20px;
         list-style-type: none;
         margin: 0%;
         padding-right: 10px; }
@@ -177,6 +177,13 @@ body {
         font-size: 14px; } }
 
 @media (max-width: 768px) {
+  body .content .top-nav .right {
+    font-size: 15px; }
+    body .content .top-nav .right a {
+      padding: 0px 10px;
+      font-size: 15px; } }
+
+@media (max-width: 768px) {
   body .content .top-nav .right a {
     padding: 0px 10px;
     font-size: 13px; }
@@ -225,18 +232,23 @@ body {
     padding: 10px 25px; } }
 
 @media (max-width: 685px) {
-  body .content .top-nav .right a {
-    display: none; }
-  body .content .top-nav .right .hamburger-icon {
-    display: block;
-    float: right;
-    margin: 0px 10px; }
-    body .content .top-nav .right .hamburger-icon i {
-      font-size: 20px; }
+  body .content .top-nav .right {
+    position: relative; }
+    body .content .top-nav .right a {
+      display: none; }
+    body .content .top-nav .right .hamburger-icon {
+      display: block;
+      float: right;
+      margin: 0px 10px; }
+      body .content .top-nav .right .hamburger-icon i {
+        font-size: 20px; }
   body .content .top-nav .right.responsive {
     background-color: white;
     border-radius: 5px;
-    z-index: 1; }
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    right: 10px; }
     body .content .top-nav .right.responsive a {
       color: black;
       display: block;
@@ -273,21 +285,16 @@ body {
 
 @media (max-width: 425px) {
   body .content .top-nav .left {
-    width: 27%;
-    float: left;
     padding: 20px; }
     body .content .top-nav .left img {
       width: 70px; }
-  body .content .top-nav .right {
-    margin-top: 30px; }
-    body .content .top-nav .right a {
-      display: none; }
-    body .content .top-nav .right .hamburger-icon {
-      display: block;
-      float: right;
-      margin: 0px 10px; }
-      body .content .top-nav .right .hamburger-icon i {
-        font-size: 20px; }
+  body .content .top-nav .right a {
+    display: none; }
+  body .content .top-nav .right .hamburger-icon {
+    display: block;
+    margin: 0px 10px; }
+    body .content .top-nav .right .hamburger-icon i {
+      font-size: 20px; }
   body .center-content .center-detail {
     margin: 50px auto 20px; }
     body .center-content .center-detail h2 {

@@ -118,7 +118,7 @@ body .sermon-div {
     body .sermon-div .align-right-col .task-list {
       background-color: #ffffff;
       border-radius: 20px;
-      margin: 15px;
+      margin: 15px 0px;
       padding: 20px; }
       body .sermon-div .align-right-col .task-list .task-title {
         display: flex; }
@@ -127,6 +127,7 @@ body .sermon-div {
           font-weight: 600;
           font-size: 20px;
           width: 215px;
+          padding-right: 5px;
           border-right: 2px solid black; }
         body .sermon-div .align-right-col .task-list .task-title p {
           font-family: Montserrat, sans-serif;
@@ -233,13 +234,7 @@ body .sermon-div {
   body .sermon-div h1 {
     font-size: 35px; } }
 
-@media (max-width: 415px) {
-  body .content .top-nav .right.responsive {
-    background-color: #000000; }
-    body .content .top-nav .right.responsive a {
-      color: white; }
-    body .content .top-nav .right.responsive .hamburger-icon:hover {
-      color: white; }
+@media (max-width: 425px) {
   body .sermon-div h1 {
     font-size: 30px; }
   body .sermon-div .left-div .search-center-bar input {
@@ -252,6 +247,8 @@ body .sermon-div {
     width: 100%; }
   body .sermon-div .align-right-col .task-list .task-title {
     display: block; }
+    body .sermon-div .align-right-col .task-list .task-title h5 {
+      border: none; }
     body .sermon-div .align-right-col .task-list .task-title p {
       padding: 5px 0px; }
   body .divider {

@@ -178,7 +178,7 @@ body{
             .task-list{
                 background-color: #ffffff;
                 border-radius: 20px;
-                margin: 15px;
+                margin: 15px 0px;
                 padding: 20px;
 
                 .task-title{
@@ -189,6 +189,7 @@ body{
                         font-weight: 600;
                         font-size: 20px;
                         width: 215px;
+                        padding-right: 5px;
                         border-right: 2px solid black;
                     }
     
@@ -401,25 +402,8 @@ body{
     }
 }
 
-
-@media (max-width:415px){
+@media (max-width:425px){
     body{
-
-        .content{
-            .top-nav{
-                .right.responsive{
-                    background-color: #000000;
-                    
-                    a {
-                        color: rgb(255, 255, 255);
-                    }
-
-                    .hamburger-icon:hover {
-                        color: rgb(255, 255, 255);
-                    }
-                }
-            }
-        }
 
         .sermon-div{
             h1{
@@ -451,6 +435,10 @@ body{
 
                     .task-title{
                         display: block;
+
+                        h5{
+                            border: none;
+                        }
                         
                         p{
                             padding: 5px 0px;
@@ -464,6 +452,7 @@ body{
         }
     }
 }
+
 
 @media (max-width:376px){
     body{
