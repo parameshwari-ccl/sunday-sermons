@@ -5,7 +5,8 @@ body .sermon-div {
   background-image: url("../img/sunday-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%; }
+  height: 100%;
+  padding-bottom: 30px; }
   body .sermon-div h1 {
     font-family: Montserrat, sans-serif;
     text-align: center;
@@ -115,16 +116,16 @@ body .sermon-div {
       font-weight: 300; }
     body .sermon-div .align-right-col .task-list {
       background-color: #ffffff;
-      border-radius: 5px;
+      border-radius: 20px;
       margin: 15px;
       padding: 20px; }
       body .sermon-div .align-right-col .task-list .task-title {
-        display: flex;
-        align-items: center; }
+        display: flex; }
         body .sermon-div .align-right-col .task-list .task-title h5 {
           font-family: Montserrat, sans-serif;
           font-weight: 600;
-          font-size: 20px; }
+          font-size: 20px;
+          width: 220px; }
         body .sermon-div .align-right-col .task-list .task-title p {
           font-family: Montserrat, sans-serif;
           font-weight: 500;

@@ -20,6 +20,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;
+        padding-bottom: 30px;
 
         h1{
             font-family: $fontMonstserrat;
@@ -173,18 +174,18 @@ body{
 
             .task-list{
                 background-color: #ffffff;
-                border-radius: 5px;
+                border-radius: 20px;
                 margin: 15px;
                 padding: 20px;
 
                 .task-title{
                     display: flex;
-                    align-items: center;
     
                     h5{
                         font-family: $fontMonstserrat;
                         font-weight: 600;
                         font-size: 20px;
+                        width: 220px;
                     }
     
                     p{
