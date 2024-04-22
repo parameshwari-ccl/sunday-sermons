@@ -250,7 +250,8 @@ body {
     position: absolute;
     z-index: 1;
     top: 30px;
-    right: 10px; }
+    right: 10px;
+    padding: 5px; }
     body .content .top-nav .right.responsive a {
       color: black;
       display: block;
