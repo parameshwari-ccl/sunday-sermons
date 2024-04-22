@@ -83,8 +83,6 @@
                             <option value="" disabled selected hidden>Select Speaker</option>
                             <option value="">Paster Anison Samual</option>
                         </select>
-                    </div>
-                    <div class="filter-item">
                         <h4>FILTER BY DATE</h4>
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Year</option>
@@ -95,8 +93,6 @@
                             <option value="">2020</option>
                             <option value="">2019</option>
                         </select>
-                    </div>
-                    <div class="filter-item align-items-end d-flex">
                         <select class='search-speaker'>
                             <option value="" disabled selected hidden>Select Month</option>
                             <option value="">January</option>

@@ -36,6 +36,9 @@
 <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
 <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+<!-- boostrap link pagination -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet">
+
 <!-- css files -->
 <link rel='stylesheet' href='styles/index.css'>
 
