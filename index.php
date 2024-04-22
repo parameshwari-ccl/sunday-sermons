@@ -8,12 +8,12 @@
 </head>
 <body>
 
-  <!-- background vedio -->
-  <div class="wrapper">
+    <!-- background vedio -->
+    <div class="wrapper">
         <video autoplay muted loop class="my-video">
             <source src="video/background.mp4" type="video/mp4">
         </video>
-   </div>
+    </div>
 
     <!-- main -->
     <div class='center-content'>

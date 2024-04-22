@@ -156,6 +156,8 @@ body .sermon-div {
   body .sermon-div .bottom-pagination {
     display: flex;
     justify-content: center; }
+  body .sermon-div .bottom-pagination nav div:first-child {
+    display: none; }
 
 @media (max-width: 1025px) {
   body .sermon-div {
