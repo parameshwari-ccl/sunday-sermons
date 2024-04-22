@@ -99,10 +99,11 @@ body{
     }
 }
 
-@media (max-width:1024px){
+@media (max-width:1025px){
     body{
         .detail-page-container{
             .detail-vedio-div{
+                padding-top: 50px;
                 width: 500px;
                 .back-vedio-image{
                     img{
@@ -150,7 +151,6 @@ body{
     body{
         .detail-page-container{
             .detail-vedio-div{
-                padding-top: 100px;
                 .content-detail{
                     .download-opt{
                         .put-border{
@@ -182,8 +182,6 @@ body{
 
         .detail-page-container{
             .detail-vedio-div{
-                padding-top: 80px;
-
                 width: 300px;
                 .back-vedio-image{
                     img{
