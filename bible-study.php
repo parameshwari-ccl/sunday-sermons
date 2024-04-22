@@ -39,17 +39,11 @@
     ];
     ?>
 
-    <!-- background image  -->
-    <div class='search-screen-img'>
-        <img class='book-image' width='100%' src='img/sunday-background.png'>
-    </div>
-
-
-    <!-- header -->
-    <?php require_once('header.php'); ?>
-
     <!-- main -->
     <div class="sermon-div">
+        <!-- header -->
+        <?php require_once('header.php'); ?>
+
         <div class="row left-div" >
             <h1>Bible Study</h1>
             <div class="col-sm-4 align-col">

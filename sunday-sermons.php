@@ -11,7 +11,7 @@
     <?php
     $items = [
         (object)[
-            'name' => 'Judah shall go up ',
+            'name' => 'Judah shall go up Judah shall go up Judah shall go up',
             'date' => 'February 11,2024',
             'value' => 'Pastor Anison Samual'
         ],
@@ -48,17 +48,13 @@
     ];
     ?>
 
-    <!-- background image  -->
-    <div class='search-screen-img'>
-        <img class='book-image' width='100%' src='img/sunday-background.png'>
-    </div>
-
-  
-    <!-- header -->
-    <?php require_once('header.php'); ?>
 
     <!-- main -->
     <div class="sermon-div">
+        <!-- header -->
+        <?php require_once('header.php'); ?>
+
+        <!-- content -->
         <div class="row left-div" >
             <h1>Sunday Sermons</h1>
             <div class="col-lg-4 col-md-4 align-col">
@@ -209,6 +205,7 @@
                 </div>
             </nav>
         </div>
+
     </div>
 
     <!-- footer -->

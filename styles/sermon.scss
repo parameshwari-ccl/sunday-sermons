@@ -4,15 +4,6 @@ $fontManrope : manrope, sans-serif;
 $fontOpenSans : open-sans, sans-serif;
 
 body{
-
-    .search-screen-img{
-        height: 100%;
-        .book-image{
-            position: relative;
-            height: 100%;
-        }
-    }
-
     .content{
         .top-nav {
             .right{
@@ -25,9 +16,11 @@ body{
     }
 
     .sermon-div{
-        position: absolute;
-        width: 100%;
-        top: 200px;
+
+        background-image: url('../img/sunday-background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
 
         h1{
             font-family: $fontMonstserrat;
@@ -47,6 +40,7 @@ body{
         .left-div{
             width: 95%;
             margin: auto;
+            padding-top: 150px;
 
             .search-center-bar{
                 margin-bottom: 30px;
@@ -183,7 +177,6 @@ body{
                 border-radius: 5px;
                 margin: 15px;
                 padding: 20px;
-                height: 101px;
 
                 .task-title{
                     display: flex;
@@ -269,7 +262,6 @@ body{
                 width: 100%;
 
                 .task-list{
-                    height: 85px;
                     padding: 17px;
 
                     .task-title{
@@ -352,7 +344,6 @@ body{
                 margin-left: 0%;
 
                 .task-list{
-                    height: 85px;
                     padding: 17px;
 
                     .task-title{
@@ -475,7 +466,6 @@ body{
             }
             .align-right-col{
                 .task-list{
-                    height: 160px;
 
                     .task-title{
                         display: block;
@@ -487,16 +477,19 @@ body{
                 }
             }
         }
+        .divider{
+            display: none;
+        }
     }
 }
 
 @media (max-width:376px){
     body{
         .search-screen-img{
-            height: 1900px;
+            height: 2000px;
 
             .book-image{
-                height: 1900px;
+                height: 2000px;
             }
         }
 

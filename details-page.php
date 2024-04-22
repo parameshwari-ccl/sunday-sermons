@@ -11,16 +11,12 @@
 
 </head>
 <body>
-    <!-- header -->
-    <?php require_once('header.php'); ?>
-
-    <!-- background image  -->
-    <div class='search-screen-img'>
-        <img class='book-image' width='100%' src='img/sunday-background.png'>
-    </div>
-
+   
     <!-- main -->
     <div class="detail-page-container">
+        <!-- header -->
+        <?php require_once('header.php'); ?>
+
         <div class="detail-vedio-div">
             <div class="back-vedio-image">
                 <a href="#"><img src="img/vedio-play-image.webp" alt=""></a>
