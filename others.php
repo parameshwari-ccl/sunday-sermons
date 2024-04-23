@@ -159,17 +159,20 @@
                     <?php foreach ($items as $index =>  $item){ ?>
                         <div class="row task-list">
                             <div class="col-sm-8">
-                                <div class="task-title">
-                                    <h5><?php echo $item->name . ' ' . $index; ?></h5>
-                                    <p>Pastor Anison Samual</p>
-                                </div>
-                                <p class="sermon-date">February 11,2024</p>
+                                <a href="details-page.php" class="left-card">
+                                    <div class="task-title">
+                                        <h5><?php echo $item->name . ' ' . $index; ?> </h5>
+                                        <p><?php echo $item->value ?></p>
+                                    </div>
+                                    <p class="sermon-date"><?php echo $item->date ?></p>
+                                </a>
                             </div>
+                            
                             <div class="col-sm-4">
                                 <div class="icon-media">
-                                <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
-                                    <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
-                                    <a href="details-page.php" class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
+                                    <a target="_blank" href="https://youtu.be/yalxT0PEx8c?si=cK6CII-sQEU3DDGm" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
+                                    <a target="_blank" href="#" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
+                                    <a target="_blank" href="#" class="media-icon-div"><img  src="https://framerusercontent.com/images/8p0D8DXyIULV6txomlMRq0RnxF8.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>

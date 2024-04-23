@@ -120,6 +120,9 @@ body .sermon-div .align-right-col {
     border-radius: 20px;
     margin: 15px 0px;
     padding: 20px; }
+    body .sermon-div .align-right-col .task-list .left-card {
+      text-decoration: none;
+      color: #000000; }
     body .sermon-div .align-right-col .task-list .task-title {
       display: flex; }
       body .sermon-div .align-right-col .task-list .task-title h5 {
