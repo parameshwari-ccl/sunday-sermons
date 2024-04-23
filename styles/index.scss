@@ -7,6 +7,13 @@ body{
     margin: 0%;
     padding: 0%;
     width: 100%;
+    
+    .holder{
+        background-image: url('../img/sunday-background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
 
     .wrapper{
         width: 100%;
@@ -21,6 +28,8 @@ body{
     
     .content{
         width: 100%;
+        position: absolute;
+        top: 0%;
 
         .top-nav {
             display: flex;
@@ -70,8 +79,9 @@ body{
             }
         }
     }
+
     .center-content{
-        top: 0px;
+        top: 90px;
         width: 100%;
         position: absolute;
 

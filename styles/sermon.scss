@@ -4,23 +4,19 @@ $fontManrope : manrope, sans-serif;
 $fontOpenSans : open-sans, sans-serif;
 
 body{
+
     .content{
+        position: static;
         .top-nav {
             .right{
                 a {
                     color: #000000;
                 }
             }
-            
         }
     }
 
     .sermon-div{
-        background-image: url('../img/sunday-background.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        padding-bottom: 30px;
 
         h1{
             font-family: $fontMonstserrat;
@@ -168,6 +164,7 @@ body{
         }
         .align-right-col{
             padding: 0px;
+
             p{
                 margin: 0%;
                 font-family: $fontMonstserrat;
@@ -231,6 +228,7 @@ body{
         .bottom-pagination{
             display: flex;
             justify-content: center;
+            margin: 30px 0px;
         }
 
         .bottom-pagination nav div:first-child{

@@ -1,14 +1,12 @@
-body .content .top-nav .right a {
-  color: #000000; }
+body .content {
+  position: static; }
+  body .content .top-nav .right a {
+    color: #000000; }
 
 body .detail-page-container {
-  background-image: url("../img/sunday-background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 50px; }
+  width: 100%; }
   body .detail-page-container .detail-vedio-div {
-    padding-top: 150px;
+    padding-top: 50px;
     width: 651px;
     margin: auto;
     position: relative; }
@@ -17,8 +15,8 @@ body .detail-page-container {
       box-shadow: 0px 1px 10px #516AA4; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
       position: absolute;
-      top: 375px;
-      left: 300px;
+      top: 270px;
+      left: 290px;
       box-shadow: none;
       cursor: pointer; }
     body .detail-page-container .detail-vedio-div .content-detail {
@@ -50,12 +48,14 @@ body .detail-page-container {
             font-size: 12px;
             font-weight: 500; }
   body .detail-page-container .detail-notes {
-    margin: 60px 40px 0px;
+    width: 90%;
+    margin: auto;
     text-align: left;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 30px; }
+    line-height: 30px;
+    padding-bottom: 50px; }
 
 @media (max-width: 1025px) {
   body .detail-page-container .detail-vedio-div {
@@ -64,7 +64,7 @@ body .detail-page-container {
     body .detail-page-container .detail-vedio-div .back-vedio-image img {
       width: 500px; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
-      top: 316px;
+      top: 220px;
       left: 220px;
       width: 70px; }
     body .detail-page-container .detail-vedio-div .content-detail h4 {
@@ -100,7 +100,7 @@ body .detail-page-container {
       width: 300px; }
     body .detail-page-container .detail-vedio-div .vedio-icon {
       width: 50px;
-      top: 170px;
+      top: 145px;
       left: 130px; }
     body .detail-page-container .detail-vedio-div .content-detail h4 {
       font-size: 25px; }

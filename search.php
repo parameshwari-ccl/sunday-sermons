@@ -10,30 +10,31 @@
 </head>
 <body>
 
+  <div class="holder">
     <!-- background image  -->
     <div class="img-div">
         <img class='book-image' width="100%" src='https://framerusercontent.com/images/pH8DlNGW1BQprXwH0NnpNT6R68I.jpg?scale-down-to=4096'>
     </div>
 
 
-  <!-- header -->
-  <?php require_once('header.php'); ?>
+    <!-- header -->
+    <?php require_once('header.php'); ?>
 
-  <!-- main -->
+    <!-- main -->
+    <a href="/filter-results.php" class="search-btn">
+      <div class="btn-div">
+        <i class="fa fa-search" ></i>
+        <input type="text" placeholder="Find a Sermon">
+      </div>
+    </a>
 
-  <a href="/filter-results.php" class="search-btn">
-    <div class="btn-div">
-      <i class="fa fa-search" ></i>
-      <input type="text" placeholder="Find a Sermon">
-    </div>
-  </a>
 
+    <!-- footer -->
+    <?php require_once('footer.php'); ?>
 
-  <!-- footer -->
-  <?php require_once('footer.php'); ?>
-
-  <!-- script -->
-  <?php require_once('script.php'); ?>
+    <!-- script -->
+    <?php require_once('script.php'); ?>
+  </div>
 
 </body>
 </html>
