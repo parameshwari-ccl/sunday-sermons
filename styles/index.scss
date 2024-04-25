@@ -8,6 +8,11 @@ body{
     padding: 0%;
     width: 100%;
 
+    .holder{
+        background-image: url(../img/sunday-background.png);
+        height: auto;
+    }
+
     .video-wrapper{
         width: 100%;
         height: 700px;
@@ -22,8 +27,7 @@ body{
     .content{
         width: 100%;
         position: absolute;
-        top: 0%;
-
+        z-index: 1;
         .top-nav {
             display: flex;
             justify-content: space-between;
@@ -120,56 +124,57 @@ body{
     }
 
     footer{
-        position: absolute;
         background-image: url('https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096');
         padding: 35px 0px;
         background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
 
-        .foot{
+        .foot-wrapper{
             width: 90%;
             margin: auto;
 
-            .foot-one{
-                padding: 0%;
-                .logo-info{
-                    .foot-logo{
-                        width: 60px;
-                        margin-left: 20px;
-                    }
-                    ul{
-                        list-style-type: none;
-                        margin-left: 20px;
-                        padding: 0%;
-                        li{
-                            margin: 10px 0px;
-            
-                            .org-name{
-                                width: 255px;
-                            }
-            
-                            h4{
-                                font-family: $fontMonstserrat;
-                                line-height: 2;
-                                color: white;
-                                font-size: 14px;
-                                font-weight: 600;
-                                margin: 0px;
-            
-                            }
+            .logo-info{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                .foot-logo{
+                    width: 60px;
+                }
+                ul{
+                    list-style-type: none;
+                    margin: 0px;
+                    padding: 0%;
+                    li{
+                        margin: 10px 0px;
+        
+                        .org-name{
+                            width: 255px;
+                        }
+        
+                        h4{
+                            font-family: $fontMonstserrat;
+                            line-height: 2;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 600;
+                            margin: 0px;
+        
                         }
                     }
-                    
                 }
+                
             }
 
-            .foot-two{
-                padding: 0%;
+            .footer-links{
+                display: flex;
+                justify-content: right;
+                align-items: center;
+    
                 .foot-menu{
                     list-style-type: none;
-                    margin-top: 140px;
                     padding: 0%;
-                    text-align: right;
                     li{
                         display: inline;
                         padding: 0px 8px;
@@ -180,13 +185,11 @@ body{
                             font-size: 14px;
                             text-decoration: none;
                             color: white;
-        
                         }
                     }
                 }
             }
         }
-
        
     }
     .copyright{
@@ -229,6 +232,17 @@ body{
 
 @media (max-width:1025px){
     body{
+        .content{
+            .top-nav{
+                .right{
+                    li{
+                        a{
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
         .center-content{
             .center-detail{
                 margin:80px auto 20px;
@@ -248,123 +262,10 @@ body{
                 }
             }
         }   
-        footer{
-            padding: 30px 0px;
-            .row{
-                .foot-one{
-                    .logo-info{
-                        ul{
-                            margin-left: 20px;
-                            padding: 0%;
-                            li{
-                                margin: 10px 0px;
-                
-                                .org-name{
-                                    width: 255px;
-                                }
-                            }
-                        }
-                    }
-                }
-                .foot-two{
-                    .foot-menu{
-                        margin-top: 140px;
-                        li{
-                            a{
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-@media (max-width:768px){
-    body{
-        .content{
-            .top-nav {
-                .right{
-                    font-size: 15px;
-                    
-                    a {
-                        padding: 0px 10px;
-                        font-size: 15px;
-                    }
-                }
-            }
-        }
-    }
-}
-@media (max-width:768px){
-    body{
-        .content{
-            .top-nav {
-                .right{
-                    a {
-                        padding: 0px 10px;
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
-
-        .center-content{
-            .center-detail{
-                margin:60px auto 20px;
-                h2{
-                    font-size: 36px;
-                    padding: 13px 0px;
-                }
-                p{
-                    font-size: 14px;
-                    margin-bottom: 0px;
-                    height: 130px;
-                }
-                a{
-                    font-size: 15px;
-                    padding: 10px 25px;
-                }
-            }
-        }   
-        footer{
-            .foot{
-                .foot-one{
-                    width: 60%;
-                    .logo-info{
-                        margin-left: 40px;
-                        ul{
-                            margin-left: 20px;
-                            padding: 0%;
-                            li{
-                                margin: 10px 0px;
-                
-                                .org-name{
-                                    width: 255px;
-                                }
-                            }
-                        }
-                    }
-                }
-                .foot-two{
-                    width: 30%;
-                    .foot-menu{
-                        margin-top: 20px;
-                        li{
-                            text-align: left;
-                            a{
-                                display: block;
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
     }
 }
 
-@media (max-width:736px){
+@media (max-width:769px){
     body{ 
         .center-content{
             .center-detail{
@@ -382,11 +283,28 @@ body{
                     padding: 10px 25px;
                 }
             }
-        }   
+        } 
+        .footer{
+            .foot-wrapper{
+                .footer-links{
+                    justify-content: center;
+        
+                    .foot-menu{
+                        list-style-type: none;
+                        padding: 0%;
+                        li{
+                            display: block;
+                            padding: 10px 8px;
+                            text-align: center;
+                        }
+                    }
+                } 
+            }
+        } 
     }
 }
 
-@media (max-width:685px){
+@media (max-width:736px){
     body{
         .content{
             .top-nav {
@@ -467,7 +385,17 @@ body{
                     padding: 10px 25px;
                 }
             }
-        }   
+        }
+        .footer{
+            .foot-wrapper{
+                .foot-details{
+                    width: 100%;
+                }
+                .footer-links{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
 
@@ -522,41 +450,7 @@ body{
             }
         } 
        
-        footer{
-            padding: 30px 0px;
-            .foot{
-                .foot-one{
-                    width: 100%;
-                    .logo-info{
-                        margin-left: 55px;
-                        ul{
-                            margin-left: 20px;
-                            padding: 0%;
-                            li{
-                                margin: 10px 0px;
-                
-                                .org-name{
-                                    width: 255px;
-                                }
-                            }
-                        }
-                    }
-                }
-                .foot-two{
-                    width: 100%;
-                    .foot-menu{
-                        margin-top: 0px;
-                        li{
-                            text-align: center;
-                            a{
-                                display: block;
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        
     }
 }
 
@@ -602,42 +496,6 @@ body{
                 }
             }
         } 
-       
-        footer{
-            padding: 30px 0px;
-            .foot{
-                .foot-one{
-                    width: 100%;
-                    .logo-info{
-                        margin-left: 55px;
-                        ul{
-                            margin-left: 20px;
-                            padding: 0%;
-                            li{
-                                margin: 10px 0px;
-                
-                                .org-name{
-                                    width: 255px;
-                                }
-                            }
-                        }
-                    }
-                }
-                .foot-two{
-                    width: 100%;
-                    .foot-menu{
-                        margin-top: 0px;
-                        li{
-                            text-align: center;
-                            a{
-                                display: block;
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
     }
 }
 
@@ -651,16 +509,6 @@ body{
                     margin-bottom: 10px;
                 }
                 
-            }
-        }
-        footer{
-            .foot{
-                .foot-one{
-                    width: 100%;
-                    .logo-info{
-                        margin-left: 10px;
-                    }
-                }
             }
         }
     }
