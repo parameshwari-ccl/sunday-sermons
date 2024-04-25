@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="foot-wrapper">
-      <div class="row">
-         <div class="col-5 foot-details">
+      <div class="row bottom-sec">
+         <div class="col-xl-5 col-md-6 col-sm-12 foot-details">
             <div class='logo-info'>
                <div class='foot-org' class="footer-links">
                   <a href="index.html" class="logo me-auto me-lg-0 "><img class='foot-logo' src="https://framerusercontent.com/images/KugEpK91J1wapDo50qvUYgf6xo.svg?scale-down-to=512" alt="" class="img-fluid pb-3"></a>
@@ -13,7 +13,7 @@
                </div>
             </div>
          </div>
-         <div class="col-7 footer-links">
+         <div class="col-xl-7 col-md-6 col-sm-12 footer-links">
             <ul class='foot-menu'>
                <li>  <a href="index.php">Home</a></li>
                <li>  <a href="sunday-sermons.php">Sunday Sermons</a></li>

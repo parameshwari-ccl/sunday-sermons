@@ -162,7 +162,7 @@
 
                     <?php foreach ($items as $index =>  $item){ ?>
                         <div class="row task-list">
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-lg-9 col-md-9">
                                 <a href="details-page.php" class="left-card">
                                     <div class="task-title">
                                         <h5><?php echo $item->name . ' ' . $index; ?> </h5>

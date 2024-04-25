@@ -134,6 +134,10 @@ body{
             width: 90%;
             margin: auto;
 
+            .bottom-sec{
+                width: 100%;
+            }
+
             .logo-info{
                 display: flex;
                 justify-content: center;
@@ -385,6 +389,7 @@ body{
                 p{
                     font-size: 14px;
                     margin-bottom: 20px;
+                    height: 150px;
                 }
                 a{
                     font-size: 14px;
