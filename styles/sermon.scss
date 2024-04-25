@@ -91,14 +91,14 @@ body{
                         width: 100%;
                         height: 40px;
 
-                        input[type="checkbox"] {
+                        .input-checkbox {
                             background-color: #fff;
-                            appearance: none;
                             margin: 0;
                             width: 20px;
                             height: 20px;
-                            border: 2px solid black;
+                            border: 3px solid black;
                         }
+
                         label{
                             font-family: $fontMonstserrat;
                             font-size: 14px;
@@ -190,7 +190,7 @@ body{
                         font-family: $fontMonstserrat;
                         font-weight: 600;
                         font-size: 20px;
-                        width: 215px;
+                        max-width: 300px;
                         padding-right: 5px;
                         border-right: 2px solid black;
                     }
@@ -199,7 +199,7 @@ body{
                         font-family: $fontMonstserrat;
                         font-weight: 500;
                         font-size: 16px;
-                        width: 200px;
+                        max-width: 250px;
                         padding: 0px 10px;
                     }
                 }

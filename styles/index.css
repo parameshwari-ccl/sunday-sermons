@@ -2,15 +2,10 @@ body {
   margin: 0%;
   padding: 0%;
   width: 100%; }
-  body .holder {
-    background-image: url("../img/sunday-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; }
-  body .wrapper {
+  body .video-wrapper {
     width: 100%;
     height: 700px; }
-    body .wrapper .my-video {
+    body .video-wrapper .my-video {
       width: 1265px;
       background-size: cover;
       position: relative; }
@@ -88,6 +83,7 @@ body {
       body .center-content .center-detail a:hover {
         background-image: url("https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096"); }
   body footer {
+    position: absolute;
     background-image: url("https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096");
     padding: 35px 0px;
     background-repeat: no-repeat;

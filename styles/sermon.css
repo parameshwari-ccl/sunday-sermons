@@ -58,13 +58,12 @@ body .sermon-div .align-col {
       body .sermon-div .align-col .filter-item ul li {
         width: 100%;
         height: 40px; }
-        body .sermon-div .align-col .filter-item ul li input[type="checkbox"] {
+        body .sermon-div .align-col .filter-item ul li .input-checkbox {
           background-color: #fff;
-          appearance: none;
           margin: 0;
           width: 20px;
           height: 20px;
-          border: 2px solid black; }
+          border: 3px solid black; }
         body .sermon-div .align-col .filter-item ul li label {
           font-family: Montserrat, sans-serif;
           font-size: 14px;
@@ -129,14 +128,14 @@ body .sermon-div .align-right-col {
         font-family: Montserrat, sans-serif;
         font-weight: 600;
         font-size: 20px;
-        width: 215px;
+        max-width: 300px;
         padding-right: 5px;
         border-right: 2px solid black; }
       body .sermon-div .align-right-col .task-list .task-title p {
         font-family: Montserrat, sans-serif;
         font-weight: 500;
         font-size: 16px;
-        width: 200px;
+        max-width: 250px;
         padding: 0px 10px; }
     body .sermon-div .align-right-col .task-list .sermon-date {
       font-family: Montserrat, sans-serif;

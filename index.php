@@ -9,15 +9,14 @@
 <body>
     <div class="holder">
 
-        <!-- background vedio -->
-        <div class="wrapper">
+        <!-- header -->
+        <?php require_once('header.php'); ?>
+        <!-- background video -->
+        <div class="video-wrapper">
             <video autoplay muted loop class="my-video">
                 <source src="video/background.mp4" type="video/mp4">
             </video>
         </div>
-
-        <!-- header -->
-        <?php require_once('header.php'); ?>
 
         <!-- main -->
         <div class='center-content'>

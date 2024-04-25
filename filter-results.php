@@ -63,18 +63,18 @@
                             <h4>FILTER BY CONTENT TYPE</h4>
                             <ul>
                                 <li>
-                                    <input type="checkbox" name="" >
+                                    <input type="checkbox" class="input-checkbox " name="" >
                                     <label for="">Sunday Sermon</label>
                                 </li>
                                 <li> 
-                                    <input type="checkbox" name="" >
+                                    <input type="checkbox" class="input-checkbox " name="" >
                                     <label for="">Bible Study</label></li>
                                 <li>
-                                    <input type="checkbox" name="" >
+                                    <input type="checkbox" class="input-checkbox " name="" >
                                     <label for="">Prayer and Fasting</label>
                                 </li>
                                 <li> 
-                                    <input type="checkbox" name="" >
+                                    <input type="checkbox" class="input-checkbox " name="" >
                                     <label for="">Others</label>
                                 </li>
                             </ul>
@@ -175,7 +175,7 @@
                     
                     <?php foreach ($items as $index =>  $item){ ?>
                         <div class="row task-list">
-                            <div class="col-sm-8">
+                            <div class="col-sm-9">
                                 <a href="details-page.php" class="left-card">
                                     <div class="task-title">
                                         <h5><?php echo $item->name . ' ' . $index; ?> </h5>
@@ -185,7 +185,7 @@
                                 </a>
                             </div>
                             
-                            <div class="col-sm-4">
+                            <div class="col-sm-3">
                                 <div class="icon-media">
                                     <a target="_blank" href="https://youtu.be/yalxT0PEx8c?si=cK6CII-sQEU3DDGm" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
                                     <a target="_blank" href="#" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
