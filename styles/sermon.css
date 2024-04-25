@@ -181,10 +181,6 @@ body .sermon-div .bottom-pagination nav div:first-child {
         width: 500px; }
       body .sermon-div .align-col .filter-item {
         width: 50%; }
-        body .sermon-div .align-col .filter-item ul li {
-          padding: 10px 0px; }
-          body .sermon-div .align-col .filter-item ul li label {
-            font-size: 20px; }
     body .sermon-div .align-right-col {
       width: 100%; }
       body .sermon-div .align-right-col .task-list {
@@ -243,9 +239,21 @@ body .sermon-div .bottom-pagination nav div:first-child {
 
 @media (max-width: 685px) {
   body .sermon-div h1 {
-    font-size: 35px; } }
+    font-size: 35px; }
+  body .sermon-div .left-div .search-center-bar .search-bar {
+    width: 300px; }
+  body .sermon-div .align-right-col .task-list .task-title {
+    display: block; }
+    body .sermon-div .align-right-col .task-list .task-title h5 {
+      border: none; }
+    body .sermon-div .align-right-col .task-list .task-title p {
+      padding: 5px 0px; }
+    body .sermon-div .align-right-col .task-list .task-title .pgm-detail-sec {
+      width: 100%; }
+    body .sermon-div .align-right-col .task-list .task-title .icon-sec {
+      width: 100% !important; } }
 
-@media (max-width: 425px) {
+@media (max-width: 667px) {
   body .sermon-div h1 {
     font-size: 30px; }
   body .sermon-div .left-div .search-center-bar input {
@@ -263,7 +271,11 @@ body .sermon-div .bottom-pagination nav div:first-child {
     body .sermon-div .align-right-col .task-list .task-title h5 {
       border: none; }
     body .sermon-div .align-right-col .task-list .task-title p {
-      padding: 5px 0px; } }
+      padding: 5px 0px; }
+    body .sermon-div .align-right-col .task-list .task-title .pgm-detail-sec {
+      width: 100%; }
+    body .sermon-div .align-right-col .task-list .task-title .icon-sec {
+      width: 100%; } }
 
 @media (max-width: 376px) {
   body .sermon-div .left-div .search-center-bar .search-bar {

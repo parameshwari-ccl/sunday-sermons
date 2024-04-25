@@ -7,7 +7,7 @@ body {
     height: auto; }
   body .video-wrapper {
     width: 100%;
-    height: 700px; }
+    height: auto; }
     body .video-wrapper .my-video {
       width: 1265px;
       background-size: cover;
@@ -172,29 +172,11 @@ body {
       margin-bottom: 35px; }
     body .center-content .center-detail a {
       font-size: 18px;
-      padding: 13px 33px; } }
+      padding: 13px 33px; }
+  body .footer .foot-wrapper {
+    width: 95%; } }
 
-@media (max-width: 769px) {
-  body .center-content .center-detail h2 {
-    font-size: 35px;
-    padding: 13px 0px; }
-  body .center-content .center-detail p {
-    font-size: 14px;
-    margin-bottom: 20px; }
-  body .center-content .center-detail a {
-    font-size: 14px;
-    padding: 10px 25px; }
-  body .footer .foot-wrapper .footer-links {
-    justify-content: center; }
-    body .footer .foot-wrapper .footer-links .foot-menu {
-      list-style-type: none;
-      padding: 0%; }
-      body .footer .foot-wrapper .footer-links .foot-menu li {
-        display: block;
-        padding: 10px 8px;
-        text-align: center; } }
-
-@media (max-width: 736px) {
+@media (max-width: 800px) {
   body .content .top-nav .right {
     position: relative; }
     body .content .top-nav .right a {
@@ -237,6 +219,26 @@ body {
   body .content .top-nav .top-nav.responsive .right a {
     display: block;
     text-align: left; }
+  body .center-content .center-detail h2 {
+    font-size: 35px;
+    padding: 13px 0px; }
+  body .center-content .center-detail p {
+    font-size: 14px;
+    margin-bottom: 20px; }
+  body .center-content .center-detail a {
+    font-size: 14px;
+    padding: 10px 25px; }
+  body .footer .foot-wrapper .footer-links {
+    justify-content: center; }
+    body .footer .foot-wrapper .footer-links .foot-menu {
+      list-style-type: none;
+      padding: 0%; }
+      body .footer .foot-wrapper .footer-links .foot-menu li {
+        display: block;
+        padding: 10px 8px;
+        text-align: center; } }
+
+@media (max-width: 736px) {
   body .center-content .center-detail h2 {
     font-size: 30px;
     padding: 13px 0px; }

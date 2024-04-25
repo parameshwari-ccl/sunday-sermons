@@ -161,7 +161,7 @@
 
                     <?php foreach ($items as $index =>  $item){ ?>
                         <div class="row task-list">
-                            <div class="col-sm-9">
+                            <div class="col-lg-9 col-md-9">
                                 <a href="details-page.php" class="left-card">
                                     <div class="task-title">
                                         <h5><?php echo $item->name . ' ' . $index; ?> </h5>
@@ -171,7 +171,7 @@
                                 </a>
                             </div>
                             
-                            <div class="col-sm-3">
+                            <div class="col-lg-3 col-md-3">
                                 <div class="icon-media">
                                     <a target="_blank" href="https://youtu.be/yalxT0PEx8c?si=cK6CII-sQEU3DDGm" class="media-icon-div"><img  src="https://framerusercontent.com/images/YoSCdIpsYJmjLIg2oT86l2QBCoM.svg" alt=""></a>
                                     <a target="_blank" href="#" class="media-icon-div"><img  src="https://framerusercontent.com/images/nIl4ryB9oqqPpxe2uK8mUAytc.svg" alt=""></a>
