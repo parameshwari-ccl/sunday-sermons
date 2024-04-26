@@ -135,16 +135,9 @@
                                     <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
                                     <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
                                     <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=5">5</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=6">6</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=7">7</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=8">8</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=9">9</a></li>
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=10">10</a></li>
 
                                     <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
 
-                                    <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
                                     <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
 
                                     <li class="page-item">
@@ -156,7 +149,7 @@
                         </div>
                     </nav>
 
-                    <?php foreach ($items as $index =>  $item){ ?>
+                    <!-- <?php foreach ($items as $index =>  $item){ ?>
                         <div class="row task-list">
                             <div class="col-lg-9 col-md-9">
                                 <a href="details-page.php" class="left-card">
@@ -176,7 +169,7 @@
                                 </div>
                             </div>
                         </div>
-                    <?php } ?>
+                    <?php } ?> -->
                 </div>
 
 
@@ -220,16 +213,9 @@
                                 <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=2">2</a></li>
                                 <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=3">3</a></li>
                                 <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=4">4</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=5">5</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=6">6</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=7">7</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=8">8</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=9">9</a></li>
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=10">10</a></li>
 
                                 <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
 
-                                <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=16">16</a></li>
                                 <li class="page-item"><a class="page-link" href="http://localhost:8000/test?page=17">17</a></li>
 
                                 <li class="page-item">

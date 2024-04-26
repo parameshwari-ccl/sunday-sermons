@@ -43,7 +43,7 @@ body .search-btn {
 
 @media (max-width: 768px) {
   body .img-div .book-image {
-    height: 650px; }
+    height: 900px; }
   body .search-btn {
     top: 280px; }
     body .search-btn .btn-div {
@@ -58,7 +58,7 @@ body .search-btn {
 
 @media (max-width: 736px) {
   body .img-div .book-image {
-    height: 550px; }
+    height: 700px; }
   body .search-btn {
     top: 220px; }
     body .search-btn .btn-div {
@@ -79,7 +79,7 @@ body .search-btn {
 
 @media (max-width: 425px) {
   body .img-div .book-image {
-    height: 600px; }
+    height: 700px; }
   body .search-btn {
     top: 250px; }
     body .search-btn .btn-div {
@@ -92,7 +92,7 @@ body .search-btn {
 
 @media (max-width: 414px) {
   body .img-div .book-image {
-    height: 600px; }
+    height: 700px; }
   body .search-btn {
     top: 250px; }
     body .search-btn .btn-div {

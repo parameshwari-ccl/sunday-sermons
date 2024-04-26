@@ -11,8 +11,11 @@ body {
     width: 100%;
     min-height: 550px; }
     body .video-wrapper .my-video {
-      width: 1265px;
-      background-size: cover;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
       position: relative; }
   body .content {
     width: 100%;
@@ -161,15 +164,13 @@ body {
   body .page-item:hover {
     background-color: none !important; }
 
-@media (max-width: 1440px) {
-  body .video-wrapper .my-video {
-    width: 1440px; } }
-
 @media (max-width: 1025px) {
+  body .video-wrapper .my-video {
+    height: 700px; }
   body .content .top-nav .right li a {
     padding: 10px; }
   body .center-content .center-detail {
-    margin: 80px auto 20px; }
+    margin: 120px auto 20px; }
     body .center-content .center-detail h2 {
       font-size: 40px;
       font-weight: 500;
@@ -190,6 +191,8 @@ body {
       width: 60%; } }
 
 @media (max-width: 800px) {
+  body .video-wrapper .my-video {
+    height: 950px; }
   body .content .top-nav .right {
     position: relative; }
     body .content .top-nav .right a {
@@ -232,15 +235,10 @@ body {
   body .content .top-nav .top-nav.responsive .right a {
     display: block;
     text-align: left; }
-  body .center-content .center-detail h2 {
-    font-size: 35px;
-    padding: 13px 0px; }
-  body .center-content .center-detail p {
-    font-size: 14px;
-    margin-bottom: 20px; }
-  body .center-content .center-detail a {
-    font-size: 14px;
-    padding: 10px 25px; }
+  body .center-content .center-detail {
+    margin: 160px auto 20px; }
+    body .center-content .center-detail p {
+      height: 150px; }
   body .footer .foot-wrapper .foot-details {
     width: 45%;
     margin-left: 30px; }
@@ -255,51 +253,26 @@ body {
         padding: 10px 8px;
         text-align: center; } }
 
-@media (max-width: 736px) {
+@media (max-width: 610px) {
   body .center-content .center-detail h2 {
-    font-size: 30px;
-    padding: 13px 0px; }
+    width: 90%;
+    font-size: 34px; }
   body .center-content .center-detail p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    height: 150px; }
+    width: 80%; }
+  body .center-content .center-detail p {
+    height: 170px; }
   body .center-content .center-detail a {
-    font-size: 14px;
-    padding: 10px 25px; }
+    padding: 15px 25px;
+    font-size: 15px; }
   body .footer .foot-wrapper .foot-details {
-    width: 100%; }
+    width: 100%;
+    margin-left: 0%; }
   body .footer .foot-wrapper .footer-links {
     width: 100%; } }
 
-@media (max-width: 425px) {
-  body .content .top-nav .left {
-    padding: 20px; }
-    body .content .top-nav .left img {
-      width: 70px; }
-  body .content .top-nav .right a {
-    display: none; }
-  body .content .top-nav .right .hamburger-icon {
-    display: block;
-    margin: 0px 10px; }
-    body .content .top-nav .right .hamburger-icon i {
-      font-size: 20px; }
-  body .center-content .center-detail {
-    margin: 50px auto 20px; }
-    body .center-content .center-detail h2 {
-      margin-left: 20px;
-      font-size: 20px;
-      padding: 10px 0px; }
-    body .center-content .center-detail p {
-      margin-left: 20px;
-      font-size: 12px;
-      margin-bottom: 0px;
-      width: 80%; }
-    body .center-content .center-detail a {
-      font-size: 12px;
-      padding: 8px 15px;
-      margin-left: 20px; } }
-
-@media (max-width: 414px) {
+@media (max-width: 450px) {
+  body .video-wrapper .my-video {
+    height: 750px; }
   body .content .top-nav .left {
     padding: 20px; }
     body .content .top-nav .left img {
@@ -310,22 +283,25 @@ body {
     margin: 100px auto 20px; }
     body .center-content .center-detail h2 {
       margin-left: 20px;
-      font-size: 20px;
+      font-size: 25px;
       padding: 10px 0px; }
     body .center-content .center-detail p {
       margin-left: 20px;
-      font-size: 12px;
+      font-size: 14px;
       margin-bottom: 0px;
       width: 80%;
-      height: 130px; }
+      height: 170px; }
     body .center-content .center-detail a {
-      font-size: 12px;
+      font-size: 14px;
       padding: 8px 15px;
       margin-left: 20px; } }
 
 @media (max-width: 375px) {
-  body .center-content .center-detail {
-    margin: 45px auto 20px; }
-    body .center-content .center-detail p {
-      height: 130px;
-      margin-bottom: 10px; } }
+  body .video-wrapper .my-video {
+    height: 800px; }
+  body .center-content .center-detail p {
+    height: 180px; } }
+
+@media (max-width: 320px) {
+  body .center-content .center-detail p {
+    height: 220px; } }

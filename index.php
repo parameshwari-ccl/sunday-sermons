@@ -11,8 +11,9 @@
 
         <!-- header -->
         <?php require_once('header.php'); ?>
-        <!-- background video -->
+
         <div class="video-wrapper">
+            <!-- background video -->
             <video autoplay muted loop class="my-video">
                 <source src="video/background.mp4" type="video/mp4">
             </video>
