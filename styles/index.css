@@ -91,7 +91,7 @@ body {
       body .center-content .center-detail a:hover {
         background-image: url("https://framerusercontent.com/images/DzUnxO8nIp8NlFQ4Rralxbdu5jU.jpg?scale-down-to=4096"); }
   body footer {
-    background-image: url("https://framerusercontent.com/images/rX3s5jtZ4spiYfb24VBSEi1nA.jpg?scale-down-to=4096");
+    background-image: url("../img/footer.png");
     padding: 35px 0px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,14 +107,15 @@ body {
         align-items: center; }
         body footer .foot-wrapper .logo-info .foot-logo {
           width: 60px; }
+        body footer .foot-wrapper .logo-info .org-name {
+          width: 255px;
+          height: 40px; }
         body footer .foot-wrapper .logo-info ul {
           list-style-type: none;
           margin: 0px;
-          padding: 0%; }
+          padding-left: 65px; }
           body footer .foot-wrapper .logo-info ul li {
             margin: 10px 0px; }
-            body footer .foot-wrapper .logo-info ul li .org-name {
-              width: 255px; }
             body footer .foot-wrapper .logo-info ul li h4 {
               font-family: Montserrat, sans-serif;
               line-height: 2;
