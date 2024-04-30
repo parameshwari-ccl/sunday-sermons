@@ -241,10 +241,10 @@ body {
     body .center-content .center-detail p {
       height: 150px; }
   body .footer .foot-wrapper .foot-details {
-    width: 45%;
+    width: 50%;
     margin-left: 30px; }
   body .footer .foot-wrapper .footer-links {
-    width: 50%;
+    width: 45%;
     justify-content: center; }
     body .footer .foot-wrapper .footer-links .foot-menu {
       list-style-type: none;
@@ -301,7 +301,10 @@ body {
   body .video-wrapper .my-video {
     height: 800px; }
   body .center-content .center-detail p {
-    height: 180px; } }
+    height: 180px; }
+  body .footer .foot-wrapper .logo-info .org-name {
+    width: 180px;
+    height: 40px; } }
 
 @media (max-width: 320px) {
   body .center-content .center-detail p {
