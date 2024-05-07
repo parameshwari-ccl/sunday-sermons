@@ -26,7 +26,7 @@
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
                         ut aliquip ex ea commodo consequat.
                     </p>
-                    <a href='search.php' id='search-btn'>Search For Sermons</a>
+                    <a href='filter-results.php' id='search-btn'>Search For Sermons</a>
                 </div>
             </div>
         </div>
