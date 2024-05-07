@@ -1,3 +1,6 @@
+body .holder {
+  background-image: url("../img/image (1).png"); }
+
 body .content {
   position: static; }
 
