@@ -18,8 +18,8 @@
                 <source src="video/background.mp4" type="video/mp4">
             </video>
             <!-- main -->
-            <div class='center-content d-flex justify-content-center'>
-                <div class="center-detail">
+            <div class='center-content'>
+                <div class="center-detail d-flex flex-column align-items-center justify-content-center">
                     <h2 class="text-center">Heaven and earth will pass away, but my words will never pass away</h2>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
