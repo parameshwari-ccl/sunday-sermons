@@ -41,6 +41,7 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: 100%;
 
             .left{
                 padding: 30px;
@@ -92,8 +93,7 @@ body{
     }
 
     .center-content{
-        top: 90px;
-        width: 100%;
+        top: 20%;
         position: absolute;
 
         .center-detail{
@@ -260,12 +260,14 @@ body{
                     li{
                         a{
                             padding: 10px;
+                            font-size: 14px;
                         }
                     }
                 }
             }
         }
         .center-content{
+            top: 12%;
             .center-detail{
                 margin:120px auto 20px;
                 h2{
@@ -301,7 +303,7 @@ body{
     }
 }
 
-@media (max-width:800px){
+@media (max-width:912px){
     body{ 
         .video-wrapper{
             .my-video{
@@ -375,7 +377,7 @@ body{
         } 
         .center-content{
             .center-detail{
-                margin:160px auto 20px;
+                margin:220px auto 20px;
                 p{
                     height: 150px;
                 }
@@ -482,7 +484,7 @@ body{
 
         .center-content{
             .center-detail{
-                margin:100px auto 20px;
+                margin:100px 20px 20px;
                 h2{
                     font-size: 25px;
                     padding: 10px 0px;
@@ -543,9 +545,18 @@ body{
         .content{
             .top-nav {
                 .left{
+                    padding: 15px;
+                    img{
+                        width: 40px;
+                    }
                     .org-name{
-                        width: 120px;
+                        width: 100px;
                         height: 20px;
+                    }
+                }
+                .right{
+                    .hamburger-icon{
+                        margin: 0%;
                     }
                 }
             }

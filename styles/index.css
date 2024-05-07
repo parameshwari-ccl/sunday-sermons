@@ -25,7 +25,8 @@ body {
     body .content .top-nav {
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      width: 100%; }
       body .content .top-nav .left {
         padding: 30px; }
         body .content .top-nav .left img {
@@ -58,8 +59,7 @@ body {
       body .content .top-nav .right .active {
         text-decoration: underline; }
   body .center-content {
-    top: 90px;
-    width: 100%;
+    top: 20%;
     position: absolute; }
     body .center-content .center-detail {
       margin: 100px auto 20px; }
@@ -170,20 +170,23 @@ body {
   body .video-wrapper .my-video {
     height: 700px; }
   body .content .top-nav .right li a {
-    padding: 10px; }
-  body .center-content .center-detail {
-    margin: 120px auto 20px; }
-    body .center-content .center-detail h2 {
-      font-size: 40px;
-      font-weight: 500;
-      color: white;
-      padding: 15px 0px; }
-    body .center-content .center-detail p {
-      font-size: 17px;
-      margin-bottom: 35px; }
-    body .center-content .center-detail a {
-      font-size: 18px;
-      padding: 13px 33px; }
+    padding: 10px;
+    font-size: 14px; }
+  body .center-content {
+    top: 12%; }
+    body .center-content .center-detail {
+      margin: 120px auto 20px; }
+      body .center-content .center-detail h2 {
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+        padding: 15px 0px; }
+      body .center-content .center-detail p {
+        font-size: 17px;
+        margin-bottom: 35px; }
+      body .center-content .center-detail a {
+        font-size: 18px;
+        padding: 13px 33px; }
   body .footer .foot-wrapper {
     width: 100%; }
     body .footer .foot-wrapper .foot-details {
@@ -192,7 +195,7 @@ body {
     body .footer .foot-wrapper .footer-links {
       width: 60%; } }
 
-@media (max-width: 800px) {
+@media (max-width: 912px) {
   body .video-wrapper .my-video {
     height: 950px; }
   body .content .top-nav .right {
@@ -238,7 +241,7 @@ body {
     display: block;
     text-align: left; }
   body .center-content .center-detail {
-    margin: 160px auto 20px; }
+    margin: 220px auto 20px; }
     body .center-content .center-detail p {
       height: 150px; }
   body .footer .foot-wrapper .foot-details {
@@ -285,7 +288,7 @@ body {
   body .content .top-nav .right a {
     display: none; }
   body .center-content .center-detail {
-    margin: 100px auto 20px; }
+    margin: 100px 20px 20px; }
     body .center-content .center-detail h2 {
       font-size: 25px;
       padding: 10px 0px; }
@@ -310,6 +313,12 @@ body {
 @media (max-width: 320px) {
   body .center-content .center-detail p {
     height: 220px; }
-  body .content .top-nav .left .org-name {
-    width: 120px;
-    height: 20px; } }
+  body .content .top-nav .left {
+    padding: 15px; }
+    body .content .top-nav .left img {
+      width: 40px; }
+    body .content .top-nav .left .org-name {
+      width: 100px;
+      height: 20px; }
+  body .content .top-nav .right .hamburger-icon {
+    margin: 0%; } }
