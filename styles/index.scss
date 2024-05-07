@@ -92,16 +92,14 @@ body{
     }
 
     .center-content{
-        top: 20%;
+        top: 90px;
         width: 100%;
         position: absolute;
 
         .center-detail{
-            width: 84%;
             margin:100px auto 20px;
 
             h2{
-                width: 84%;
                 text-align: left;
                 font-family: $fontInter;
                 font-size: 50px;
@@ -110,7 +108,6 @@ body{
                 padding: 20px 0px;
             }
             p{
-                width: 60%;
                 font-family: $fontManrope;
                 font-weight: 400;
                 font-size: 19px;
@@ -547,11 +544,8 @@ body{
         .content{
             .top-nav {
                 .left{
-                    img{
-                        width: 50px;
-                    }
                     .org-name{
-                        width: 100px;
+                        width: 120px;
                         height: 20px;
                     }
                 }

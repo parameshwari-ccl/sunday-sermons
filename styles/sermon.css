@@ -1,4 +1,8 @@
+body .content {
+  position: static; }
+
 body .sermon-div {
+  padding-top: 144px;
   min-height: 550px; }
   body .sermon-div h1 {
     font-family: Montserrat, sans-serif;

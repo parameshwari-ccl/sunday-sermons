@@ -58,14 +58,12 @@ body {
       body .content .top-nav .right .active {
         text-decoration: underline; }
   body .center-content {
-    top: 20%;
+    top: 90px;
     width: 100%;
     position: absolute; }
     body .center-content .center-detail {
-      width: 84%;
       margin: 100px auto 20px; }
       body .center-content .center-detail h2 {
-        width: 84%;
         text-align: left;
         font-family: inter, sans-serif;
         font-size: 50px;
@@ -73,7 +71,6 @@ body {
         color: white;
         padding: 20px 0px; }
       body .center-content .center-detail p {
-        width: 60%;
         font-family: manrope, sans-serif;
         font-weight: 400;
         font-size: 19px;
@@ -314,8 +311,6 @@ body {
 @media (max-width: 320px) {
   body .center-content .center-detail p {
     height: 220px; }
-  body .content .top-nav .left img {
-    width: 50px; }
   body .content .top-nav .left .org-name {
-    width: 100px;
+    width: 120px;
     height: 20px; } }
