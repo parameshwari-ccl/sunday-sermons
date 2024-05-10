@@ -13,7 +13,7 @@
         <li><a href="prayer-&-fasting.php" class="title-name">Prayer & Fasting</a></li>
         <li><a href="#" class="nav-title">Special</a></li>
         <li><a href="others.php" class="title-name">Others</a></li>
-        <li><a href="#" class="nav-title">Login</a></li>
+        <li><a href="login.php" class="nav-title">Login</a></li>
         <li>
           <a href="javascript:void(0);" class="hamburger-icon" id="icon" >
             <i class="fa fa-bars"></i>

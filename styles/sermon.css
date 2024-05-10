@@ -86,7 +86,8 @@ body .sermon-div {
         border: none;
         margin-left: 8px;
         font-family: Montserrat, sans-serif;
-        font-weight: 300; }
+        font-weight: 300;
+        width: 150px; }
       body .sermon-div .align-col .search-title input:focus {
         outline: none; }
     body .sermon-div .align-col .search-speaker {
@@ -125,15 +126,15 @@ body .sermon-div {
           font-family: Montserrat, sans-serif;
           font-weight: 600;
           font-size: 20px;
-          max-width: 300px;
           padding-right: 5px;
+          max-width: 50%;
           border-right: 2px solid black; }
         body .sermon-div .align-right-col .task-list .task-title p {
           font-family: Montserrat, sans-serif;
           font-weight: 500;
           font-size: 16px;
-          max-width: 250px;
-          padding: 0px 10px; }
+          padding: 0px 10px;
+          max-width: 50%; }
       body .sermon-div .align-right-col .task-list .sermon-date {
         font-family: Montserrat, sans-serif;
         font-weight: 500;
@@ -159,7 +160,7 @@ body .sermon-div {
   body .sermon-div .bottom-pagination nav div:first-child {
     display: none; }
 
-@media (max-width: 1025px) {
+@media (max-width: 1150px) {
   body .sermon-div h1 {
     font-size: 45px; }
   body .sermon-div h2 {

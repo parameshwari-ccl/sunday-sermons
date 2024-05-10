@@ -1,0 +1,60 @@
+body{
+    .login-card{
+        width: 700px;
+
+        .card-inner{
+            padding: 60px;
+
+            h4{
+                color: #5d596c;
+            }
+            p{
+                color: #5D596C;
+            }
+            .form-label {
+                margin-bottom: 0.25rem;
+                font-size: 0.8125rem;
+                color: #5D596C;
+            }
+            .remember-check{
+                color: #5D596C;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1024px){
+    body{
+        .login-card{
+            width: 600px;
+    
+            .card-inner{
+                padding: 50px;
+            }
+
+        }
+    }
+}
+
+@media (max-width:768px){
+    body{
+        .login-card{
+            width: 500px;
+            .card-inner{
+                padding: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width:568px){
+    body{
+        .login-card{
+            width: 400px;
+            .card-inner{
+                padding: 30px;
+            }
+        }
+    }
+}
