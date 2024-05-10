@@ -2,7 +2,6 @@ body .content {
   position: static; }
 
 body .sermon-div {
-  padding-top: 144px;
   min-height: 550px; }
   body .sermon-div h1 {
     font-family: Montserrat, sans-serif;
@@ -242,7 +241,8 @@ body .sermon-div {
       border: none;
       min-width: 100%; }
     body .sermon-div .align-right-col .task-list .task-title p {
-      padding: 5px 0px; }
+      padding: 5px 0px;
+      min-width: 100%; }
     body .sermon-div .align-right-col .task-list .task-title .pgm-detail-sec {
       width: 100%; }
     body .sermon-div .align-right-col .task-list .task-title .icon-sec {

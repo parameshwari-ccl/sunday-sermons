@@ -10,7 +10,6 @@ body{
     }
 
     .sermon-div{
-        padding-top: 144px;
         min-height: 550px;
 
         h1{
@@ -424,6 +423,7 @@ body{
                         
                         p{
                             padding: 5px 0px;
+                            min-width: 100%;
                         }
 
                         .pgm-detail-sec{
