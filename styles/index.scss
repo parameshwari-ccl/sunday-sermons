@@ -158,7 +158,7 @@ body{
                     width: 60px;
                 }
                 .org-name{
-                    width: 255px;
+                    width: 65%;
                     height: 40px;
                 }
                 ul{
@@ -471,10 +471,6 @@ body{
                         width: 50px;
                     }
 
-                    .org-name{
-                        width: 140px;
-                        height: 20px;
-                    }
                 }
     
                 .right{
@@ -522,16 +518,6 @@ body{
                 
             }
         }
-        .footer{
-            .foot-wrapper{
-                .logo-info{
-                    .org-name{
-                        width: 180px;
-                        height: 40px;
-                    }
-                }
-            }
-        }
     }
 }
 
@@ -551,10 +537,6 @@ body{
                     padding: 15px;
                     img{
                         width: 40px;
-                    }
-                    .org-name{
-                        width: 100px;
-                        height: 20px;
                     }
                 }
                 .right{

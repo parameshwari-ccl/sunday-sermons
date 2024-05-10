@@ -52,7 +52,7 @@ body .detail-page-container {
   body .detail-page-container .detail-notes {
     width: 90%;
     margin: auto;
-    text-align: left;
+    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: 500;

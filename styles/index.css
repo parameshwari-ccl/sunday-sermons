@@ -110,7 +110,7 @@ body {
         body footer .foot-wrapper .logo-info .foot-logo {
           width: 60px; }
         body footer .foot-wrapper .logo-info .org-name {
-          width: 255px;
+          width: 65%;
           height: 40px; }
         body footer .foot-wrapper .logo-info ul {
           list-style-type: none;
@@ -277,9 +277,6 @@ body {
     padding: 20px; }
     body .content .top-nav .left img {
       width: 50px; }
-    body .content .top-nav .left .org-name {
-      width: 140px;
-      height: 20px; }
   body .content .top-nav .right a {
     display: none; }
   body .center-content .center-detail {
@@ -300,10 +297,7 @@ body {
   body .video-wrapper .my-video {
     height: 800px; }
   body .center-content .center-detail p {
-    height: 180px; }
-  body .footer .foot-wrapper .logo-info .org-name {
-    width: 180px;
-    height: 40px; } }
+    height: 180px; } }
 
 @media (max-width: 320px) {
   body .center-content .center-detail p {
@@ -312,8 +306,5 @@ body {
     padding: 15px; }
     body .content .top-nav .left img {
       width: 40px; }
-    body .content .top-nav .left .org-name {
-      width: 100px;
-      height: 20px; }
   body .content .top-nav .right .hamburger-icon {
     margin: 0%; } }
