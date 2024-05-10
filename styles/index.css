@@ -29,7 +29,7 @@ body {
       align-items: center;
       width: 100%; }
       body .content .top-nav .left {
-        padding: 20px; }
+        padding: 30px; }
         body .content .top-nav .left img {
           width: 78px; }
         body .content .top-nav .left .org-name {
@@ -39,7 +39,7 @@ body {
         font-size: 20px;
         list-style-type: none;
         margin: 0%;
-        padding: 0%; }
+        padding-right: 10px; }
         body .content .top-nav .right li {
           display: inline;
           margin: 0%;
@@ -179,7 +179,7 @@ body {
       padding: 10px 8px;
       text-align: center; } }
 
-@media (max-width: 1025px) {
+@media (max-width: 1034px) {
   body .video-wrapper .my-video {
     height: 700px; }
   body .content .top-nav .right li a {

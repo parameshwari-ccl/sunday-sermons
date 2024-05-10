@@ -1,24 +1,22 @@
 body{
+
+    .video-wrapper{
+        min-height: 100%;
+
+        .my-video{
+            height: 100vh;
+        }
+    }
+
+    .card-top{
+        padding: 100px 0px 0px;
+    }
+
     .login-card{
         width: 700px;
 
         .card-inner{
             padding: 60px;
-
-            h4{
-                color: #5d596c;
-            }
-            p{
-                color: #5D596C;
-            }
-            .form-label {
-                margin-bottom: 0.25rem;
-                font-size: 0.8125rem;
-                color: #5D596C;
-            }
-            .remember-check{
-                color: #5D596C;
-            }
         }
     }
 }
@@ -39,6 +37,9 @@ body{
 
 @media (max-width:768px){
     body{
+        .card-top{
+            padding: 150px 0px 0px;
+        }
         .login-card{
             width: 500px;
             .card-inner{
@@ -50,6 +51,9 @@ body{
 
 @media (max-width:568px){
     body{
+        .card-top{
+            padding: 100px 0px 0px;
+        }
         .login-card{
             width: 400px;
             .card-inner{
@@ -61,6 +65,24 @@ body{
 
 @media (max-width:450px){
     body{
+        .card-top{
+            padding: 50px 0px 0px;
+        }
+        .login-card{
+            width: 250px;
+            .card-inner{
+                padding: 20px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:320px){
+    body{
+        .card-top{
+            padding: 20px 0px 0px;
+        }
         .login-card{
             width: 250px;
             .card-inner{

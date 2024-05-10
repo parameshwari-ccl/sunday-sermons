@@ -44,7 +44,7 @@ body{
             width: 100%;
 
             .left{
-                padding: 20px;
+                padding: 30px;
 
                 img{
                     width: 78px;
@@ -60,7 +60,7 @@ body{
                 font-size: 20px;
                 list-style-type: none;
                 margin: 0%;
-                padding: 0%;
+                padding-right: 10px;
 
                 li{
                     display: inline;
@@ -280,7 +280,7 @@ body{
     }
 }
 
-@media (max-width:1025px){
+@media (max-width:1034px){
     body{
         .video-wrapper{
             .my-video{
