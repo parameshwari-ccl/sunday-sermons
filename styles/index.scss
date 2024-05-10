@@ -153,18 +153,26 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                .footer-org{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
     
                 .foot-logo{
                     width: 60px;
+                    height: 60px;
                 }
                 .org-name{
-                    width: 65%;
+                    width: 80%;
                     height: 40px;
                 }
                 ul{
                     list-style-type: none;
                     margin: 0px;
-                    padding-left: 65px;
+                    padding: 0px;
                     li{
                         margin: 10px 0px;
         
@@ -537,6 +545,10 @@ body{
                     padding: 15px;
                     img{
                         width: 40px;
+                    }
+                    .org-name{
+                        width: 100px;
+                        height: 20px;
                     }
                 }
                 .right{

@@ -107,15 +107,21 @@ body {
         display: flex;
         justify-content: center;
         align-items: center; }
+        body footer .foot-wrapper .logo-info .footer-org {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
         body footer .foot-wrapper .logo-info .foot-logo {
-          width: 60px; }
+          width: 60px;
+          height: 60px; }
         body footer .foot-wrapper .logo-info .org-name {
-          width: 65%;
+          width: 80%;
           height: 40px; }
         body footer .foot-wrapper .logo-info ul {
           list-style-type: none;
           margin: 0px;
-          padding-left: 65px; }
+          padding: 0px; }
           body footer .foot-wrapper .logo-info ul li {
             margin: 10px 0px; }
             body footer .foot-wrapper .logo-info ul li h4 {
@@ -306,5 +312,8 @@ body {
     padding: 15px; }
     body .content .top-nav .left img {
       width: 40px; }
+    body .content .top-nav .left .org-name {
+      width: 100px;
+      height: 20px; }
   body .content .top-nav .right .hamburger-icon {
     margin: 0%; } }

@@ -4,15 +4,17 @@
          <div class="col-xl-5 col-md-6 col-sm-6 foot-details">
             <div class='logo-info'>
              
-               <div class='foot-org' class="footer-links">
-                  <div class="d-inline-flex justify-content-center align-items-center">
+               <div class="footer-org">
+                  <div class="d-inline-flex">
                      <img class='foot-logo' src="https://framerusercontent.com/images/KugEpK91J1wapDo50qvUYgf6xo.svg?scale-down-to=512" alt="" class="img-fluid pb-3">
-                     <img class='org-name mx-2' src="https://framerusercontent.com/images/dBlCO3hLFD1HwSPDxHDDLs9sL3I.svg">
+                     <ul>
+                     <li> <img class='org-name mx-2' src="https://framerusercontent.com/images/dBlCO3hLFD1HwSPDxHDDLs9sL3I.svg"></li>
+                        <li> <h4 class="mx-2">zionapostolic@gmail.com</h4></li>
+                        <li> <h4 class="mx-2">Service Location <br> 8704 Millwoods Road NW <br>Edonton,Alberta, T6K 3J3</h4></li>
+                     </ul>
+                    
                   </div>
-                  <ul>
-                     <li> <h4>zionapostolic@gmail.com</h4></li>
-                     <li> <h4>Service Location <br> 8704 Millwoods Road NW <br>Edonton,Alberta, T6K 3J3</h4></li>
-                  </ul>
+                 
                </div>
             </div>
          </div>
