@@ -58,3 +58,14 @@ body{
         }
     }
 }
+
+@media (max-width:450px){
+    body{
+        .login-card{
+            width: 250px;
+            .card-inner{
+                padding: 20px;
+            }
+        }
+    }
+}

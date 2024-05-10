@@ -30,3 +30,9 @@ body .login-card {
     width: 400px; }
     body .login-card .card-inner {
       padding: 30px; } }
+
+@media (max-width: 450px) {
+  body .login-card {
+    width: 250px; }
+    body .login-card .card-inner {
+      padding: 20px; } }
