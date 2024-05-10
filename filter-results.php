@@ -85,6 +85,11 @@
                                 <option value="" disabled selected hidden>Select Speaker</option>
                                 <option value="">Paster Anison Samual</option>
                             </select>
+                            <h4>FILTER BY SERIES</h4>
+                            <select class='search-speaker'>
+                                <option value="" disabled selected hidden>Select Series</option>
+                                <option value=""></option>
+                            </select>
                             <h4>FILTER BY DATE</h4>
                             <select class='search-speaker'>
                                 <option value="" disabled selected hidden>Select Year</option>

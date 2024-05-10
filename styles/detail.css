@@ -1,5 +1,6 @@
 body .holder {
-  background-image: url("../img/image (1).png"); }
+  background-image: none;
+  background-color: #FEFEFA; }
 
 body .content {
   position: static; }
@@ -90,7 +91,7 @@ body .detail-page-container {
   body .detail-page-container .detail-notes {
     font-size: 15px; } }
 
-@media (max-width: 415px) {
+@media (max-width: 580px) {
   body .search-screen-img {
     height: 3000px; }
     body .search-screen-img .book-image {

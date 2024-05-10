@@ -6,7 +6,8 @@ $fontOpenSans : open-sans, sans-serif;
 body{
 
     .holder{
-        background-image: url('../img/image (1).png');
+        background-image:none;
+        background-color: #FEFEFA;
     }
     .content{
         position: static;
@@ -164,7 +165,9 @@ body{
     }
 }
 
-@media (max-width:415px){
+
+
+@media (max-width:580px){
     body{
 
         .search-screen-img{

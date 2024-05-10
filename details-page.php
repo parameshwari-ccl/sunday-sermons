@@ -27,7 +27,7 @@
                 <img class="vedio-icon" width="80px" src="https://framerusercontent.com/images/xSE3oCE8GBEaBRIKJd1qHulDbg.svg" alt="">
                 <div class="content-detail">
                     <h4>Judah shall go up</h4>
-                    <div class="paster-date">
+                    <div class="paster-date d-flex justify-content-center align-items-center">
                         <p>Paster Anison Samuel |</p>
                         <p>February 12, 2024</p>
                     </div>
