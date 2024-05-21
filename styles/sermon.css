@@ -93,11 +93,12 @@ body .sermon-div {
       width: 100%;
       background-color: #ffffff;
       box-shadow: 0px 1px 10px #516AA4;
-      padding: 10px;
+      padding: 10px 20px;
       border-radius: 12px;
       margin-bottom: 20px;
       font-family: Montserrat, sans-serif;
-      font-weight: 300; }
+      font-weight: 300;
+      border: 1px solid #999AA3; }
     body .sermon-div .align-col .search-sermon-pages {
       list-style-type: none;
       margin: 0%;
@@ -158,6 +159,10 @@ body .sermon-div {
     margin: 30px 0px; }
   body .sermon-div .bottom-pagination nav div:first-child {
     display: none; }
+
+body .form-select:focus {
+  border: none;
+  box-shadow: none; }
 
 @media (max-width: 1150px) {
   body .sermon-div h1 {

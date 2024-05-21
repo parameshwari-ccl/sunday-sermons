@@ -91,7 +91,7 @@
                                 <option value=""></option>
                             </select>
                             <h4>FILTER BY DATE</h4>
-                            <select class='search-speaker'>
+                            <select class="form-select search-speaker" aria-label="Default select example">
                                 <option value="" disabled selected hidden>Select Year</option>
                                 <option value="">2024</option>
                                 <option value="">2023</option>
@@ -100,7 +100,7 @@
                                 <option value="">2020</option>
                                 <option value="">2019</option>
                             </select>
-                            <select class='search-speaker'>
+                            <select class="form-select search-speaker" aria-label="Default select example">
                                 <option value="" disabled selected hidden>Select Month</option>
                                 <option value="">January</option>
                                 <option value="">February</option>
