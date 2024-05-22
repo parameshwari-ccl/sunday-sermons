@@ -294,7 +294,7 @@ body{
     }
 }
 
-@media (max-width:10px){
+@media (max-width:1024px){
     body{
         .video-wrapper{
             .my-video{
@@ -306,7 +306,7 @@ body{
                 .right{
                     li{
                         a{
-                            padding: 10px;
+                            padding:0px 10px;
                             font-size: 14px;
                         }
                     }
@@ -336,8 +336,7 @@ body{
 }
 
 
-
-@media (max-width:1040px){
+@media (max-width:912px){
     body{ 
         .video-wrapper{
             .my-video{
