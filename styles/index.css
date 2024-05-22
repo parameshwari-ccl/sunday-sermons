@@ -207,7 +207,7 @@ body {
       font-size: 18px;
       padding: 13px 33px; } }
 
-@media (max-width: 912px) {
+@media (max-width: 1040px) {
   body .video-wrapper .my-video {
     height: 950px; }
   body .content .top-nav .right {
@@ -252,10 +252,8 @@ body {
   body .content .top-nav .top-nav.responsive .right a {
     display: block;
     text-align: left; }
-  body .center-content .center-detail {
-    margin: 220px auto 20px; }
-    body .center-content .center-detail p {
-      height: 150px; } }
+  body .center-content .center-detail p {
+    height: 150px; } }
 
 @media (max-width: 765px) {
   body .footer .foot-wrapper .foot-details {
