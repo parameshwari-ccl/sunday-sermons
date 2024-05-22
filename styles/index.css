@@ -255,7 +255,9 @@ body {
   body .center-content .center-detail p {
     height: 150px; } }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
+  body .center-content .center-detail h2 {
+    font-size: 40px; }
   body .footer .foot-wrapper .foot-details {
     width: 100%;
     margin-left: 0%; }
