@@ -63,7 +63,7 @@ body {
     top: 20%;
     position: absolute; }
     body .center-content .center-detail {
-      margin: 100px auto 20px; }
+      margin: 150px auto 20px; }
       body .center-content .center-detail h2 {
         width: 84%;
         text-align: left;
@@ -173,7 +173,9 @@ body {
   body .page-item:hover {
     background-color: none !important; }
 
-@media (max-width: 1439px) {
+@media (max-width: 1440px) {
+  body .video-wrapper .my-video {
+    height: 900px; }
   body .content .top-nav .left .org-name {
     display: none; } }
 
@@ -185,7 +187,7 @@ body {
       padding: 10px 8px;
       text-align: center; } }
 
-@media (max-width: 1034px) {
+@media (max-width: 10px) {
   body .video-wrapper .my-video {
     height: 700px; }
   body .content .top-nav .right li a {
@@ -193,19 +195,17 @@ body {
     font-size: 14px; }
   body .center-content {
     top: 12%; }
-    body .center-content .center-detail {
-      margin: 120px auto 20px; }
-      body .center-content .center-detail h2 {
-        font-size: 40px;
-        font-weight: 500;
-        color: white;
-        padding: 15px 0px; }
-      body .center-content .center-detail p {
-        font-size: 17px;
-        margin-bottom: 35px; }
-      body .center-content .center-detail a {
-        font-size: 18px;
-        padding: 13px 33px; } }
+    body .center-content .center-detail h2 {
+      font-size: 40px;
+      font-weight: 500;
+      color: white;
+      padding: 15px 0px; }
+    body .center-content .center-detail p {
+      font-size: 17px;
+      margin-bottom: 35px; }
+    body .center-content .center-detail a {
+      font-size: 18px;
+      padding: 13px 33px; } }
 
 @media (max-width: 912px) {
   body .video-wrapper .my-video {

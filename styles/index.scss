@@ -97,7 +97,7 @@ body{
         position: absolute;
 
         .center-detail{
-            margin:100px auto 20px;
+            margin:150px auto 20px;
 
             h2{
                 width: 84%;
@@ -255,8 +255,14 @@ body{
     }
 }
 
-@media (max-width:1439px){
+@media (max-width:1440px){
     body{
+
+        .video-wrapper{
+            .my-video{
+                height: 900px;
+            }
+        }
         .content{
             .top-nav {
                 .left{
@@ -288,7 +294,7 @@ body{
     }
 }
 
-@media (max-width:1034px){
+@media (max-width:10px){
     body{
         .video-wrapper{
             .my-video{
@@ -310,7 +316,6 @@ body{
         .center-content{
             top: 12%;
             .center-detail{
-                margin:120px auto 20px;
                 h2{
                     font-size: 40px;
                     font-weight: 500;

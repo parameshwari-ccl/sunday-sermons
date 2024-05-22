@@ -81,12 +81,12 @@
                         </div>
                         <div class="filter-item">
                             <h4>FILTER BY SPEAKER</h4>
-                            <select class='search-speaker'>
+                            <select class="form-select search-speaker" aria-label="Default select example">
                                 <option value="" disabled selected hidden>Select Speaker</option>
                                 <option value="">Paster Anison Samual</option>
                             </select>
                             <h4>FILTER BY SERIES</h4>
-                            <select class='search-speaker'>
+                            <select class="form-select search-speaker" aria-label="Default select example">
                                 <option value="" disabled selected hidden>Select Series</option>
                                 <option value=""></option>
                             </select>
